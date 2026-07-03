@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(try { New-Item -ItemType Directory -Path \"css\" -ErrorAction Stop } catch { Write-Output \"ERROR: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(try { New-Item -ItemType Directory -Path \"C:\\\\Users\\\\boogm\\\\OneDrive\\\\Documents\\\\RSITILE WEBSITE\\\\css\" -ErrorAction Stop } catch { Write-Output \"ERROR: $\\($_.Exception.GetType\\(\\).FullName\\): $\\($_.Exception.Message\\)\" })",
+      "Bash(where python *)",
+      "Bash(npx --version)",
+      "PowerShell(node --version)",
+      "PowerShell(npx --version)",
+      "PowerShell(py --version)",
+      "PowerShell(python --version)",
+      "PowerShell($ErrorActionPreference='SilentlyContinue')",
+      "Bash(where php *)",
+      "Bash(where node *)",
+      "Bash(where npm *)",
+      "Bash(where npx *)",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\Programs\\\\Python\" -Recurse -Filter \"python.exe\" -ErrorAction SilentlyContinue | Select-Object FullName)",
+      "WebFetch(domain:rsitile.com)"
+    ]
+  }
+}
