@@ -989,30 +989,16 @@ summary:focus-visible {
   color: var(--gold);
 }
 
-.calendly-placeholder {
-  border: 2px dashed rgba(255, 255, 255, 0.3);
+.calendly-embed {
+  background: var(--white);
   border-radius: var(--radius);
-  min-height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 2em;
-  background: rgba(255, 255, 255, 0.03);
+  padding: 12px;
+  box-shadow: var(--shadow);
 }
 
-.calendly-placeholder .placeholder-inner {
-  max-width: 320px;
-}
-
-.calendly-placeholder h3 {
-  color: var(--white);
-  margin-bottom: 0.4em;
-}
-
-.calendly-placeholder p {
-  color: rgba(255, 255, 255, 0.65);
-  font-size: 0.92rem;
+.calendly-embed .calendly-inline-widget {
+  border-radius: calc(var(--radius) - 4px);
+  overflow: hidden;
 }
 
 /* ---------- FAQ (details/summary) ---------- */
