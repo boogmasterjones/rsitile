@@ -69,7 +69,7 @@ reduce)` block near the top of `style.css`).
 - Homepage carries the full `HomeAndConstructionBusiness` JSON-LD schema (in
   `index.html`'s `<head>`) with every service-area city in `areaServed` and every
   service in `makesOffer`. Service pages carry their own `Service` + `BreadcrumbList`
-  JSON-LD (see `pages/bathroom-tile-installation.html` for the pattern).
+  JSON-LD (see `services/bathroom-tile-installation.html` for the pattern).
 - **Target keyword pattern:** homepage and service pages target
   "[service] tile installer/installation" + "Charlotte & Sarasota Counties, FL"
   (broad regional framing — see the Business details note above on why this isn't
@@ -88,19 +88,28 @@ reduce)` block near the top of `style.css`).
 
 ## Page structure
 
-**Built:**
+**Built — all 12 pages complete:**
 - `index.html` — homepage
-- `pages/bathroom-tile-installation.html` — service page template, client-approved;
-  copy this structure exactly for the remaining service pages
+- 5 service pages (in `services/`): `bathroom-tile-installation.html` (original
+  client-approved template), `shower-tile-installation.html`,
+  `kitchen-tile-installation.html` (includes backsplash), `floor-tile-installation.html`
+  (ceramic/porcelain/stone/LVT materials content), `patio-lanai-tile.html`
+- 6 location pages (in `locations/`): `punta-gorda.html`, `north-port.html`,
+  `englewood.html`, `rotonda-west.html`, `deep-creek.html`, `gulf-cove.html` — each with
+  genuinely differentiated local content (a `why-list` of local highlights, a 3-question
+  FAQ, and a "Services We Offer" + "Other Areas We Serve" cross-link section) rather than
+  template city-name swaps
+- `sitemap.xml`, `robots.txt` — list/allow all 12 pages
 - `css/style.css`, `js/main.js` — shared across every page
 
-**Still to build (11 pages):**
-- 4 more service pages: `shower-tile-installation.html`, `kitchen-tile-installation.html`
-  (includes backsplash), `floor-tile-installation.html` (ceramic/porcelain/stone/LVT
-  materials content), `patio-lanai-tile.html`
-- 6 location pages: `punta-gorda.html`, `north-port.html`, `englewood.html`,
-  `rotonda-west.html`, `deep-creek.html`, `gulf-cove.html`
-- `sitemap.xml`, `robots.txt`
+**Folder structure note:** service and location pages live in separate `services/` and
+`locations/` directories (not a single generic `/pages/`) so URLs carry category
+context — e.g. `/services/bathroom-tile-installation.html`,
+`/locations/punta-gorda.html`. Both folders sit at the same depth as the old `/pages/`
+did, so the relative-path conventions below (`../css/style.css`, `../index.html`) are
+unchanged; the only difference is that a service page linking to a location page (or
+vice versa) needs to cross into the sibling folder, e.g. `../locations/punta-gorda.html`
+from within `services/`.
 
 **Explicitly dropped from scope:** a "Tile Repair & Replacement" service page was in
 the original plan but the client doesn't offer that service — don't build
@@ -155,10 +164,13 @@ infinite auto-scrolling "Our Work" photo carousel → stats bar (30+ years / 1,0
 ## Deployment
 
 Static files only — **no build step**. Deploy by dragging the project folder (or a zip
-of it) into Netlify. Relative paths matter: pages inside `/pages/` reference shared
-assets as `../css/style.css`, `../js/main.js`, and link back to the homepage as
-`../index.html`; the homepage references them as `css/style.css`, `js/main.js`,
-`pages/*.html`. Keep this relative-path convention when adding new pages.
+of it) into Netlify. Relative paths matter: pages inside `/services/` or `/locations/`
+reference shared assets as `../css/style.css`, `../js/main.js`, and link back to the
+homepage as `../index.html`; the homepage references them as `css/style.css`,
+`js/main.js`, `services/*.html`, `locations/*.html`. A service page linking to a
+location page (or vice versa) crosses into the sibling folder, e.g.
+`../locations/punta-gorda.html` from within `services/`. Keep this relative-path
+convention when adding new pages.
 
 ## Local dev / preview
 

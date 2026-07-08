@@ -677,6 +677,7 @@ summary:focus-visible {
 .card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow);
+  text-decoration: none;
 }
 
 .card .placeholder {
@@ -700,6 +701,7 @@ summary:focus-visible {
 .card-body p {
   flex: 1;
   font-size: 0.98rem;
+  color: var(--body-text);
 }
 
 .card-link {
@@ -1050,6 +1052,7 @@ summary:focus-visible {
   padding-bottom: 18px;
   margin: 0;
   font-size: 0.98rem;
+  color: var(--body-text);
 }
 
 /* ---------- Generic content sections (service/location pages) ---------- */
