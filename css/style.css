@@ -484,6 +484,7 @@ summary:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 0;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
@@ -495,20 +496,14 @@ summary:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 3;
   background: radial-gradient(ellipse at top right, rgba(30, 111, 217, 0.18), transparent 60%);
   pointer-events: none;
 }
 
 .hero .container {
   position: relative;
-  z-index: 1;
-}
-
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 56px;
-  align-items: center;
+  z-index: 4;
 }
 
 .hero-eyebrow {
@@ -551,6 +546,16 @@ summary:focus-visible {
   flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 2.5em;
+}
+
+/* Single centered CTA button dropped at the bottom of a content section,
+   distinct from .hero-actions (which pairs two left-aligned buttons). */
+.section-cta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
 }
 
 .trust-badges {
@@ -782,46 +787,6 @@ summary:focus-visible {
 .carousel-slide {
   flex: 0 0 280px;
   scroll-snap-align: start;
-}
-
-/* Infinite auto-scroll mode (progressive enhancement, JS-enabled, motion allowed) */
-.carousel--auto {
-  overflow: hidden;
-}
-
-.carousel--auto .carousel-btn {
-  display: none;
-}
-
-.carousel-track.is-marquee {
-  overflow: visible;
-  scroll-snap-type: none;
-  width: max-content;
-  animation: marquee-scroll var(--marquee-duration, 50s) linear infinite;
-}
-
-.carousel-track.is-marquee[aria-hidden-clones] {
-  scroll-behavior: auto;
-}
-
-.carousel--auto:hover .carousel-track.is-marquee,
-.carousel--auto:focus-within .carousel-track.is-marquee {
-  animation-play-state: paused;
-}
-
-@keyframes marquee-scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-1 * var(--marquee-distance, 0px)));
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .carousel-track.is-marquee {
-    animation: none;
-  }
 }
 
 .carousel-slide .placeholder {
@@ -1158,6 +1123,24 @@ summary:focus-visible {
   padding: 56px 0 68px;
 }
 
+/* Full-bleed placeholder fills the hero behind the text; no card border/
+   radius, and no visible "coming soon" label since it would overlap the H1. */
+.page-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+.page-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(100deg, rgba(20, 35, 56, 0.92) 0%, rgba(20, 35, 56, 0.82) 45%, rgba(20, 35, 56, 0.55) 100%);
+}
+
 .page-hero-inner {
   max-width: 700px;
 }
@@ -1370,7 +1353,6 @@ summary:focus-visible {
     color: var(--gold);
   }
 
-  .hero-grid,
   .why-grid,
   .contact-grid,
   .two-col {
@@ -1432,7 +1414,7 @@ summary:focus-visible {
   }
 
   .hero {
-    padding: 32px 0 40px;
+    padding: 24px 0 32px;
   }
 
   .hero-eyebrow {
@@ -1457,6 +1439,18 @@ summary:focus-visible {
     margin-bottom: 1.5em;
   }
 
+  .section-cta {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .section-cta .btn {
+    flex: 1 1 0;
+    padding: 0.75em 0.5em;
+    font-size: 0.88rem;
+    white-space: nowrap;
+  }
+
   .hero-actions .btn {
     flex: 1 1 0;
     padding: 0.75em 0.5em;
@@ -1478,7 +1472,19 @@ summary:focus-visible {
   }
 
   .section {
-    padding: 48px 0;
+    padding: 40px 0;
+  }
+
+  .section--tight {
+    padding: 32px 0;
+  }
+
+  .cta-band {
+    padding: 40px 0;
+  }
+
+  .stats-grid {
+    padding: 28px 0;
   }
 
   .section-head {

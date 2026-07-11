@@ -1,7 +1,8 @@
 # Rock Solid Tile — rsitile.com
 
 A static marketing website for Rock Solid Tile, a family-owned, licensed & insured tile
-contractor based in Port Charlotte, FL, serving Charlotte and Sarasota Counties.
+contractor based in Port Charlotte, FL, serving Southwest Florida across Charlotte,
+Sarasota, Manatee, and Lee Counties.
 Plain HTML/CSS/vanilla JS — **no framework, no build step, no package.json**. Deployed
 to Netlify via drag-and-drop, so every file in this repo must work as-is when uploaded
 directly (no compilation, bundling, or server-side rendering).
@@ -17,16 +18,22 @@ directly (no compilation, bundling, or server-side rendering).
   **never claim "no subcontractors"** anywhere on the site. This was explicitly walked
   back by the client; it's not a selling point.
 - **HQ / service area framing:** based in Port Charlotte, but copy should foreground
-  **"Charlotte & Sarasota Counties, FL"** rather than leading with Port Charlotte alone
-  — the client wants to read as serving the whole region, not just one city. Port
-  Charlotte can still appear as the literal HQ location or in single-project photo
-  captions, just not as the dominant framing in headers/H1s.
-- **Core service area (dedicated location pages):** Port Charlotte, Punta Gorda, North
-  Port, Englewood, Rotonda West, Deep Creek, Gulf Cove.
+  **"Southwest Florida"** rather than leading with Port Charlotte alone or the old
+  two-county framing — the service area now spans four counties (Charlotte, Sarasota,
+  Manatee, Lee), so "Southwest Florida" is the umbrella brand tagline used in the
+  header, H1s, titles, and footer. Port Charlotte can still appear as the literal HQ
+  location or in single-project photo captions, just not as the dominant framing in
+  headers/H1s.
+- **Core service area (dedicated location pages), in display order:** Sarasota, Venice,
+  North Port, Port Charlotte, Punta Gorda, Cape Coral, Bradenton. This order (not
+  alphabetical) is intentional — keep it consistent across nav, footer, homepage
+  area-cards, and every page's cross-linking sections.
 - **Broader "also serving" area (mentioned in copy, no dedicated pages):** Charlotte
-  County, Sarasota, Venice, Osprey, Nokomis, Laurel, South Venice, Siesta Key,
-  Fruitville, Bee Ridge, Gulf Gate Estates. Venice gets extra emphasis per client
-  request (mentioned in hero copy, not just the footnote list).
+  County, Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel,
+  South Venice, Siesta Key, Fruitville, Bee Ridge, Gulf Gate Estates. The first four
+  (Englewood, Rotonda West, Deep Creek, Gulf Cove) previously had dedicated location
+  pages that were retired in favor of the new 7-city list above — still served, just
+  no dedicated landing page anymore.
 
 ## Design system
 
@@ -71,11 +78,12 @@ reduce)` block near the top of `style.css`).
   service in `makesOffer`. Service pages carry their own `Service` + `BreadcrumbList`
   JSON-LD (see `services/bathroom-tile-installation.html` for the pattern).
 - **Target keyword pattern:** homepage and service pages target
-  "[service] tile installer/installation" + "Charlotte & Sarasota Counties, FL"
+  "[service] tile installer/installation" + "Southwest Florida"
   (broad regional framing — see the Business details note above on why this isn't
-  Port-Charlotte-only). **Location pages** are the place for hyper-local, single-city
-  keyword targeting ("tile installer Punta Gorda FL", etc.) — that's their whole
-  purpose, so don't dilute them with regional framing.
+  Port-Charlotte-only or limited to the old two-county framing). **Location pages**
+  are the place for hyper-local, single-city keyword targeting ("tile installer Punta
+  Gorda FL", etc.) — that's their whole purpose, so don't dilute them with regional
+  framing.
 - Location pages must have genuinely differentiated content per city (different local
   details, service emphasis, copy) — not template city-name swaps.
 - Service pages: 500+ words, an FAQ section (native `<details>/<summary>`, no JS), a
@@ -88,18 +96,21 @@ reduce)` block near the top of `style.css`).
 
 ## Page structure
 
-**Built — all 12 pages complete:**
+**Built — all 13 pages complete:**
 - `index.html` — homepage
 - 5 service pages (in `services/`): `bathroom-tile-installation.html` (original
   client-approved template), `shower-tile-installation.html`,
   `kitchen-tile-installation.html` (includes backsplash), `floor-tile-installation.html`
   (ceramic/porcelain/stone/LVT materials content), `patio-lanai-tile.html`
-- 6 location pages (in `locations/`): `punta-gorda.html`, `north-port.html`,
-  `englewood.html`, `rotonda-west.html`, `deep-creek.html`, `gulf-cove.html` — each with
-  genuinely differentiated local content (a `why-list` of local highlights, a 3-question
-  FAQ, and a "Services We Offer" + "Other Areas We Serve" cross-link section) rather than
-  template city-name swaps
-- `sitemap.xml`, `robots.txt` — list/allow all 12 pages
+- 7 location pages (in `locations/`), in display order: `sarasota.html`, `venice.html`,
+  `north-port.html`, `port-charlotte.html`, `punta-gorda.html`, `cape-coral.html`,
+  `bradenton.html` — each with genuinely differentiated local content (a `why-list` of
+  local highlights, a 3-question FAQ, and a "Services We Offer" + "Other Areas We
+  Serve" cross-link section) rather than template city-name swaps. Note: `englewood.html`,
+  `rotonda-west.html`, `deep-creek.html`, `gulf-cove.html` were retired from this lineup
+  — those cities are now in the broader "also serving" tier (see Business details)
+  with no dedicated page.
+- `sitemap.xml`, `robots.txt` — list/allow all 13 pages
 - `css/style.css`, `js/main.js` — shared across every page
 
 **Folder structure note:** service and location pages live in separate `services/` and

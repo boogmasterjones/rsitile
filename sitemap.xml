@@ -31,7 +31,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rsitile.com/locations/punta-gorda.html</loc>
+    <loc>https://rsitile.com/locations/sarasota.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rsitile.com/locations/venice.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -41,22 +46,22 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rsitile.com/locations/englewood.html</loc>
+    <loc>https://rsitile.com/locations/port-charlotte.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rsitile.com/locations/rotonda-west.html</loc>
+    <loc>https://rsitile.com/locations/punta-gorda.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rsitile.com/locations/deep-creek.html</loc>
+    <loc>https://rsitile.com/locations/cape-coral.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rsitile.com/locations/gulf-cove.html</loc>
+    <loc>https://rsitile.com/locations/bradenton.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
