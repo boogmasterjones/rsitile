@@ -57,11 +57,41 @@ Inter for body copy (`--font-body`).
 lines at 80px intervals, `rgba(255,255,255,0.035)` on navy (`.hero::before`) — evoking
 grout lines. Don't recreate this with an image; it's pure CSS.
 
-**Placeholders:** all photos are dashed-border placeholder blocks (`.placeholder` class)
-with descriptive `aria-label`s (e.g. "Kitchen tile backsplash installation Port
-Charlotte FL") until real photography is available. When real photos are dropped in,
-carry the `aria-label` text over as `alt` text, and add `loading="lazy"` + explicit
-width/height to protect Core Web Vitals.
+**Placeholders:** dashed-border placeholder blocks (`.placeholder` class) with
+descriptive `aria-label`s (e.g. "Kitchen tile backsplash installation Port Charlotte
+FL") are still used where real photography doesn't exist yet — currently that's just
+the 7 location pages and the lanai page's hero/header slots (see Real photos below for
+everywhere else). When dropping in a real photo over a placeholder, carry the
+`aria-label` text over as `alt` text, and add `loading="lazy"` + explicit width/height
+to protect Core Web Vitals (hero images are the exception — see below).
+
+**Real photos:** client-supplied photos live in `assets/photos/<category>/`
+(`bathroom`, `floor`, `kitchen`, `shower`, `lanai`), used on the homepage and all 5
+service pages. Naming convention per category: `hero.jpg` (hero section background),
+`header.jpg` (the content-block image beside the intro copy), `example-1.jpg`
+through `example-4.jpg` (the "See Our Work" carousel photos; the homepage carousel
+reuses the same 16 example files, shuffled, across bathroom/floor/kitchen/shower —
+lanai's photos are excluded there since they're materials, not project shots). The
+lanai category instead has 4 material-named files (`porcelain-pavers.jpg`,
+`travertine.jpg`, `textured-tile.jpg`, `natural-stone-coping.jpg`) dropped into the
+patio-lanai page's Materials cards.
+  - **Sizing:** hero images are pre-cropped to 1600×900 and loaded eager with
+    `fetchpriority="high"` (never lazy — they're the LCP element). Header images are
+    capped at 1600px on the long edge; example/carousel photos are capped at 900px —
+    both re-encoded at JPEG quality ~90 with high-quality bicubic resampling. Don't
+    ship multi-thousand-pixel originals into small display boxes: letting the browser
+    downscale a huge source image on the fly (rather than pre-resizing it close to its
+    actual display size) causes visible moiré/softness on fine tile patterns no matter
+    how high the JPEG quality is — resize server-side (well, file-side, no server here)
+    instead.
+  - **Carousel sizing model:** `.carousel-slide img` is sized by a fixed `height`
+    (300px) with `width: auto` up to a `max-width` (340px), so mixed portrait/landscape
+    photos share a uniform row height; landscape photos that would otherwise run wider
+    than that cap get a light `object-fit: cover` crop instead of stretching the row.
+    A couple of specific photos whose native ratio didn't suit their slide got a
+    one-off override class (`crop-5-4`, `crop-5-7-right` in `style.css`) forcing a
+    different `aspect-ratio` + `object-position` — check there before assuming every
+    carousel photo uses its native ratio.
 
 **Accessibility baked in:** skip link, visible `:focus-visible` states (gold outline),
 `prefers-reduced-motion` respected globally (see `@media (prefers-reduced-motion:
@@ -127,18 +157,18 @@ the original plan but the client doesn't offer that service — don't build
 `tile-repair-replacement.html` or link to it anywhere.
 
 **Homepage section order:** sticky header → hero (with tile-grid background) →
-infinite auto-scrolling "Our Work" photo carousel → stats bar (30+ years / 1,000+ jobs
-/ 5★ / free estimates) → services grid → why-us → service areas grid → contact
-(live Calendly embed) → footer.
+manual-scroll "Our Work" photo carousel → stats bar (30+ years / 1,000+ jobs / 5★ /
+free estimates) → services grid → why-us → service areas grid → contact (live
+Calendly embed) → footer.
 
 ## Notable implementation patterns
 
-- **"Our Work" carousel:** CSS `scroll-snap` horizontal list is the accessible,
-  no-JS/reduced-motion baseline (real content, one set of slides). `js/main.js`
-  progressively enhances it into an infinite looping marquee for motion-OK users by
-  cloning the slide set once (`aria-hidden` on the clones) and animating with CSS
-  custom properties (`--marquee-distance`, `--marquee-duration`). Fully skipped under
-  `prefers-reduced-motion`.
+- **"Our Work" carousel:** CSS `scroll-snap` horizontal list, manually navigated via
+  prev/next buttons (no autoplay/marquee — that was removed). `js/main.js`'s
+  `scrollByAmount()` adds wrap-around: clicking next past the last slide scrolls back
+  to the start, and prev past the first slide scrolls to the end. This same
+  `.carousel`/`.carousel-track`/`.carousel-slide` markup and JS is shared by the
+  homepage "Our Work" section and every service page's "See Our Work" section.
 - **Mobile-only sections use horizontal swipe carousels, not vertical stacks:** the
   "What We Do" services grid and "Service Areas" grid both switch from a CSS grid to a
   `scroll-snap` flex row on mobile (inside the `@media (max-width: 640px)` block) so
