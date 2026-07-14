@@ -118,22 +118,6 @@ summary:focus-visible {
   border-radius: 2px;
 }
 
-/* ---------- Skip link ---------- */
-.skip-link {
-  position: absolute;
-  left: -999px;
-  top: 0;
-  background: var(--gold);
-  color: var(--navy);
-  padding: 0.75em 1.25em;
-  font-weight: 700;
-  z-index: 1000;
-}
-
-.skip-link:focus {
-  left: 0;
-}
-
 /* ---------- Layout helpers ---------- */
 .container {
   max-width: var(--container);
@@ -785,12 +769,50 @@ summary:focus-visible {
 }
 
 .carousel-slide {
-  flex: 0 0 280px;
+  flex: 0 0 auto;
   scroll-snap-align: start;
 }
 
 .carousel-slide .placeholder {
+  width: 280px;
   min-height: 190px;
+}
+
+/* Real photos size by height instead of width, so mixed portrait/landscape
+   photos line up at a uniform height; a max-width caps how much wider
+   landscape photos get, trimming the excess off the sides instead of
+   letting them run much longer than the portrait photos next to them. */
+.carousel-slide img {
+  display: block;
+  height: 300px;
+  width: auto;
+  max-width: 340px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+/* Service-page "See Our Work" carousels use a fixed aspect ratio instead of
+   min-height, since every slide is a single project photo, not mixed content.
+   Real photos (img) keep their native ratio instead of being cropped. */
+.carousel--work-preview .carousel-slide .placeholder {
+  min-height: 0;
+  aspect-ratio: 5 / 4;
+}
+
+.carousel--work-preview.carousel--portrait .carousel-slide .placeholder {
+  aspect-ratio: 5 / 7;
+}
+
+/* One-off crops for specific photos whose native ratio doesn't suit their slide. */
+.carousel-slide img.crop-5-4 {
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+}
+
+.carousel-slide img.crop-5-7-right {
+  aspect-ratio: 5 / 7;
+  object-fit: cover;
+  object-position: 70% center;
 }
 
 .carousel-caption {
@@ -1052,6 +1074,13 @@ summary:focus-visible {
   align-items: start;
 }
 
+.two-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
 .breadcrumbs {
   background: var(--off-white);
   border-bottom: 1px solid var(--border);
@@ -1132,6 +1161,9 @@ summary:focus-visible {
   border: none;
   border-radius: 0;
   min-height: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .page-hero-scrim {
@@ -1151,7 +1183,7 @@ summary:focus-visible {
 
 .materials-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -1160,6 +1192,14 @@ summary:focus-visible {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 22px;
+}
+
+.material-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin-bottom: 14px;
 }
 
 .materials-grid h3 {

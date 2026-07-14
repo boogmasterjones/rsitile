@@ -45,7 +45,17 @@
       var slide = track.querySelector(".carousel-slide");
       var gap = 20;
       var amount = slide ? slide.getBoundingClientRect().width + gap : 300;
-      track.scrollBy({ left: direction * amount, behavior: reduceMotion ? "auto" : "smooth" });
+      var maxScroll = track.scrollWidth - track.clientWidth;
+      var atEnd = track.scrollLeft >= maxScroll - 10;
+      var atStart = track.scrollLeft <= 10;
+
+      if (direction > 0 && atEnd) {
+        track.scrollTo({ left: 0, behavior: reduceMotion ? "auto" : "smooth" });
+      } else if (direction < 0 && atStart) {
+        track.scrollTo({ left: maxScroll, behavior: reduceMotion ? "auto" : "smooth" });
+      } else {
+        track.scrollBy({ left: direction * amount, behavior: reduceMotion ? "auto" : "smooth" });
+      }
     };
 
     if (prevBtn) {
