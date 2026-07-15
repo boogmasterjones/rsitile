@@ -60,21 +60,34 @@ grout lines. Don't recreate this with an image; it's pure CSS.
 **Placeholders:** dashed-border placeholder blocks (`.placeholder` class) with
 descriptive `aria-label`s (e.g. "Kitchen tile backsplash installation Port Charlotte
 FL") are still used where real photography doesn't exist yet — currently that's just
-the 7 location pages and the lanai page's hero/header slots (see Real photos below for
-everywhere else). When dropping in a real photo over a placeholder, carry the
-`aria-label` text over as `alt` text, and add `loading="lazy"` + explicit width/height
-to protect Core Web Vitals (hero images are the exception — see below).
+the lanai page's hero/header slots (see Real photos below for everywhere else). When
+dropping in a real photo over a placeholder, carry the `aria-label` text over as `alt`
+text, and add `loading="lazy"` + explicit width/height to protect Core Web Vitals
+(hero images are the exception — see below).
 
 **Real photos:** client-supplied photos live in `assets/photos/<category>/`
-(`bathroom`, `floor`, `kitchen`, `shower`, `lanai`), used on the homepage and all 5
-service pages. Naming convention per category: `hero.jpg` (hero section background),
-`header.jpg` (the content-block image beside the intro copy), `example-1.jpg`
-through `example-4.jpg` (the "See Our Work" carousel photos; the homepage carousel
-reuses the same 16 example files, shuffled, across bathroom/floor/kitchen/shower —
-lanai's photos are excluded there since they're materials, not project shots). The
-lanai category instead has 4 material-named files (`porcelain-pavers.jpg`,
-`travertine.jpg`, `textured-tile.jpg`, `natural-stone-coping.jpg`) dropped into the
-patio-lanai page's Materials cards.
+(`bathroom`, `floor`, `kitchen`, `shower`, `lanai`, `locations`), used on the homepage
+and all 5 service pages. Naming convention per category: `hero.jpg` (hero section
+background), `header.jpg` (the content-block image beside the intro copy),
+`example-1.jpg` through `example-4.jpg` (the "See Our Work" carousel photos; the
+homepage carousel reuses the same 16 example files, shuffled, across
+bathroom/floor/kitchen/shower — lanai's photos are excluded there since they're
+materials, not project shots). The lanai category instead has 4 material-named files
+(`porcelain-pavers.jpg`, `travertine.jpg`, `textured-tile.jpg`,
+`natural-stone-coping.jpg`) dropped into the patio-lanai page's Materials cards.
+
+**Location page photos:** unlike the 5 service categories, `assets/photos/locations/`
+has only one client-supplied source photo per city (not separate hero/example shots),
+so both the hero background and the content-block image on each location page reuse
+the same source photo — one resized/cropped to `<city>-hero.jpg` (1600×900 cover-crop)
+and one resized without cropping to `<city>-header.jpg` (native aspect ratio, long
+edge capped at 1600px). Source photos originally lived in `website pictures/locations/`
+(one arbitrary-sized file per city, one was `.webp`) and were processed with a
+PowerShell script using WPF imaging (`System.Windows.Media.Imaging`), not
+System.Drawing/GDI+, since GDI+ can't decode WebP. `port-charlotte`'s source was only
+707×472, so its hero is upscaled to fill 1600×900 — a bit softer than the others, but
+acceptable since the hero scrim darkens it substantially; ask for a higher-res Port
+Charlotte photo if one becomes available.
   - **Sizing:** hero images are pre-cropped to 1600×900 and loaded eager with
     `fetchpriority="high"` (never lazy — they're the LCP element). Header images are
     capped at 1600px on the long edge; example/carousel photos are capped at 900px —
