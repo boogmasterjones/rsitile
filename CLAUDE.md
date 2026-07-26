@@ -118,8 +118,18 @@ reduce)` block near the top of `style.css`).
   includes keyword + location + a trust signal), canonical URL, Open Graph tags.
 - Homepage carries the full `HomeAndConstructionBusiness` JSON-LD schema (in
   `index.html`'s `<head>`) with every service-area city in `areaServed` and every
-  service in `makesOffer`. Service pages carry their own `Service` + `BreadcrumbList`
-  JSON-LD (see `services/bathroom-tile-installation.html` for the pattern).
+  service in `makesOffer`, plus `hasMap` (the real GBP link), `sameAs` (the business's
+  real Facebook page), `openingHoursSpecification` (Mon–Fri 8am–6pm, Sat 10am–2pm), an
+  `aggregateRating` (5.0, based on 5 reviews — confirmed by the client as the true
+  current total, not an estimate), and five `Review` entries sourced verbatim from real
+  Google reviews the client pasted in (Jill, Craig, Mary, Jed, Jessica). The schema
+  also carries the business's real street address (`3321 Beacon Dr, Port Charlotte, FL
+  33980`) and hours for SEO purposes only — **neither the address nor the hours may
+  ever appear in visible/rendered page content**, only in the JSON-LD, per explicit
+  client instruction. If the review count on GBP grows beyond 5, update
+  `aggregateRating.reviewCount` to match — don't let it drift stale. Service pages
+  carry their own `Service` + `BreadcrumbList` JSON-LD (see
+  `services/bathroom-tile-installation.html` for the pattern).
 - **Target keyword pattern:** homepage and service pages target
   "[service] tile installer/installation" + "Southwest Florida"
   (broad regional framing — see the Business details note above on why this isn't
@@ -134,13 +144,29 @@ reduce)` block near the top of `style.css`).
   location pages.
 - Internal linking: every page's footer links to all services and all locations;
   services and locations cross-link to each other in-content.
-- `sitemap.xml` and `robots.txt` are still to be built (see Page structure below) —
-  hold off until all pages exist so the sitemap is complete in one pass.
+- `sitemap.xml` lists every page with a `<lastmod>` date on each entry; `robots.txt`
+  allows all. Keep both in sync any time a page is added or removed — `schedule.html`
+  was initially missed and had to be added after the fact, so don't assume a new page
+  is done until it's confirmed present in the sitemap. `404.html` is intentionally
+  excluded (not a real crawlable page) and is `noindex`.
+- **Google Analytics (GA4)**: the client's real gtag.js snippet (measurement ID
+  `G-1VZNJ7102H`) is pasted into every one of the 15 pages, immediately after the
+  opening `<head>` tag (Google's own placement requirement). If a new page is added,
+  copy this same snippet into its `<head>` too, in the same position — don't forget it
+  the way `schedule.html` was initially forgotten from the sitemap. Google Search
+  Console is not yet set up (needs the client to create a property and either verify
+  via a meta tag/DNS record or confirm ownership through the same Google account used
+  for GA4).
 
 ## Page structure
 
-**Built — all 13 pages complete:**
+**Built — 15 pages complete:**
 - `index.html` — homepage
+- `schedule.html` — dedicated scheduling page (live Calendly embed) that service and
+  location pages' "Get a Free Estimate" buttons link to; linked from the homepage nav
+  and every other page's header/footer
+- `404.html` — branded not-found page (`noindex`), links back to the homepage and
+  popular service pages
 - 5 service pages (in `services/`): `bathroom-tile-installation.html` (original
   client-approved template), `shower-tile-installation.html`,
   `kitchen-tile-installation.html` (includes backsplash), `floor-tile-installation.html`
@@ -153,7 +179,8 @@ reduce)` block near the top of `style.css`).
   `rotonda-west.html`, `deep-creek.html`, `gulf-cove.html` were retired from this lineup
   — those cities are now in the broader "also serving" tier (see Business details)
   with no dedicated page.
-- `sitemap.xml`, `robots.txt` — list/allow all 13 pages
+- `sitemap.xml`, `robots.txt` — list/allow all 14 crawlable pages (everything above
+  except `404.html`)
 - `css/style.css`, `js/main.js` — shared across every page
 
 **Folder structure note:** service and location pages live in separate `services/` and

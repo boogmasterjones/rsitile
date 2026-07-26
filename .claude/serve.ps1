@@ -1,5 +1,5 @@
 param(
-    [int]$Port = 8080,
+    [int]$Port = $(if ($env:PORT) { [int]$env:PORT } else { 8080 }),
     [string]$Root = (Split-Path -Parent $PSScriptRoot)
 )
 

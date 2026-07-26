@@ -138,8 +138,10 @@ summary:focus-visible {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.section--navy h1,
 .section--navy h2,
 .section--navy h3,
+.section--mid h1,
 .section--mid h2,
 .section--mid h3 {
   color: var(--white);
@@ -172,6 +174,7 @@ summary:focus-visible {
   color: var(--gold);
 }
 
+.section-head h1,
 .section-head h2 {
   font-size: clamp(1.9rem, 3.5vw, 2.6rem);
 }
@@ -711,6 +714,66 @@ summary:focus-visible {
 
 .card-link:hover::after {
   transform: translateX(4px);
+}
+
+/* ---------- Testimonials ---------- */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.testimonial-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.testimonial-stars {
+  color: var(--gold);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.75em;
+}
+
+.testimonial-quote {
+  flex: 1;
+  font-size: 0.98rem;
+  color: var(--body-text);
+  margin-bottom: 1em;
+}
+
+.testimonial-author {
+  font-family: var(--font-head);
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0;
+}
+
+.testimonial-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.testimonial-photo {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: calc(var(--radius) - 2px);
+  margin-bottom: 1em;
+}
+
+.testimonial-card--photo .testimonial-quote {
+  font-size: 0.88rem;
 }
 
 /* ---------- Why us ---------- */
@@ -1555,7 +1618,8 @@ summary:focus-visible {
   }
 
   .card-grid,
-  .area-grid {
+  .area-grid,
+  .testimonial-grid {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -1565,9 +1629,18 @@ summary:focus-visible {
   }
 
   .card-grid .card,
-  .area-grid .area-card {
+  .area-grid .area-card,
+  .testimonial-grid .testimonial-card {
     flex: 0 0 82%;
     scroll-snap-align: start;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-quote {
+    font-size: 0.9rem;
   }
 
   .area-card {
