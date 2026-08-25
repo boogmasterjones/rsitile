@@ -1,0 +1,24 @@
+# Force the .html URLs to permanently redirect to the extension-less "pretty"
+# URLs Netlify already rewrites all internal links to (see Pretty URLs). Google
+# had indexed both forms of several pages as separate URLs, splitting ranking
+# signals (e.g. bathroom-tile-installation.html at position 34 vs the
+# extension-less version at position 50) — this consolidates them onto one
+# canonical URL per page.
+/index.html                                  /                                  301
+/schedule.html                               /schedule                          301
+/services/bathroom-tile-installation.html    /services/bathroom-tile-installation    301
+/services/shower-tile-installation.html      /services/shower-tile-installation      301
+/services/kitchen-tile-installation.html     /services/kitchen-tile-installation     301
+/services/floor-tile-installation.html       /services/floor-tile-installation       301
+/services/patio-lanai-tile.html              /services/patio-lanai-tile              301
+/locations/sarasota.html                     /locations/sarasota                301
+/locations/venice.html                       /locations/venice                  301
+/locations/north-port.html                   /locations/north-port              301
+/locations/port-charlotte.html               /locations/port-charlotte          301
+/locations/punta-gorda.html                  /locations/punta-gorda             301
+/locations/cape-coral.html                   /locations/cape-coral              301
+/locations/bradenton.html                    /locations/bradenton               301
+/blog/index.html                             /blog                              301
+/blog/shower-tile-installation-guide.html    /blog/shower-tile-installation-guide    301
+/blog/how-to-choose-a-tile-contractor.html   /blog/how-to-choose-a-tile-contractor   301
+/blog/bathroom-tile-installation-cape-coral.html /blog/bathroom-tile-installation-cape-coral 301

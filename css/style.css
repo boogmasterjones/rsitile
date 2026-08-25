@@ -415,6 +415,31 @@ summary:focus-visible {
   color: var(--blue);
 }
 
+.dropdown--mega {
+  display: flex;
+  gap: 8px;
+  min-width: 620px;
+  padding: 16px;
+}
+
+.dropdown-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.dropdown-heading {
+  display: block;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--blue);
+  padding: 0.5rem 0.85rem 0.4rem;
+}
+
 .header-cta {
   display: flex;
   align-items: center;
@@ -1145,6 +1170,76 @@ summary:focus-visible {
   margin-bottom: 0.5em;
 }
 
+.content-block ol {
+  list-style: decimal;
+  padding-left: 1.4em;
+  margin-bottom: 1.2em;
+}
+
+.content-block h3 {
+  font-size: 1.25rem;
+  margin-top: 1.3em;
+}
+
+.content-block strong {
+  color: var(--ink);
+}
+
+.content-block .toc {
+  background: var(--off-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 1.8em;
+}
+
+.content-block .toc p {
+  font-family: var(--font-head);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  letter-spacing: 1px;
+  color: var(--blue);
+  margin-bottom: 0.6em;
+}
+
+.content-block .toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 24px;
+}
+
+.content-block .toc li {
+  margin-bottom: 0.4em;
+  break-inside: avoid;
+}
+
+.callout {
+  background: var(--off-white);
+  border-left: 4px solid var(--blue);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 20px 24px;
+  margin: 1.6em 0;
+  font-size: 0.98rem;
+  color: var(--ink);
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.callout strong {
+  color: var(--blue);
+}
+
+.blog-meta {
+  color: var(--body-text);
+  font-size: 0.92rem;
+  margin-bottom: 1.5em;
+}
+
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1257,6 +1352,12 @@ summary:focus-visible {
 
 .page-hero .hero-lede {
   margin-bottom: 1.5em;
+}
+
+.last-updated {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: -0.5em 0 1.5em;
 }
 
 .materials-grid {
@@ -1469,6 +1570,18 @@ summary:focus-visible {
   .dropdown a:hover {
     background: rgba(255, 255, 255, 0.06);
     color: var(--gold);
+  }
+
+  .dropdown--mega {
+    flex-direction: column;
+    gap: 0;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .dropdown-heading {
+    color: var(--gold);
+    opacity: 0.85;
   }
 
   .why-grid,
@@ -1795,5 +1908,9 @@ summary:focus-visible {
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+  }
+
+  .content-block .toc ul {
+    columns: 1;
   }
 }
