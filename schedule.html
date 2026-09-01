@@ -178,6 +178,77 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <!-- Calendly inline widget end -->
         </div>
       </div>
+
+      <div class="quote-form-wrap">
+        <div class="quote-form-head">
+          <h3>Or Request A Quote Today</h3>
+          <p>Prefer not to schedule a call right now? Fill out the form below and we'll follow up to set up your free estimate.</p>
+        </div>
+        <form class="quote-form" name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="quote-request">
+          <p class="quote-form-honeypot" aria-hidden="true">
+            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+          </p>
+
+          <div class="quote-form-row">
+            <div class="quote-form-field">
+              <label for="qf-name">Full Name *</label>
+              <input type="text" id="qf-name" name="name" placeholder="Full Name" autocomplete="name" required>
+            </div>
+            <div class="quote-form-field">
+              <label for="qf-phone">Phone *</label>
+              <input type="tel" id="qf-phone" name="phone" placeholder="Phone" autocomplete="tel" required>
+            </div>
+          </div>
+
+          <div class="quote-form-row">
+            <div class="quote-form-field">
+              <label for="qf-email">Email *</label>
+              <input type="email" id="qf-email" name="email" placeholder="Email" autocomplete="email" required>
+            </div>
+            <div class="quote-form-field">
+              <label for="qf-zip">Zip Code</label>
+              <input type="text" id="qf-zip" name="zip" placeholder="Zip Code" inputmode="numeric" autocomplete="postal-code">
+            </div>
+          </div>
+
+          <div class="quote-form-group">
+            <span class="quote-form-label">Select a Service *</span>
+            <div class="quote-form-options">
+              <label class="quote-form-option"><input type="checkbox" name="service[]" value="Bathroom Tile Installation"> Bathroom Tile Installation</label>
+              <label class="quote-form-option"><input type="checkbox" name="service[]" value="Shower Tile Installation"> Shower Tile Installation</label>
+              <label class="quote-form-option"><input type="checkbox" name="service[]" value="Kitchen Tile &amp; Backsplash"> Kitchen Tile &amp; Backsplash</label>
+              <label class="quote-form-option"><input type="checkbox" name="service[]" value="Floor Tile Installation"> Floor Tile Installation</label>
+              <label class="quote-form-option"><input type="checkbox" name="service[]" value="Patio &amp; Lanai Tile"> Patio &amp; Lanai Tile</label>
+              <label class="quote-form-option"><input type="checkbox" name="service[]" value="Other"> Other</label>
+            </div>
+          </div>
+
+          <div class="quote-form-group">
+            <span class="quote-form-label">When Would You Like This Completed?</span>
+            <div class="quote-form-options">
+              <label class="quote-form-option"><input type="radio" name="timing" value="Timing is flexible"> Timing is flexible</label>
+              <label class="quote-form-option"><input type="radio" name="timing" value="Less than 2 months"> Less than 2 months</label>
+              <label class="quote-form-option"><input type="radio" name="timing" value="More than 2 months"> More than 2 months</label>
+            </div>
+          </div>
+
+          <div class="quote-form-group">
+            <span class="quote-form-label">Choose The Appropriate Status For This Project</span>
+            <div class="quote-form-options">
+              <label class="quote-form-option"><input type="radio" name="status" value="Ready to hire"> Ready to hire</label>
+              <label class="quote-form-option"><input type="radio" name="status" value="Planning &amp; budgeting"> Planning &amp; budgeting</label>
+            </div>
+          </div>
+
+          <div class="quote-form-field">
+            <label for="qf-details">Tell Us A Little About Your Project</label>
+            <textarea id="qf-details" name="details" placeholder="Write here..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+      </div>
     </div>
   </section>
 

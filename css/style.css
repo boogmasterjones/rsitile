@@ -1093,6 +1093,116 @@ summary:focus-visible {
   overflow: hidden;
 }
 
+/* ---------- Quote request form ---------- */
+.quote-form-wrap {
+  max-width: 760px;
+  margin: 56px auto 0;
+}
+
+.quote-form-head {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.quote-form-head h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.quote-form-head p {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+}
+
+.quote-form {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border-top: 4px solid var(--blue);
+  padding: 32px;
+}
+
+.quote-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+}
+
+.quote-form-field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.quote-form-field label {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+  letter-spacing: 0.2px;
+}
+
+.quote-form-field input,
+.quote-form-field textarea {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--off-white);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.7em 0.9em;
+}
+
+.quote-form-field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.quote-form-group {
+  margin-bottom: 24px;
+}
+
+.quote-form-label {
+  display: block;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+
+.quote-form-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+
+.quote-form-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--body-text);
+  cursor: pointer;
+}
+
+.quote-form-option input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--blue);
+  flex-shrink: 0;
+}
+
+.quote-form-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* ---------- FAQ (details/summary) ---------- */
 .faq-list {
   display: grid;
@@ -1588,6 +1698,15 @@ summary:focus-visible {
   .contact-grid,
   .two-col {
     grid-template-columns: 1fr;
+  }
+
+  .quote-form-row,
+  .quote-form-options {
+    grid-template-columns: 1fr;
+  }
+
+  .quote-form {
+    padding: 24px 20px;
   }
 
   .stats-grid {
