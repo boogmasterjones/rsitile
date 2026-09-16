@@ -35,10 +35,12 @@
     toggle.setAttribute("aria-expanded", "false");
   });
 
-  var track = document.querySelector(".carousel-track");
-  if (track) {
-    var prevBtn = document.querySelector(".carousel-prev");
-    var nextBtn = document.querySelector(".carousel-next");
+  document.querySelectorAll(".carousel").forEach(function (carousel) {
+    var track = carousel.querySelector(".carousel-track");
+    if (!track) return;
+
+    var prevBtn = carousel.querySelector(".carousel-prev");
+    var nextBtn = carousel.querySelector(".carousel-next");
     var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     var scrollByAmount = function (direction) {
@@ -79,6 +81,17 @@
         scrollByAmount(-1);
       }
     });
+  });
+
+  // The header stays off-canvas over the hero until the visitor scrolls,
+  // then slides in as a normal fixed nav bar.
+  var siteHeader = document.querySelector(".site-header");
+  if (siteHeader) {
+    var updateHeaderVisibility = function () {
+      siteHeader.classList.toggle("is-visible", window.scrollY > 10);
+    };
+    window.addEventListener("scroll", updateHeaderVisibility, { passive: true });
+    updateHeaderVisibility();
   }
 
   var yearEl = document.querySelector("[data-year]");

@@ -5,12 +5,13 @@
 :root {
   --navy: #142338;
   --navy-mid: #1E3250;
-  --blue: #1E6FD9;
-  --blue-dark: #1857AD;
+  --blue: #0E6EF5;
+  --blue-light: #3D93FF;
+  --blue-dark: #0B4FB8;
   --gold: #C9A84C;
   --gold-light: #E0C778;
-  --off-white: #F7F9FC;
-  --white: #FFFFFF;
+  --off-white: #F8F7F2;
+  --white: #FDFCF9;
   --ink: #16233A;
   --body-text: #435066;
   --border: #DCE3EE;
@@ -132,6 +133,12 @@ summary:focus-visible {
   border-radius: 2px;
 }
 
+/* Anchor-link targets (TOC links, nav "Contact" links, etc.) need room for
+   the fixed header, which no longer reserves space in normal flow. */
+:target {
+  scroll-margin-top: 100px;
+}
+
 /* ---------- Layout helpers ---------- */
 .container {
   max-width: var(--container);
@@ -214,44 +221,55 @@ summary:focus-visible {
   font-size: 1.05rem;
   letter-spacing: 0.4px;
   padding: 0.85em 1.75em;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 2px solid transparent;
   cursor: pointer;
-  transition: transform var(--transition), background var(--transition), border-color var(--transition), color var(--transition);
+  transition: transform var(--transition), box-shadow var(--transition), background var(--transition), border-color var(--transition), color var(--transition);
   text-decoration: none !important;
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
 }
 
 .btn-primary {
-  background: var(--blue);
+  background: linear-gradient(135deg, var(--blue-light) 0%, var(--blue) 55%, var(--blue-dark) 100%);
   color: var(--white);
+  box-shadow: 0 10px 24px -8px rgba(24, 87, 173, 0.55), 0 2px 6px rgba(24, 87, 173, 0.3);
 }
 
 .btn-primary:hover {
-  background: var(--blue-dark);
+  background: linear-gradient(135deg, var(--blue-light) 0%, var(--blue-dark) 100%);
+  box-shadow: 0 16px 32px -8px rgba(24, 87, 173, 0.6), 0 4px 10px rgba(24, 87, 173, 0.35);
 }
 
 .btn-outline {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
   border-color: rgba(255, 255, 255, 0.5);
   color: var(--white);
 }
 
 .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
   border-color: var(--gold);
   color: var(--gold);
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.5);
 }
 
 .btn-gold {
-  background: var(--gold);
+  background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 100%);
   color: var(--navy);
+  box-shadow: 0 10px 24px -8px rgba(201, 168, 76, 0.5), 0 2px 6px rgba(201, 168, 76, 0.3);
 }
 
 .btn-gold:hover {
-  background: var(--gold-light);
+  background: linear-gradient(135deg, #ecd98f 0%, var(--gold-light) 100%);
+  box-shadow: 0 16px 32px -8px rgba(201, 168, 76, 0.55), 0 4px 10px rgba(201, 168, 76, 0.35);
 }
 
 .btn-block {
@@ -281,11 +299,30 @@ summary:focus-visible {
 
 /* ---------- Header ---------- */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 500;
-  background: var(--navy);
+  background: rgba(20, 35, 56, 0.96);
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s ease;
+}
+
+.site-header.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Mobile nav needs the header visible (not slid off-canvas) while its
+   dropdown menu is open, even if the page hasn't been scrolled yet. */
+.site-header:has(.main-nav.is-open) {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .site-header .container {
@@ -574,6 +611,11 @@ summary:focus-visible {
   margin-bottom: 2.5em;
 }
 
+.hero-actions .btn {
+  padding: 1.1em 2.3em;
+  font-size: 1.18rem;
+}
+
 /* Single centered CTA button dropped at the bottom of a content section,
    distinct from .hero-actions (which pairs two left-aligned buttons). */
 .section-cta {
@@ -756,12 +798,6 @@ summary:focus-visible {
 }
 
 /* ---------- Testimonials ---------- */
-.testimonial-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-}
-
 .testimonial-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -813,6 +849,22 @@ summary:focus-visible {
 
 .testimonial-card--photo .testimonial-quote {
   font-size: 0.88rem;
+}
+
+/* Review carousel slides are text cards, not height-cropped photos, so they
+   get an explicit width and top-aligned track instead of the photo
+   carousel's height-based sizing. */
+.carousel--reviews .carousel-track {
+  align-items: flex-start;
+}
+
+.carousel--reviews .carousel-slide {
+  width: 340px;
+  flex: 0 0 340px;
+}
+
+.carousel--reviews .carousel-btn {
+  top: 50%;
 }
 
 /* ---------- Why us ---------- */
@@ -1033,6 +1085,30 @@ summary:focus-visible {
 }
 
 /* ---------- Contact ---------- */
+/* Pairs the quote-request form with the schedule-a-call column side by side;
+   the schedule column's own .contact-grid (card + Calendly) is forced to a
+   single column here since it no longer has room to be two columns itself. */
+.contact-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.contact-split > * {
+  min-width: 0;
+}
+
+.contact-split .quote-form-wrap {
+  margin: 0;
+  max-width: none;
+}
+
+.contact-split .contact-grid {
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1096,7 +1172,7 @@ summary:focus-visible {
 /* ---------- Quote request form ---------- */
 .quote-form-wrap {
   max-width: 760px;
-  margin: 56px auto 0;
+  margin: 0 auto 56px;
 }
 
 .quote-form-head {
@@ -1696,6 +1772,7 @@ summary:focus-visible {
 
   .why-grid,
   .contact-grid,
+  .contact-split,
   .two-col {
     grid-template-columns: 1fr;
   }
@@ -1864,8 +1941,7 @@ summary:focus-visible {
   }
 
   .card-grid,
-  .area-grid,
-  .testimonial-grid {
+  .area-grid {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -1875,10 +1951,14 @@ summary:focus-visible {
   }
 
   .card-grid .card,
-  .area-grid .area-card,
-  .testimonial-grid .testimonial-card {
+  .area-grid .area-card {
     flex: 0 0 82%;
     scroll-snap-align: start;
+  }
+
+  .carousel--reviews .carousel-slide {
+    width: 82vw;
+    flex: 0 0 82vw;
   }
 
   .testimonial-card {
