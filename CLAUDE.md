@@ -37,25 +37,60 @@ directly (no compilation, bundling, or server-side rendering).
 
 ## Design system
 
+The site runs a **dark theme** site-wide (rebuilt 2026-10-02, modeled on
+clearvantwc.com's modern look but on Rock Solid Tile's own palette — navy surfaces
+and gold accents in place of Clearvant's bronze/orange). There is no light mode;
+every page sits on the same dark surface stack.
+
 Defined as CSS custom properties at the top of `css/style.css` — always use the
 variables, never hardcode these hex values in new markup/CSS:
 
 | Variable | Value | Use |
 |---|---|---|
-| `--navy` | `#142338` | Primary / hero / footer background |
-| `--navy-mid` | `#1E3250` | Secondary dark section background |
-| `--blue` | `#1E6FD9` | CTAs, links |
-| `--gold` | `#C9A84C` | Phone number, accents — used sparingly |
-| `--off-white` | `#F7F9FC` | Light section backgrounds |
-| `--ink` | `#16233A` | Body headings on light backgrounds |
-| `--body-text` | `#435066` | Body copy on light backgrounds |
+| `--bg` | `#0A111D` | Page background (carries a faint dot field) |
+| `--bg-alt` | `#0E1726` | `.section--mid` tinted band, form inputs, breadcrumbs |
+| `--surface` | `#142034` | Cards, form panel, FAQ items, dropdown |
+| `--line` | `#243550` | Card/input borders |
+| `--navy` | `#142338` | Hero base + gradient bands (`.section--navy`, `.stats-bar`) |
+| `--blue` | `#0E6EF5` | Primary CTAs, card top rules, focus rings |
+| `--gold` | `#D2AE52` | Accents: eyebrows, corner folds, header rule, phone icon |
+| `--text` | `#F4EFE4` | Headings (warm cream, not pure white) |
+| `--body-text` | `#BAC4D3` | Body copy |
+| `--muted` | `#8392A8` | Labels, captions, footer links |
 
-**Typography:** Barlow Condensed (700/800) for all headlines via Google Fonts (`--font-head`),
-Inter for body copy (`--font-body`).
+**Typography:** Barlow Condensed (600/700/800) for all headlines, uppercase by
+default via a global `h1–h4` rule (`--font-head`); Plus Jakarta Sans for body copy
+and buttons (`--font-body`). Both via Google Fonts — the `<link>` is identical on
+all 25 pages, so change it everywhere at once if it's ever updated.
 
-**Signature element:** hero sections use a subtle CSS tile-grid background — thin 1px
-lines at 80px intervals, `rgba(255,255,255,0.035)` on navy (`.hero::before`) — evoking
-grout lines. Don't recreate this with an image; it's pure CSS.
+**Signature elements:**
+- Hero sections keep the tile-grid background — thin 1px lines at 80px intervals
+  (`.hero::before`), now layered *above* the hero photo so the grout lines read over
+  the image. Pure CSS; don't recreate it with an image.
+- **Card language:** a shared rule styles `.card`, `.related-card`, `.area-card`,
+  `.material`, `.testimonial-card` and `.contact-card` as flat dark panels with a
+  3px blue top rule, a gold corner-fold triangle (`::before`), and a lift on hover
+  (top rule turns gold). New card types should join that selector list rather than
+  inventing their own treatment.
+- **Diamond icon badges:** 45°-rotated rounded squares with the icon counter-rotated
+  inside (`.why-item .icon`, `.area-card .icon-badge`, `.stat .stat-icon`). Blue
+  gradient for service/area icons, gold gradient for stat tiles.
+- **Buttons** are square-ish (`--radius-sm`, 4px), uppercase, letter-spaced, with
+  gradient fills and a 3px hover lift.
+
+**Carousels:** `.carousel` is a CSS grid — the track spans row 1 and the prev/next
+round buttons sit centered *underneath* it in row 2 (no absolute positioning, and
+they stay visible on mobile). Slides are cards: photo on top, caption in a padded
+footer.
+
+**Progressive quote form:** the contact form on `index.html` and `schedule.html`
+opens as just Name + Phone and reveals the next group each time the previous one is
+satisfied (phone+name → email/zip → service → timing/status/details/submit), with a
+"Step X of 4" progress bar injected by JS. The groups are wrapped in
+`.qf-step[data-step]` divs; `js/main.js` hides steps 2+ at runtime, so **without JS
+the whole form renders normally** — keep that fallback intact. Submitting early
+reveals every step and then runs native validation, so a hidden `required` field can
+never silently block submission.
 
 **Placeholders:** dashed-border placeholder blocks (`.placeholder` class) with
 descriptive `aria-label`s (e.g. "Kitchen tile backsplash installation Port Charlotte
@@ -196,10 +231,16 @@ from within `services/`.
 the original plan but the client doesn't offer that service — don't build
 `tile-repair-replacement.html` or link to it anywhere.
 
-**Homepage section order:** sticky header → hero (with tile-grid background) →
-manual-scroll "Our Work" photo carousel → stats bar (30+ years / 1,000+ jobs / 5★ /
-free estimates) → services grid → why-us → service areas grid → contact (live
-Calendly embed) → footer.
+**Homepage section order:** reveal-on-scroll header → hero (photo + tile-grid +
+glass panel of 6 service tiles) → manual-scroll "Our Work" photo carousel → stats
+band (30+ years / 1,000+ jobs / 5★ / free estimates, as diamond-icon tiles) →
+testimonials carousel → contact (progressive quote form beside the live Calendly
+embed) → services grid → "How It Works" 4-step row → why-us → service areas grid →
+footer.
+
+Background rhythm alternates deliberately: plain body (`.section`) → tinted band
+(`.section--mid`) → deep gradient band (`.section--navy` / `.stats-bar`). Keep that
+alternation when adding sections so long runs of the same surface don't flatten out.
 
 ## Notable implementation patterns
 
@@ -208,13 +249,26 @@ Calendly embed) → footer.
   `scrollByAmount()` adds wrap-around: clicking next past the last slide scrolls back
   to the start, and prev past the first slide scrolls to the end. This same
   `.carousel`/`.carousel-track`/`.carousel-slide` markup and JS is shared by the
-  homepage "Our Work" section and every service page's "See Our Work" section.
-- **Mobile-only sections use horizontal swipe carousels, not vertical stacks:** the
-  "What We Do" services grid and "Service Areas" grid both switch from a CSS grid to a
-  `scroll-snap` flex row on mobile (inside the `@media (max-width: 640px)` block) so
-  users swipe sideways through cards instead of scrolling through a long vertical
-  stack. This is a deliberate mobile UX pattern — apply it to new card grids on mobile
-  if they'd otherwise stack more than ~3 cards deep.
+  homepage "Our Work" section, the homepage reviews carousel, and every service
+  page's "See Our Work" section. The arrows are placed by grid (row 2, centered),
+  not absolute positioning — the markup order is still prev → track → next.
+- **Mobile card grids are two-up, not stacked and not swipe rows** (changed
+  2026-10-02 at the client's request — this replaces the earlier swipe-row pattern).
+  `.card-grid`, `.area-grid`, `.related-grid`, `.materials-grid` and `.steps` all go
+  to `repeat(2, 1fr)` with a 12px gap inside the `@media (max-width: 640px)` block, so
+  a phone screen shows several options at once instead of one full-width card per
+  row. Card text is kept compact with `-webkit-line-clamp` (titles 3 lines, body
+  copy 3 lines) so the cards in a row stay the same height. The only remaining
+  horizontal swipe row on mobile is the reviews carousel, which is a carousel by
+  design. Apply the two-up grid to any new card type.
+- **Mobile CTA treatment:** buttons go full-width and stack (`.hero-actions`,
+  `.section-cta`, `.cta-actions` all become `flex-direction: column`) at ~0.92rem —
+  the client wants CTAs to be big and prominent on phones, so don't shrink them to
+  fit two across.
+- **The homepage hero's glass service panel (`.hero-visual`) is desktop-only** —
+  `display: none` on mobile, where it pushed the CTAs below the fold. The hero lede
+  is also clamped to 4 lines on mobile so the headline and buttons lead; the full
+  text stays in the DOM.
 - **Mobile changes are scoped inside the existing `@media (max-width: 640px)` block in
   `style.css` and must never touch base/desktop rules** — this has been an explicit,
   repeated client instruction across multiple rounds of mobile-only tweaks. When asked
