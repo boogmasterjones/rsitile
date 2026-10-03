@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://rsitile.com/sitemap.xml
