@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import { formatDate, getPosts, readingTime } from '../../lib/content';
+import { breadcrumbSchema } from '../../lib/schema';
+import { site } from '../../lib/site';
+
+const posts = await getPosts();
+const jsonLd = [breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }])];
+const title = "Tile Installation Tips & Guides | Rock Solid Tile Blog";
+const description = "Expert tile installation tips, cost guides, and buying advice for Southwest Florida homeowners from the licensed crew at Rock Solid Tile.";
+---
+
+<Base title={title} description={description} jsonLd={jsonLd}>
+<section class="hero page-hero">
+    <div class="container">
+      <div class="page-hero-inner">
+        <span class="hero-eyebrow">Tips &amp; Guides</span>
+        <h1>Tile Installation Tips &amp; Guides for Southwest Florida Homeowners</h1>
+        <p class="hero-lede">Real, practical advice on tile installation, costs, materials, and hiring the right contractor — written by the licensed crew at Rock Solid Tile.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="container">
+      <div class="card-grid">
+      {posts.length === 0 && <p>New articles are coming soon.</p>}
+      {posts.map((p) => (
+        <a class="card" href={`/blog/${p.id}`}>{p.data.image && <img class="card-photo" src={p.data.image} alt={p.data.imageAlt ?? ''} loading="lazy" width="1600" height="900" />}<div class="card-body"><h3>{p.data.title}</h3><p>{p.data.description}</p><span class="card-link">Read the Guide</span></div></a>
+      ))}
+      </div>
+    </div>
+  </section>
+  <section class="cta-band">
+    <div class="container">
+      <h2>Ready to Start Your Tile Project?</h2>
+      <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
+      <div class="cta-actions">
+        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
+      </div>
+    </div>
+  </section>
+</Base>

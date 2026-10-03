@@ -1,0 +1,98 @@
+{
+  "site": {
+    "url": "https://rsitile.com",
+    "locale": "en-US",
+    "calendlyUrl": "",
+    "formAction": "",
+    "defaultOgImage": "/assets/og-image.jpg",
+    "gaMeasurementId": "G-1VZNJ7102H",
+    "googleSiteVerification": "9CMz493_8iDxkD2_r4ewYCv6lHce8wH7dswMjhyKAD8"
+  },
+  "business": {
+    "name": "Rock Solid Tile",
+    "kind": "operating",
+    "schemaType": "HomeAndConstructionBusiness",
+    "tagline": "Licensed, insured tile installation across Southwest Florida.",
+    "description": "Licensed and insured tile contractor with 30+ years of experience serving Southwest Florida, including Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, with tile installation and remodeling services.",
+    "phone": "(941) 276-0305",
+    "email": "info@rsitile.com",
+    "regionLabel": "Southwest Florida",
+    "alsoServing": [
+      "Charlotte County",
+      "Englewood",
+      "Rotonda West",
+      "Deep Creek",
+      "Gulf Cove",
+      "Osprey",
+      "Nokomis",
+      "Laurel",
+      "South Venice",
+      "Siesta Key",
+      "Fruitville",
+      "Bee Ridge",
+      "Gulf Gate Estates"
+    ],
+    "address": {
+      "street": "4288 Pinnacle St",
+      "city": "Punta Gorda",
+      "region": "FL",
+      "postalCode": "33980",
+      "showOnSite": false
+    },
+    "hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "days": [
+          "Saturday"
+        ],
+        "opens": "10:00",
+        "closes": "14:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.youtube.com/channel/UC6Z42ro-Re-EzJSLAqxN_wg",
+      "https://nextdoor.com/page/rock-solid-tile-punta-gorda-fl",
+      "https://www.thumbtack.com/fl/punta-gorda/tile/rock-solid-tile/service/587082286964203525"
+    ],
+    "googleMapsUrl": "https://maps.app.goo.gl/SiuYt8LwLa9h79CBA",
+    "rating": null
+  },
+  "brand": {
+    "logoText": "Rock Solid Tile",
+    "colors": {
+      "primary": "#142338",
+      "primaryAlt": "#0E1726",
+      "action": "#0E6EF5",
+      "accent": "#D2AE52",
+      "surface": "#142034",
+      "surfaceAlt": "#0E1726",
+      "ink": "#F4EFE4",
+      "body": "#BAC4D3"
+    },
+    "fonts": {
+      "heading": "Barlow Condensed",
+      "body": "Plus Jakarta Sans",
+      "googleFontsUrl": ""
+    }
+  },
+  "trustBadges": [
+    "Licensed & Insured",
+    "30+ Years in Business",
+    "Free Estimates"
+  ],
+  "stats": [],
+  "cta": {
+    "label": "Get a Free Estimate",
+    "href": "/#contact"
+  }
+}
