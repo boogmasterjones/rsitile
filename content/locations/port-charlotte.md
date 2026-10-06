@@ -14,6 +14,8 @@ faqs:
     answer: "Yes, we regularly work on canal-front homes throughout Port Charlotte, paying close attention to moisture-tolerant materials and proper waterproofing."
   - question: "Do you offer free tile estimates in Port Charlotte?"
     answer: "Yes, every estimate in Port Charlotte is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+  - question: "How much does a bathroom remodel cost in Port Charlotte?"
+    answer: "A bathroom remodel typically runs $7,000–$15,000. These are typical ranges, not exact prices. Every Port Charlotte estimate is free and comes with a written quote that confirms the cost for your bathroom. Call (941) 276-0305 to get started."
 ---
 
 <section class="hero page-hero">
@@ -119,7 +121,7 @@ faqs:
       <div class="related-grid">
         <a class="related-card" href="/services/bathroom-tile-installation">
           <h3>Bathroom Tile Installation</h3>
-          <p>Floors, tub surrounds, and full bathroom remodels.</p>
+          <p>Bathroom floor tile and tub surrounds.</p>
         </a>
         <a class="related-card" href="/services/shower-tile-installation">
           <h3>Shower Tile Installation</h3>
@@ -239,3 +241,14 @@ Planning a bathroom remodel in Port Charlotte? Rock Solid Tile handles the showe
 - **Waterproofing:** done in-house, along with demolition, setting and grouting.
 
 Learn more on our [shower tile installation](/services/shower-tile-installation) page, or see our [bathroom tile installation](/services/bathroom-tile-installation) page for floors and tub surrounds. Every Port Charlotte estimate is free and comes with a written quote. Call (941) 276-0305 to get started.
+
+## Bathroom Remodels and Custom Showers in Port Charlotte
+
+Rock Solid Tile installs bathroom tile, tub surrounds and custom showers with niches and benches for Port Charlotte homeowners. We also offer [tub-to-shower conversions and curbless showers](/services/shower-tile-installation), with waterproofing done in-house. You can see more about our [bathroom tile installation](/services/bathroom-tile-installation) work, or read our [shower tile installation guide](/blog/shower-tile-installation-guide) before you plan your project.
+
+Typical cost ranges:
+
+- Bathroom remodel: $7,000–$15,000
+- Custom shower: $4,000–$10,000
+
+These are typical ranges, not exact prices. Your cost is confirmed by a free written quote after we see your bathroom. Call (941) 276-0305 to request your free estimate.
