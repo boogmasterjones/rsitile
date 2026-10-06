@@ -1,6 +1,6 @@
 ---
-title: "Tile Installer in North Port, FL | Licensed & Insured"
-description: "Tile installation in North Port, FL for new-construction homes and established neighborhoods. Licensed & insured, 30+ years experience. Free estimates!"
+title: "Bathroom, Floor & Pool Deck Tile in North Port, FL"
+description: "Bathroom tiling, tile flooring, and pool deck tile in North Port, FL from a family-owned, licensed and insured installer. Free written estimates."
 name: "North Port, FL"
 heading: "Tile Installer in North Port, FL"
 summary: "Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout North Port, one of Florida's fastest-growing cities."
@@ -14,6 +14,8 @@ faqs:
     answer: "Yes, we regularly install porcelain, ceramic, and LVP flooring throughout a new North Port home in a single coordinated project, in addition to bathroom, kitchen, and lanai tile."
   - question: "Do you offer free tile estimates in North Port?"
     answer: "Yes, every estimate in North Port is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+  - question: "Can you remove my old flooring and level the subfloor before installing new tile in North Port?"
+    answer: "Yes. Old flooring removal and subfloor leveling are part of our services, and demolition, setting, and grouting are all handled in-house by our own crew. This prep is common in North Port's established neighborhoods, where homeowners are replacing older floors. Your free written quote will lay out the removal and leveling work before we start."
 ---
 
 <section class="hero page-hero">
@@ -228,3 +230,19 @@ faqs:
       </div>
     </div>
   </section>
+
+## Bathroom Tiling in North Port
+
+Bathroom tiling is one of the most common projects we take on for North Port homeowners, from new-construction homes to bathrooms in established neighborhoods that are ready for an update. We tile bathroom floors, tub surrounds, and showers, including custom showers with niches and benches, curbless showers, and tub-to-shower conversions.
+
+Waterproofing, demolition, setting, and grouting are all done in-house by our crew, so one team is responsible for the job from start to finish. Every North Port bathroom project starts with a free estimate and a written quote, so you know the scope before work begins.
+
+[See our bathroom tile installation services](/services/bathroom-tile-installation) or call (941) 276-0305.
+
+## Pool Deck Tile in North Port
+
+Many North Port homes have a pool, lanai, or patio where tile has to handle sun, water, and bare feet. We install tile for pool decks, lanais, and patios, and can work with natural stone tile.
+
+If you are not sure what material to use, we also help with tile supply and sourcing, so you can choose a tile that suits your outdoor space. As with all our work, prep, setting, and grouting are handled in-house by our own crew.
+
+Every pool deck project in North Port starts with a free estimate and a written quote. [Learn more about our patio, lanai, and pool deck tile work](/services/patio-lanai-tile) or call (941) 276-0305.
