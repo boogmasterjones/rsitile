@@ -1,6 +1,6 @@
 ---
 title: "Rock Solid Tile | Tile Installer in Southwest Florida"
-description: "Licensed tile installation contractor serving Southwest Florida. 30+ years, 1,000+ jobs completed, 5-star rated. Free estimates!"
+description: "Family-owned, licensed & insured tile contractor in Port Charlotte and Southwest Florida. 30+ years, 1,000+ jobs. Free estimates with written quotes."
 heading: "Trusted Tile Installer in Southwest Florida"
 subheading: "Rock Solid Tile is a family-owned tile installer that homeowners throughout Southwest Florida have trusted for expert installation for over 30 years — from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral, and Bradenton. Our crew handles bathrooms, kitchens, floors, showers, and…"
 path: "/"
