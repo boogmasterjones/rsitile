@@ -1,7 +1,7 @@
 ---
 title: "Shower Tile Installation: The Complete Guide"
 description: "Shower tile installation costs, the step-by-step process, waterproofing, and materials — a complete guide from a licensed Southwest Florida tile contractor."
-date: 2026-08-12
+date: "2026-08-12"
 category: "Buying Guide"
 author: "Rock Solid Tile"
 image: "/assets/photos/shower/hero.jpg"
@@ -15,9 +15,10 @@ faqs:
     answer: "Generally, no. Tiling directly over an old shower skips the waterproofing membrane and pre-slope that prevent leaks, and it traps whatever moisture damage already exists behind the old tile. A proper shower tile installation starts with demolition down to the studs or existing waterproof substrate."
   - question: "Do I need a permit for shower tile installation?"
     answer: "In most of Southwest Florida, a straightforward tile-over-tile or surface-level shower retile doesn't require a permit, but any work involving plumbing changes, framing, or a full waterproofing rebuild usually does. Requirements vary by county and city, so check with your local building department or ask your contractor to confirm before work starts."
+heading: "Shower Tile Installation: The Complete Guide"
 ---
 
-If you're planning a shower tile installation, the two questions on your mind are probably **what will it cost** and **how do I make sure it's done right**. This guide answers both. We've installed custom tile showers across Southwest Florida for more than 30 years, and this is the same information we walk homeowners through during a free estimate — written down so you can go into the process informed, whether you hire us or someone else.
+If you're planning a shower tile installation, the two questions on your mind are probably **what will it cost** and **how do I make sure it's done right**. This guide answers both. We've installed custom tile showers across Southwest Florida from our home base in [Port Charlotte](/locations/port-charlotte) for more than 30 years, and this is the same information we walk homeowners through during a free estimate — written down so you can go into the process informed, whether you hire us or someone else.
 
 ## How Much Does Shower Tile Installation Cost?
 
@@ -29,7 +30,7 @@ A custom shower tile installation typically costs **$4,000–$10,000** in Southw
 -   **Tile material** — ceramic and porcelain run less expensive than natural stone or handmade/imported tile.
 -   **Features** — niches, built-in benches, mosaic accent bands, and multiple tile types on one wall all add labor time.
 -   **Entry style** — a curbless or zero-entry shower requires more precise slope work and often a linear drain, which adds cost over a standard curbed entry.
--   **Scope** — replacing an existing tub/shower combo is generally faster (and cheaper) than a full gut-and-rebuild.
+-   **Scope** — a tub-to-shower conversion and a full gut-and-rebuild involve different work, and the price reflects that. If your shower is part of a larger bathroom project, see our [bathroom tile installation](/services/bathroom-tile-installation) page.
 
 Any contractor who gives you a firm number over the phone without seeing the space is guessing. A real quote comes after an in-home estimate where the contractor can measure, discuss material options with you, and account for anything unusual about your existing plumbing or framing.
 
@@ -49,7 +50,7 @@ A properly installed shower tile job follows the same general sequence, whether 
 
 A shower is submerged in running water every single day, which puts it in a different category from almost any other surface in your home. Tile itself isn't waterproof — grout lines and even the tile's surface allow some moisture through over time. What actually keeps water out of your walls and subfloor is the waterproofing membrane and correct pre-slope _behind_ the tile, not the tile itself.
 
-This is also why a shower that "looks fine" for the first year or two can still fail: a shortcut in the waterproofing layer doesn't show up as a visible problem until water has already been getting behind the tile for months, at which point you're looking at mold, rot, or a full tear-out and rebuild instead of a simple retile. Ask any contractor bidding your job exactly what waterproofing system they use and how the pre-slope is built — a straight answer is a good sign; a vague one isn't.
+ Ask any contractor bidding your job exactly what waterproofing system they use and how the pre-slope is built — a straight answer is a good sign; a vague one isn't.
 
 ## Choosing the Right Shower Tile Material
 

@@ -1,5 +1,5 @@
 ---
-title: "Kitchen Backsplash Installation | Southwest Florida"
+title: "Kitchen Tile & Backsplash Installation | Sarasota to Cape Coral"
 description: "Kitchen backsplash installation from $2,000–$5,000 across Southwest Florida. Licensed, insured, 30+ years experience. Free written quote!"
 name: "Kitchen Tile & Backsplash Installation"
 heading: "Kitchen Tile & Backsplash Installation in Southwest Florida"
@@ -18,6 +18,8 @@ faqs:
     answer: "Yes, every kitchen tile and backsplash estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
   - question: "How much does a kitchen backsplash installation cost?"
     answer: "A kitchen backsplash installation in Southwest Florida typically costs $2,000–$5,000, depending on tile material and square footage. We'll give you an exact, written quote during your free estimate."
+  - question: "Can you supply and source the tile for my backsplash?"
+    answer: "Yes. Tile supply and sourcing is one of our services, so we can help you find backsplash tile that suits your kitchen. In older homes we can also help match existing tile. We'll go over tile options during your free estimate, which comes with a written quote."
 ---
 
 <section class="hero page-hero">
@@ -220,3 +222,17 @@ faqs:
       </div>
     </div>
   </section>
+
+## Serving Sarasota, Punta Gorda, Port Charlotte & More
+
+Rock Solid Tile is a family-owned tile installer based in Port Charlotte, and we install kitchen backsplashes and kitchen floor tile for homeowners across Charlotte, Sarasota, Lee, and Manatee Counties. Towns we serve include:
+
+- [Sarasota](/locations/sarasota)
+- [Punta Gorda](/locations/punta-gorda)
+- [Port Charlotte](/locations/port-charlotte)
+- [Venice](/locations/venice)
+- [North Port](/locations/north-port)
+- [Cape Coral](/locations/cape-coral)
+- [Bradenton](/locations/bradenton)
+
+Wherever you are in the area, every kitchen tile and backsplash estimate is free and comes with a written quote. Call (941) 276-0305 to get started.
