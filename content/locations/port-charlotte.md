@@ -1,5 +1,5 @@
 ---
-title: "Tile Installer in Port Charlotte, FL | Licensed & Insured"
+title: "Bathroom & Shower Tile Installer in Port Charlotte, FL"
 description: "Tile installation in Port Charlotte, FL from our home-based, licensed & insured crew. 30+ years experience, free estimates. Call today!"
 name: "Port Charlotte, FL"
 heading: "Tile Installer in Port Charlotte, FL"
@@ -32,7 +32,7 @@ faqs:
         <div class="trust-badges">
           <span class="trust-badge">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="m9 12 2 2 4-4"></path></svg>
-            200+ Port Charlotte Tile Projects Completed
+            Home Base: Port Charlotte
           </span>
         </div>
       </div>
@@ -228,3 +228,14 @@ faqs:
       </div>
     </div>
   </section>
+
+## Bathroom & Shower Tile in Port Charlotte
+
+Planning a bathroom remodel in Port Charlotte? Rock Solid Tile handles the shower and the rest of the room.
+
+- **Tub-to-shower conversions:** we replace an old tub with a tiled walk-in shower.
+- **Curbless showers:** a shower with no step at the entry.
+- **Custom showers:** niches and benches for storage and seating.
+- **Waterproofing:** done in-house, along with demolition, setting and grouting.
+
+Learn more on our [shower tile installation](/services/shower-tile-installation) page, or see our [bathroom tile installation](/services/bathroom-tile-installation) page for floors and tub surrounds. Every Port Charlotte estimate is free and comes with a written quote. Call (941) 276-0305 to get started.
