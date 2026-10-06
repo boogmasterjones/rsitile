@@ -1,5 +1,5 @@
 ---
-title: "Tile Installer in Cape Coral, FL | Licensed & Insured"
+title: "Bathroom Tile Installers in Cape Coral, FL | Rock Solid Tile"
 description: "Tile installation in Cape Coral, FL for canal-front homes and the boating lifestyle. Licensed & insured, 30+ years experience. Free estimates!"
 name: "Cape Coral, FL"
 heading: "Tile Installer in Cape Coral, FL"
@@ -14,6 +14,8 @@ faqs:
     answer: "Yes, whole-home tile installation in new-construction homes is a regular part of our Cape Coral work, given how much of the city continues to be built out."
   - question: "Do you offer free tile estimates in Cape Coral?"
     answer: "Yes, every estimate in Cape Coral is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+  - question: "Do you serve all of Lee County?"
+    answer: "Yes, Lee County is part of our service area, including Cape Coral. We also work across Charlotte, Sarasota, and Manatee Counties. Call (941) 276-0305 to confirm your address and set up a free estimate with a written quote."
 ---
 
 <section class="hero page-hero">
