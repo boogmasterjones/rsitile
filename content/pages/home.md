@@ -1,6 +1,6 @@
 ---
-title: "Rock Solid Tile | Tile Installer in Southwest Florida"
-description: "Family-owned, licensed & insured tile contractor in Port Charlotte and Southwest Florida. 30+ years, 1,000+ jobs. Free estimates with written quotes."
+title: "Tile Contractor in Port Charlotte & SW FL | Rock Solid Tile"
+description: "Family-owned, licensed & insured tile contractor with 30+ years in SW Florida. Shower and bathroom tile, free written estimates. Call (941) 276-0305."
 heading: "Trusted Tile Installer in Southwest Florida"
 subheading: "Rock Solid Tile is a family-owned tile installer that homeowners throughout Southwest Florida have trusted for expert installation for over 30 years — from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral, and Bradenton. Our crew handles bathrooms, kitchens, floors, showers, and…"
 path: "/"
@@ -14,7 +14,7 @@ path: "/"
       <div class="hero-grid">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Family-Owned · Licensed &amp; Insured</span>
-        <h1>Trusted Tile Installer in <em>Southwest Florida</em></h1>
+        <h1>Tile Contractor in <em>Southwest Florida</em></h1>
         <p class="hero-lede">Rock Solid Tile is a family-owned tile installer that homeowners throughout Southwest Florida have trusted for expert installation for over 30 years — from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral, and Bradenton. Our crew handles bathrooms, kitchens, floors, showers, and lanais with the same care on every job.</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
@@ -556,3 +556,11 @@ path: "/"
       <p class="area-note">We also proudly serve Charlotte County, Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates, FL. Don't see your town? <a href="#contact">Contact us</a> — we probably still cover it.</p>
     </div>
   </section>
+
+## Tile Installers Serving Southwest Florida
+
+Rock Solid Tile is a family-owned, licensed and insured tile contractor based in Port Charlotte. We install bathroom, shower, kitchen and backsplash, floor, and patio and lanai tile across Charlotte, Sarasota, Lee, and Manatee Counties.
+
+Tile installers serving [Sarasota](/locations/sarasota), [Venice](/locations/venice), [North Port](/locations/north-port), [Port Charlotte](/locations/port-charlotte), [Punta Gorda](/locations/punta-gorda), [Cape Coral](/locations/cape-coral), and [Bradenton](/locations/bradenton).
+
+Call (941) 276-0305 for a free estimate with a written quote.
