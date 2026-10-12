@@ -6,16 +6,16 @@ heading: "Bathroom Tile Installation in Southwest Florida"
 summary: "Rock Solid Tile installs bathroom tile floors, tub surrounds, and custom showers for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties."
 order: 1
 faqs:
- - question: "How long does a bathroom tile installation take?"
- answer: "Most single-bathroom tile installations take 3–7 working days depending on scope — a tub surround replacement is faster than a full floor-to-ceiling remodel with a custom shower. We'll give you a specific timeline during your free estimate."
- - question: "Do you handle waterproofing, or just the tile?"
- answer: "We handle the entire installation, including cement board, waterproofing membranes, and proper slope to the drain. Correct waterproofing is what prevents leaks and tile failure down the road, so we never skip this step."
- - question: "Do I need to buy the tile myself, or can you provide it?"
- answer: "Either way works. We can source and supply tile for you through our suppliers, or install tile you've already purchased yourself — we'll go over material options and pricing during your free estimate so you can decide what makes sense."
- - question: "Do you offer free estimates for bathroom tile projects?"
- answer: "Yes, every bathroom tile estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
- - question: "How much does a bathroom tile remodel cost?"
- answer: "A typical bathroom tile remodel in Southwest Florida costs $7,000–$15,000, depending on scope — a single tub surround replacement costs less than a full floor-to-ceiling remodel with a custom shower. We'll give you an exact, written quote during your free estimate."
+  - question: "How long does a bathroom tile installation take?"
+    answer: "Most single-bathroom tile installations take 3–7 working days depending on scope — a tub surround replacement is faster than a full floor-to-ceiling remodel with a custom shower. We'll give you a specific timeline during your free estimate."
+  - question: "Do you handle waterproofing, or just the tile?"
+    answer: "We handle the entire installation, including cement board, waterproofing membranes, and proper slope to the drain. Correct waterproofing is what prevents leaks and tile failure down the road, so we never skip this step."
+  - question: "Do I need to buy the tile myself, or can you provide it?"
+    answer: "Either way works. We can source and supply tile for you through our suppliers, or install tile you've already purchased yourself — we'll go over material options and pricing during your free estimate so you can decide what makes sense."
+  - question: "Do you offer free estimates for bathroom tile projects?"
+    answer: "Yes, every bathroom tile estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+  - question: "How much does a bathroom tile remodel cost?"
+    answer: "A typical bathroom tile remodel in Southwest Florida costs $7,000–$15,000, depending on scope — a single tub surround replacement costs less than a full floor-to-ceiling remodel with a custom shower. We'll give you an exact, written quote during your free estimate."
 ---
 
 <section class="hero page-hero">
