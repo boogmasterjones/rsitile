@@ -31,7 +31,7 @@ path: "/"
           </span>
           <span class="trust-badge">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 9 9l-7 1 5 5-1.5 7L12 18l6.5 4L17 15l5-5-7-1-3-7z"></path></svg>
-            5-Star Rated
+            Family-Owned &amp; Operated
           </span>
           <span class="trust-badge">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>
@@ -184,7 +184,7 @@ path: "/"
       <div class="section-head">
         <span class="eyebrow">Testimonials</span>
         <h2>What Southwest Florida Homeowners Are Saying</h2>
-        <p>Real 5-star reviews from real customers on Google.</p>
+        <p>Real reviews from real customers on Google.</p>
       </div>
       <div class="carousel carousel--reviews">
         <button class="carousel-btn carousel-prev" type="button" aria-label="Previous review">‹</button>
@@ -493,7 +493,7 @@ path: "/"
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 9 9l-7 1 5 5-1.5 7L12 18l6.5 4L17 15l5-5-7-1-3-7z"></path></svg>
             </span>
             <div>
-              <h3>1,000+ Jobs, 5-Star Rated</h3>
+              <h3>1,000+ Jobs Completed</h3>
               <p>Over a thousand completed projects and a reputation built on quality craftsmanship.</p>
             </div>
           </div>
