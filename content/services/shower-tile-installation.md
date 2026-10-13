@@ -76,7 +76,7 @@ faqs:
       <div class="two-col">
         <div class="content-block">
           <h2>Why Is Waterproofing the Most Important Part of a Shower Remodel?</h2>
-          <p>Because a shower takes on more sustained water exposure than any other surface in your home, so the waterproofing behind the tile matters as much as the tile itself. Rock Solid Tile has built custom showers across Southwest Florida for more than 30 years, and every job starts with a proper waterproofing membrane and correctly sloped pre-pitch to the drain — not just a coat of sealant over cement board. We've torn out and rebuilt countless bathrooms that other contractors got wrong, and in three decades we've never had a single one of our own showers leak.</p>
+          <p>Because a shower takes on more sustained water exposure than any other surface in your home, so the waterproofing behind the tile matters as much as the tile itself. Rock Solid Tile has built custom showers across Southwest Florida for more than 30 years, and every job starts with a proper waterproofing membrane and correctly sloped pre-pitch to the drain — not just a coat of sealant over cement board. We've torn out and rebuilt countless bathrooms that other contractors got wrong, and we build ours to avoid the same mistakes.</p>
           <p>From a simple tub-to-shower conversion to a fully custom curbless shower with a linear drain, niche, and bench, our crew handles framing, waterproofing, layout, setting, and grouting in-house, with a clear written scope before we start.</p>
           <h2>Our Shower Tile Installation Process</h2>
           <ul>
