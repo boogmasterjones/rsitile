@@ -53,3 +53,14 @@ npm run audit
 - GA4: one property per site named `[Niche] [Main City]`; put the measurement ID in `data/site.json` (`site.gaMeasurementId`). Call clicks are then tracked automatically with a per-location label.
 - Check the backlink profile for spam before and after launch (Ahrefs free checker); disavow through Search Console if needed.
 - Run PageSpeed Insights (mobile and desktop) and Seobility on the live URL, not localhost.
+
+## Operational notes (accounts and printed QR codes)
+
+- **Google Search Console** is set up for `https://rsitile.com/` and is owned by **gobiggify@gmail.com** (it is `authuser=1` in the agency browser profile).
+- **GA4** (`G-1VZNJ7102H`) is **not** on gobiggify: the "Rock Solid Tile" property lives under **boogmasterjones@gmail.com**, and even there some admin screens report missing permissions. Anything GA4-side has to be done from that account.
+- **Printed QR code**: physical ads (golf course booklet, course signage) carry a QR code encoding `HTTPS://RSITILE.COM/QR`. `public/_redirects` 302s both `/qr` and `/QR` to the homepage with `?utm_source=print&utm_medium=qr&utm_campaign=golf-course`.
+  - **Never rename those paths**: printed codes cannot be reissued, so only the destination may change.
+  - It is a 302, not a 301, so browsers do not cache an old destination.
+  - The UTM tags live in the redirect rather than in the encoded URL, so the code stays short (uppercase plus a short path scans from farther away) and the tags stay editable.
+  - Path matching is case-sensitive, hence two rules.
+  - GA4 reads the `utm_*` parameters automatically; scans show up in Traffic acquisition as `print / qr`.
