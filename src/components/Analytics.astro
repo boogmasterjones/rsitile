@@ -8,9 +8,11 @@ const { id } = Astro.props;
 <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${id}`}></script>
 <script is:inline define:vars={{ id }}>
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+  // Astro wraps a script that uses define:vars in a function, so a plain `function gtag` would be private to it. The pages' phone-click and
+  // form events check for a global gtag, and without this they never fire. Assigning to window makes it global.
+  window.gtag = function gtag() {
+    window.dataLayer.push(arguments);
+  };
   gtag('js', new Date());
   gtag('config', id);
 </script>
