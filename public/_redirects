@@ -1,3 +1,18 @@
+# ---------------------------------------------------------------------------
+# PRINTED QR CODE TARGET — DO NOT DELETE OR RENAME THESE PATHS.
+# Printed ads (golf course booklet, course signage) carry a QR code encoding
+# HTTPS://RSITILE.COM/QR. Printed codes cannot be reissued, so these paths must
+# keep working for as long as that material is in circulation. To send QR
+# traffic somewhere else later, change only the destination below — never the
+# path. 302 (not 301) on purpose: browsers cache a 301 hard, which would pin
+# people to an old destination after the target changes.
+# The UTM tags live here rather than in the QR itself, so the encoded URL stays
+# short (fewer modules = scans from farther away) and the tags stay editable.
+# The printed code uses CAPS (uppercase packs into a smaller, coarser QR), and
+# path matching is case-sensitive, so both cases are listed.
+/qr    /?utm_source=print&utm_medium=qr&utm_campaign=golf-course    302
+/QR    /?utm_source=print&utm_medium=qr&utm_campaign=golf-course    302
+
 # Old addresses permanently redirect to the new clean addresses.
 /404.html                                                    /404                                               301!
 /blog/bathroom-tile-installation-bradenton.html              /blog/bathroom-tile-installation-bradenton         301!
