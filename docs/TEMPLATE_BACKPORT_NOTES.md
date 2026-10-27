@@ -1,0 +1,17 @@
+# Template back-port notes (Rock Solid Tile v3, 2026-10-27)
+
+The template (`C:/dev/biggify-site-template`) was read-only for this build, so these blocks were built in this repo. Each should be back-ported as a catalogued block, adapted per site (none is a default look). The Rock Solid Tile versions are the look reserved for this site in the identity brief.
+
+| Catalog ID | What was built here | Where | Treat as |
+|---|---|---|---|
+| HERO-12 Mosaic grid | Headline, chip, intro and two buttons on the left; six real photos on a 4 x 3 grid in hairline frames on the right; tiles reveal one by one (`clip-path`), slow parallax and a slight pointer tilt on desktop. Phones hide the mosaic and float one photo beside the intro (SITE_RULES 10.10, 10.12). Each frame uses a `<source media>` 1x1 placeholder so the hidden copy never downloads, which kept the phone LCP at one image. | `src/pages/index.astro` (hero block), `src/components/Photo.astro` (`skip`), `src/styles/site.css` ("homepage hero") | adapt |
+| HERO-12 inner variant | The same band, smaller, on every inner page: ambient, chip, H1, lede, buttons, and either a three-photo mini mosaic or a four-fact panel when a page has no photo. | `.page-hero`, `.hero-photos`, `.hero-facts` in `site.css`; markup in `content/*` heroes | adapt |
+| AMB-08 Grout shimmer | Espresso ground with a brass grout grid masked to a soft oval, one slow light sweep (10 s) and drifting marble veins (one inline SVG data URI). Transform-only, paused off screen (IntersectionObserver adds `.paused`). | `.amb` in `site.css`, `[data-amb]` in `public/js/main.js` | adapt |
+| SIG-10 Grout line draw (with centre cross) | On the perspective-corrected hex-floor photo: the centre cross draws, a diamond marks the centre, then the hexagon grout traces outward ring by ring, settles to 70 %, and a "Layout first" caption fades in. Plays once when in view; the hex geometry is measured from the rectified photo. | `[data-sig]` in `index.astro`, signature block in `main.js`, `.sig` in `site.css` | adapt (the geometry must be measured per photo) |
+| MARK-01 (standing-tile "I") | The I of the RSI monogram as a CSS mask (`--mark-url`): eyebrow marker, bullets, card corners, footer titles, favicon. | `site.css` `.mark`, `public/favicon.svg` | adapt (mark is per client) |
+| Filmstrip carousel (CAR-08 variant) | Natural-width photos at one height, counter + progress bar, Pause button, autoplay that pauses on hover, focus, touch, off screen and in background tabs; no snap until the visitor scrolls. | `[data-strip]` in `index.astro` and `main.js` | plumbing with adaptable CSS |
+| Compact reviews block | A rating strip and 3-4 chosen reviews for inner pages (no dates). | `src/components/Reviews.astro` (`variant="compact"`) | plumbing |
+| Footer CTA panel (FOOT-03 style) | The footer opens with a Call + estimate row so no page ends on a plain section. | `src/components/Footer.astro` | plumbing |
+| 800w WebP in the image step | `scripts/optimize-images.mjs` now also writes `name-800w.webp`; `Picture`/`Photo` emit `800w, full` srcsets. | `scripts/optimize-images.mjs`, `src/lib/images.ts` | plumbing (the template should get it) |
+
+Also worth back-porting as checks: a `picture > source{display:none}` guard (with `picture{display:contents}` the `<source>` elements otherwise become grid items and push photos into the wrong cell), and a test-harness note that full-page screenshots resize the viewport and break `100svh` heroes (use screen-by-screen shots for phone QA).
