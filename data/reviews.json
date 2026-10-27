@@ -1,0 +1,14 @@
+{
+  "_note": "Real Google reviews, word for word, as already published on the live homepage. No dates (owner decision 2026-10-26). The rating line is the owner-confirmed 5.0 from 17 Google reviews.",
+  "rating": { "value": "5.0", "count": 17, "url": "https://maps.app.goo.gl/SiuYt8LwLa9h79CBA" },
+  "reviews": [
+    { "id": "jill", "name": "Jill", "lead": true, "text": "Matt & Wyatt at Rock Solid do incredible work. Not only do they hang tile and lay flooring well, but they do it impeccably. Their floor leveling, pattern matching, water mitigation and alignment are above excellence." },
+    { "id": "craig", "name": "Craig", "text": "Great tile installers. Had some very intricate work that needed to be done and these guys had no problem making it look spectacular. Also they're a family and really cool people." },
+    { "id": "mary", "name": "Mary", "text": "They do incredible work! They are very detailed and patient, listening to all the ideas we had for our renovation. They made our vision come to life in every room! Can't wait to hire them again for the next project!" },
+    { "id": "jed", "name": "Jed", "text": "I couldn't be happier with the work. He tiled my office and did an outstanding job from start to finish. The attention to detail, craftsmanship, and professionalism really stood out, and the finished product looks fantastic. I wouldn't hesitate to recommend him to anyone looking for high-quality tile work." },
+    { "id": "jessica", "name": "Jessica", "text": "These guys are the best. They replaced the old carpet in my house with LVP. It looks amazing. They were even able to get it in around my old 1970s stone fireplace and it looks seamless. They were great to work with and showed up on time and got the job done within the time frame they gave me. 10 out of 10!!" },
+    { "id": "janet", "name": "Janet", "text": "Best experience! Beautiful outcome!! Such perfection! We had our 1st and 2nd bathroom updated by Rock Solid, and had them back for both. They were instrumental in helping me get the best design and outcome. He also replaced my tile throughout the house — grout lines barely show and the floor looks smooth. I highly recommend." },
+    { "id": "russell", "name": "Russell", "text": "They did an amazing job on our bathroom. They do professional work in a timely fashion. We highly recommend them." },
+    { "id": "taylor", "name": "Taylor", "text": "Great company to work with! Very professional, hard-working, and easy to do business with. They had all the proper tooling and did the job right, and quickly as well. The floors look great!" }
+  ]
+}

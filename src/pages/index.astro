@@ -1,15 +1,279 @@
 ---
+// Homepage, built to the owner-approved concept (rock-solid-tile-concept, 2026-10-26).
+// Order (SITE_RULES 1.1): hero > photo carousel > quote form > reviews > everything else.
+// CTA cadence (2.1): hero (CTA) . work (CTA row) . form . reviews . services (CTA row) . steps . why (CTA) . areas . footer panel (CTA).
+// Words come from the live homepage (content/pages/home.md and the ported sections), so nothing indexable was lost.
 import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Photo from '../components/Photo.astro';
+import Reviews from '../components/Reviews.astro';
+import QuoteForm from '../components/QuoteForm.astro';
 import { getHome, getLocations, getServices } from '../lib/content';
 import { businessSchema, faqSchema } from '../lib/schema';
+import { phoneHref, site } from '../lib/site';
+import photos from '../../data/photos.json';
 
 const page = await getHome();
 const { Content } = await render(page);
 const [services, locations] = await Promise.all([getServices(), getLocations()]);
 const jsonLd = [businessSchema(locations.map((l) => l.data.city), services.map((s) => s.data.name)), ...(page.data.faqs.length > 0 ? [faqSchema(page.data.faqs)] : [])];
+const tel = phoneHref(site.business.phone);
+const phone = site.business.phone;
+const m = Object.fromEntries(photos.mosaic.map((p) => [p.key, p]));
+const two = (n: number) => String(n).padStart(2, '0');
+
+const serviceCards = [
+  { href: '/services/bathroom-tile-installation', title: 'Bathroom Tile Installation', text: 'Floor-to-ceiling bathroom tile installation built to handle Florida humidity and last for decades.', more: 'View Service', photo: { src: m.bath.src, alt: 'Bathroom with a freestanding tub and a tiled walk-in shower' } },
+  { href: '/services/shower-tile-installation', title: 'Shower Tile Installation', text: 'Custom tile showers with proper waterproofing, niches, and benches installed by licensed pros.', more: 'View Service', photo: { src: photos.more.travertine.src, alt: photos.more.travertine.alt } },
+  { href: '/services/kitchen-tile-installation', title: 'Kitchen Tile & Backsplash', text: 'Kitchen floor tile and custom backsplashes that tie your whole kitchen remodel together.', more: 'View Service', photo: { src: photos.gallery[6].src, alt: photos.gallery[6].alt } },
+  { href: '/services/floor-tile-installation', title: 'Floor Tile Installation', text: 'Ceramic, porcelain, natural stone, and LVP flooring installed level, square, and built to last.', more: 'View Service', photo: { src: photos.more.floorRoom.src, alt: photos.more.floorRoom.alt } },
+];
+const areaBlurbs: Record<string, string> = {
+  sarasota: 'Downtown condos, coastal homes & upscale remodels.',
+  venice: 'Historic downtown & beachside tile installation.',
+  'north-port': "Tile installation for one of Florida's fastest-growing communities.",
+  'port-charlotte': 'Our home base — canal-front homes & whole-home tile installation.',
+  'punta-gorda': 'Historic waterfront homes & new construction tile installation.',
+  'cape-coral': 'Canal-front homes & boating-lifestyle lanai tile installation.',
+  bradenton: 'Riverfront homes & historic downtown tile installation.',
+};
 ---
 
-<Base title={page.data.title} description={page.data.description} image={page.data.image} jsonLd={jsonLd} bodyClass={page.data.bodyClass}>
-  <Content />
+<Base title={page.data.title} description={page.data.description} image={page.data.image} jsonLd={jsonLd} bodyClass="home" home>
+  <div class="top" data-amb>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
+    <section class="hero" aria-labelledby="hero-h">
+      <div class="wrap">
+        <div class="hero-copy">
+          <span class="chip"><span class="mark" aria-hidden="true"></span>Family-Owned · Licensed &amp; Insured</span>
+          <div>
+            <h1 id="hero-h">Tile Contractor<br> in <span class="accent">Southwest</span><br> <span class="accent">Florida</span></h1>
+            <div class="intro-wrap">
+              <div class="phone-photo" aria-hidden="true" data-phone-photo>
+                <Photo src={photos.phoneHero.src} alt={photos.phoneHero.alt} sizes="45vw" eager skip="desktop" />
+                <span class="ph-cap">{photos.phoneHero.caption}</span>
+              </div>
+              <p class="intro">Rock Solid Tile is a family-owned tile installer that Southwest Florida homeowners have trusted for over 30 years, from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral and Bradenton.</p>
+            </div>
+          </div>
+          <div>
+            <div class="ctas">
+              <a class="btn btn-call glint" href={tel} data-cta="hero"><span class="ring"></span><Icon name="phone" />Call {phone}</a>
+              <a class="btn btn-ghost" href="#contact">Get a Free Estimate</a>
+            </div>
+            <a class="jump" href="#contact" data-jump>Or get a quote in 30 seconds</a>
+          </div>
+        </div>
+
+        <div class="mosaic-wrap">
+          <div class="mosaic" data-mosaic role="group" aria-label="Six finished tile jobs">
+            <figure class="cell c-bath"><Photo src={m.bath.src} alt={m.bath.alt} sizes="(max-width: 1180px) 40vw, 560px" eager skip="phone" /><figcaption>{m.bath.caption}</figcaption></figure>
+            <figure class="cell c-hex" data-sigcell>
+              <Photo src={m.hex.src} alt={m.hex.alt} sizes="220px" skip="phone" />
+              <svg class="sig" data-sig viewBox="0 0 1400 823" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g class="grout"></g><g class="cross"></g></svg>
+              <div class="sig-cap" data-sigcap><b>Layout first.</b>We find the centre before the first tile is set, so the pattern lands even.</div>
+              <figcaption>{m.hex.caption}</figcaption>
+            </figure>
+            <figure class="cell c-slab"><Photo src={m.slab.src} alt={m.slab.alt} sizes="220px" skip="phone" /><figcaption>{m.slab.caption}</figcaption></figure>
+            <figure class="cell c-kitchen"><Photo src={m.kitchen.src} alt={m.kitchen.alt} sizes="220px" skip="phone" /><figcaption>{m.kitchen.caption}</figcaption></figure>
+            <figure class="cell c-tub"><Photo src={m.tub.src} alt={m.tub.alt} sizes="220px" skip="phone" /><figcaption>{m.tub.caption}</figcaption></figure>
+            <figure class="cell c-fire"><Photo src={m.fire.src} alt={m.fire.alt} sizes="220px" skip="phone" /><figcaption>{m.fire.caption}</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="proof" role="group" aria-label="At a glance">
+      <div class="wrap">
+        <div class="pf"><b>30<small>+</small></b><span>Years in Business<br>in Southwest Florida</span></div>
+        <div class="pf"><b>1,000<small>+</small></b><span>Jobs Completed</span></div>
+        <div class="pf"><b>5.0<small>★</small></b><span>on Google from<br>17 reviews</span></div>
+        <div class="pf"><b>Free</b><span>in-home estimates<br>with a written quote</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Our Work carousel: the live site's 15 photos in the live order -->
+  <section class="sec bg-grid work" id="our-work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <div data-rv>
+          <div class="eyebrow-row"><span class="label">Our Work</span></div>
+          <h2 id="work-h">See Our Tile Work Across<br> Southwest Florida</h2>
+          <span class="rule"></span>
+        </div>
+        <p data-rv style="--d:2">A look at recent bathroom, kitchen, floor, and outdoor tile installations completed by our crew across Southwest Florida.</p>
+      </div>
+    </div>
+    <div class="strip" data-strip data-autoplay="4200" role="region" aria-roledescription="carousel" aria-label="Recent tile work">
+      <div class="track" data-track tabindex="0" aria-label="Recent tile work, use the arrow keys or scroll for more">
+        {photos.gallery.map((s, n) => (
+          <div class="shot" role="group" aria-roledescription="slide" aria-label={`${n + 1} of ${photos.gallery.length}`}>
+            <Photo src={s.src} alt={s.alt} sizes="(max-width: 760px) 250px, 820px" />
+            <span class="figcap"><b>{two(n + 1)}</b>{s.caption}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="ctrls">
+        <button type="button" data-prev aria-label="Previous photo"><Icon name="arrow" /></button>
+        <button type="button" data-next aria-label="Next photo"><Icon name="arrow" /></button>
+        <button type="button" class="pause" data-pause aria-pressed="false">Pause</button>
+        <span class="count" data-count aria-live="polite">01<span>/ {photos.gallery.length}</span></span>
+        <span class="bar" aria-hidden="true"><i data-bar></i></span>
+      </div>
+      <div class="cta-row" data-rv>
+        <p>Seen a floor or wall you like? Let's talk it through.</p>
+        <a class="btn btn-umber" href={tel} data-cta="work"><Icon name="phone" />Call {phone}</a>
+        <a class="btn btn-line" href="#contact">Get a Free Estimate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact: the quote form on the espresso band -->
+  <section class="quote" id="contact" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div data-rv>
+        <div class="eyebrow-row"><span class="label">Get In Touch</span></div>
+        <h2 id="contact-h">Schedule a Call or Request a Quote</h2>
+        <span class="rule"></span>
+        <p class="lead">However you'd like to get started, we're happy to help — pick a time for us to call you back, or send over your project details below and we'll follow up to set up your free estimate.</p>
+        <ol class="q-list">
+          <li><b>01</b>Call or Request a Quote</li>
+          <li><b>02</b>Free In-Home Estimate</li>
+          <li><b>03</b>Written Quote &amp; Schedule</li>
+          <li><b>04</b>Installation &amp; Walkthrough</li>
+        </ol>
+        <a class="q-call" href={tel} data-cta="contact"><span>Rather talk it through?</span><strong>{phone}</strong></a>
+      </div>
+      <div class="form" data-rv style="--d:2">
+        <span class="label">About a minute</span>
+        <div class="quote-form-head">
+          <h3>Request A Quote Today</h3>
+          <p>Fill out the form below and we'll follow up to set up your free estimate.</p>
+        </div>
+        <QuoteForm />
+      </div>
+      <div class="q-side" data-rv style="--d:3">
+        <ul class="q-facts">
+          <li><span><b>Email</b> · <a href={`mailto:${site.business.email}`}>{site.business.email}</a></span></li>
+          <li><span><b>Service Area</b> · Charlotte, Sarasota, Lee, and Manatee Counties</span></li>
+          <li><span><b>Licensed &amp; Insured</b> · Free estimates on every project</span></li>
+        </ul>
+        <details class="sched" data-calendly-details>
+          <summary>Schedule A Call: pick a time for us to call you back</summary>
+          <div class="calendly-inline-widget" data-calendly-lazy data-url="https://calendly.com/rsitile-info/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <Reviews variant="full" />
+
+  <!-- Services -->
+  <section class="sec bg-grid" id="services" aria-labelledby="svc-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <div data-rv>
+          <div class="eyebrow-row"><span class="label">What We Do</span></div>
+          <h2 id="svc-h">Tile Installation Services<br> in Southwest Florida</h2>
+          <span class="rule"></span>
+        </div>
+        <p data-rv style="--d:2">From full bathroom remodels to lanai floors, Rock Solid Tile handles every tile installation project with the same craftsmanship that's earned us 1,000+ completed jobs. Our crew handles bathrooms, kitchens, floors, showers, and lanais with the same care on every job.</p>
+      </div>
+      <div class="svc-grid">
+        {serviceCards.map((c, n) => (
+          <a class="svc" href={c.href} data-rv style={`--d:${n + 1}`}>
+            <span class="glare"></span>
+            <div class="ph-img"><Photo src={c.photo.src} alt={c.photo.alt} sizes="(max-width: 760px) 50vw, 25vw" /><span class="idx">{two(n + 1)}</span></div>
+            <div class="body"><h3>{c.title}</h3><p>{c.text}</p><span class="more">{c.more} <Icon name="arrow" size={16} /></span></div>
+          </a>
+        ))}
+        <a class="svc svc-wide" href="/services/patio-lanai-tile" data-rv>
+          <span class="glare"></span>
+          <div class="tiles" aria-hidden="true"><span class="idx">05</span></div>
+          <div class="body"><h3>Patio &amp; Lanai Tile</h3><p>Slip-resistant outdoor tile for lanais, patios, and pool decks built for Florida weather.</p><span class="more">View Service <Icon name="arrow" size={16} /></span></div>
+        </a>
+      </div>
+      <div class="cta-row" data-rv>
+        <p>Not sure which service fits your project? Ask us.</p>
+        <a class="btn btn-umber" href={tel} data-cta="services"><Icon name="phone" />Call {phone}</a>
+        <a class="btn btn-line" href="#contact">Get a Free Estimate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="sec bg-stone grout" id="how-it-works" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <div data-rv>
+          <div class="eyebrow-row"><span class="label">How It Works</span></div>
+          <h2 id="how-h">Getting Your Tile Project<br> Started Is Simple</h2>
+          <span class="rule"></span>
+        </div>
+        <p data-rv style="--d:2">Four steps from your first call to the finished floor — with a written quote before any work begins.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="num">01</div><h3>Call or Request a Quote</h3><p>Reach out by phone or send your project details through the form — whichever is easier.</p></div>
+        <div class="step"><div class="num">02</div><h3>Free In-Home Estimate</h3><p>We measure the space, talk through materials, and answer your questions in person.</p></div>
+        <div class="step"><div class="num">03</div><h3>Written Quote &amp; Schedule</h3><p>You get a clear scope of work and firm price, then we lock in a start date that works for you.</p></div>
+        <div class="step"><div class="num">04</div><h3>Installation &amp; Walkthrough</h3><p>Prep, layout, setting, and grout — finished with a walkthrough before we call it done.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why us -->
+  <section class="section section--navy" aria-labelledby="why-h">
+    <div class="container">
+      <div class="why-grid">
+        <div data-rv>
+          <div class="eyebrow-row"><span class="label" style="color:var(--on-dark)">Why Homeowners Choose Us</span></div>
+          <h2 id="why-h">A Locally Owned Tile Contractor You Can Actually Rely On</h2>
+          <p>Rock Solid Tile has been installing tile across Southwest Florida for over 30 years. We're not a franchise — when you call Rock Solid Tile, you're working with the same local team that's built its reputation here for three decades.</p>
+          <p>Not sure what to look for in a contractor? Read our guide on <a href="/blog/how-to-choose-a-tile-contractor">how to choose a tile contractor</a> before you hire anyone.</p>
+          <div class="hero-actions" style="margin-top:32px">
+            <a class="btn btn-call" href={tel} data-cta="why"><Icon name="phone" />Call {phone}</a>
+            <a class="btn btn-ghost" href="#contact">Get a Free Estimate</a>
+          </div>
+        </div>
+        <div class="why-list">
+          <div class="why-item"><span class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3z"></path></svg></span><div><h3>Licensed &amp; Insured</h3><p>Fully licensed and insured for every tile installation project, big or small.</p></div></div>
+          <div class="why-item"><span class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg></span><div><h3>30+ Years of Experience</h3><p>Three decades of tile installation know-how, from single-room updates to whole-home remodels.</p></div></div>
+          <div class="why-item"><span class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg></span><div><h3>Free, No-Obligation Estimates</h3><p>Every project starts with a free estimate and a clear, written quote — no surprises.</p></div></div>
+          <div class="why-item"><span class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 9 9l-7 1 5 5-1.5 7L12 18l6.5 4L17 15l5-5-7-1-3-7z"></path></svg></span><div><h3>1,000+ Jobs Completed</h3><p>Over a thousand completed projects and a reputation built on quality craftsmanship.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service areas + the keyword section from home.md -->
+  <section class="sec bg-grid" id="areas" aria-labelledby="areas-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <div data-rv>
+          <div class="eyebrow-row"><span class="label">Service Areas</span></div>
+          <h2 id="areas-h">Tile Installation Near You<br> in Southwest Florida</h2>
+          <span class="rule"></span>
+        </div>
+        <p data-rv style="--d:2">Headquartered in Port Charlotte, our crew installs tile throughout Southwest Florida — from Sarasota and Venice to Cape Coral and Bradenton, and everywhere in between.</p>
+      </div>
+      <div class="area-grid">
+        {locations.map((l) => (
+          <a class="area-card" href={`/locations/${l.id}`}>
+            <span class="icon-badge"><Icon name="pin" size={22} /></span>
+            <h3>{l.data.name}</h3>
+            <p>{areaBlurbs[l.id] ?? l.data.summary}</p>
+            <span class="card-link">View Area</span>
+          </a>
+        ))}
+      </div>
+      <p class="area-note">We also proudly serve Charlotte County, Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates, FL. Don't see your town? <a href="#contact">Contact us</a> — we probably still cover it.</p>
+      <div class="prose home-seo" style="margin-top:56px;max-width:52em">
+        <Content />
+      </div>
+    </div>
+  </section>
 </Base>

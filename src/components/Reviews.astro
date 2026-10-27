@@ -1,0 +1,69 @@
+---
+// Real Google reviews, word for word, no dates (owner decision 2026-10-26).
+// variant "full": the homepage block, a big rating card beside a masonry of all eight.
+// variant "compact": inner pages, a rating strip and 3-4 chosen reviews.
+import Icon from './Icon.astro';
+import data from '../../data/reviews.json';
+
+interface Props { variant?: 'full' | 'compact'; ids?: string[]; heading?: string; intro?: string; id?: string; tone?: 'stone' | 'ivory' | 'white' }
+const { variant = 'full', ids, heading = 'What Southwest Florida Homeowners Are Saying', intro = 'Real reviews from real customers on Google.', id = 'reviews', tone = variant === 'compact' ? 'white' : 'stone' } = Astro.props;
+const all = data.reviews;
+const list = ids ? ids.map((x) => all.find((r) => r.id === x)).filter((r): r is (typeof all)[number] => Boolean(r)) : all;
+const { rating } = data;
+const headId = `${id}-h`;
+---
+
+<section class={`sec ${tone === 'stone' ? 'bg-stone grout' : tone === 'white' ? 'bg-white bg-grid' : 'bg-grid'} ${variant === 'compact' ? 'rev-compact' : ''}`} id={id} aria-labelledby={headId}>
+  <div class="wrap">
+    <div class="sec-head">
+      <div data-rv>
+        <div class="eyebrow-row"><span class="label">Reviews</span></div>
+        <h2 id={headId}>{heading}</h2>
+        <span class="rule"></span>
+      </div>
+      <p data-rv style="--d:2">{intro}</p>
+    </div>
+    {variant === 'full' ? (
+      <div class="rev-layout">
+        <aside class="score" aria-label="Google rating" data-rv>
+          <span class="label">Google rating</span>
+          <span class="big">{rating.value}</span>
+          <span class="stars" role="img" aria-label="5 out of 5 stars"><i style="--s:0"></i><i style="--s:1"></i><i style="--s:2"></i><i style="--s:3"></i><i style="--s:4"></i></span>
+          <p>From <b>{rating.count} Google reviews</b>.</p>
+          <a class="btn btn-call" href={rating.url} target="_blank" rel="noopener">Read More Reviews on Google<Icon name="arrow" /></a>
+        </aside>
+        <div class="masonry">
+          {list.map((r, n) => (
+            <article class={`rcard${r.lead ? ' lead' : ''}`} data-rv style={`--d:${n % 4}`}>
+              <span class="glare"></span><span class="mark corner" aria-hidden="true"></span>
+              <span class="rs" role="img" aria-label="5 out of 5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+              <blockquote>{r.text}</blockquote>
+              <div class="who"><span class="av" aria-hidden="true">{r.name[0]}</span><span><b>{r.name}</b> · Google review</span></div>
+            </article>
+          ))}
+        </div>
+      </div>
+    ) : (
+      <>
+        <aside class="score" aria-label="Google rating" data-rv>
+          <span class="big">{rating.value}</span>
+          <div>
+            <span class="stars" role="img" aria-label="5 out of 5 stars"><i style="--s:0"></i><i style="--s:1"></i><i style="--s:2"></i><i style="--s:3"></i><i style="--s:4"></i></span>
+          </div>
+          <p>On Google, from <b>{rating.count} reviews</b>.</p>
+          <a class="btn btn-call" href={rating.url} target="_blank" rel="noopener">Read More Reviews on Google<Icon name="arrow" /></a>
+        </aside>
+        <div class="rev-grid">
+          {list.map((r, n) => (
+            <article class="rcard" data-rv style={`--d:${n % 4}`}>
+              <span class="glare"></span><span class="mark corner" aria-hidden="true"></span>
+              <span class="rs" role="img" aria-label="5 out of 5 stars"><i></i><i></i><i></i><i></i><i></i></span>
+              <blockquote>{r.text}</blockquote>
+              <div class="who"><span class="av" aria-hidden="true">{r.name[0]}</span><span><b>{r.name}</b> · Google review</span></div>
+            </article>
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</section>
