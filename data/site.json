@@ -65,18 +65,18 @@
   "brand": {
     "logoText": "Rock Solid Tile",
     "colors": {
-      "primary": "#142338",
-      "primaryAlt": "#0E1726",
-      "action": "#0E6EF5",
-      "accent": "#D2AE52",
-      "surface": "#142034",
-      "surfaceAlt": "#0E1726",
-      "ink": "#F4EFE4",
-      "body": "#BAC4D3"
+      "primary": "#160F08",
+      "primaryAlt": "#22180D",
+      "action": "#3F2B12",
+      "accent": "#A8863A",
+      "surface": "#F5F4F0",
+      "surfaceAlt": "#E9E6DF",
+      "ink": "#231A0F",
+      "body": "#5A5249"
     },
     "fonts": {
-      "heading": "Barlow Condensed",
-      "body": "Plus Jakarta Sans",
+      "heading": "Gloock",
+      "body": "Hanken Grotesk",
       "googleFontsUrl": ""
     }
   },

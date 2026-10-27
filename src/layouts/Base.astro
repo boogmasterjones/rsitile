@@ -1,16 +1,18 @@
 ---
+import '../styles/site.css';
 import Analytics from '../components/Analytics.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { canonicalUrl, site } from '../lib/site';
+import Icon from '../components/Icon.astro';
+import { canonicalUrl, phoneHref, site } from '../lib/site';
 import { serializeJsonLd } from '../lib/schema';
 
-interface Props { title: string; description: string; image?: string; noindex?: boolean; ogType?: 'website' | 'article'; jsonLd?: Record<string, unknown>[]; bodyClass?: string; }
-const { title, description, image, noindex = false, ogType = 'website', jsonLd = [], bodyClass } = Astro.props;
+interface Props { title: string; description: string; image?: string; noindex?: boolean; ogType?: 'website' | 'article'; jsonLd?: Record<string, unknown>[]; bodyClass?: string; home?: boolean; footerCta?: boolean; }
+const { title, description, image, noindex = false, ogType = 'website', jsonLd = [], bodyClass, home = false, footerCta = true } = Astro.props;
 const canonical = canonicalUrl(Astro.url.pathname);
 const ogImage = `${site.site.url}${image ?? site.site.defaultOgImage}`;
 const gaId = site.site.gaMeasurementId;
-const fonts = site.brand.fonts.googleFontsUrl;
+const tel = phoneHref(site.business.phone);
 ---
 
 <!doctype html>
@@ -24,6 +26,7 @@ const fonts = site.brand.fonts.googleFontsUrl;
     {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#160F08">
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -38,19 +41,20 @@ const fonts = site.brand.fonts.googleFontsUrl;
     {jsonLd.map((item) => <script is:inline type="application/ld+json" set:html={serializeJsonLd(item)} />)}
     {gaId && <Analytics id={gaId} />}
     <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PW7BQVS4');</script>
-    {fonts && (<><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link rel="stylesheet" href={fonts} /></>)}
-    <link rel="stylesheet" href="/css/style.css">
-    <style is:inline>picture{display:contents}</style>
+    <script is:inline>document.documentElement.classList.add('js')</script>
   </head>
   <body class={bodyClass}>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW7BQVS4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <Header />
-    <main>
+    <a class="skip" href="#main">Skip to content</a>
+    <Header home={home} />
+    <main id="main">
       <slot />
     </main>
-    <Footer />
-    <script is:inline src="https://assets.calendly.com/assets/external/widget.js"></script>
-    <script is:inline src="/js/main.js"></script>
-    <script is:inline src="/js/progressive-form.js" defer></script>
+    <Footer home={home} cta={footerCta} />
+    <nav class="callbar" data-callbar aria-label="Quick contact">
+      <a class="btn btn-call" href={tel} data-cta="call_bar"><Icon name="phone" />Call now</a>
+      <a class="btn btn-ghost" href={home ? '#contact' : '/#contact'}>Free estimate</a>
+    </nav>
+    <script is:inline src="/js/main.js" defer></script>
   </body>
 </html>
