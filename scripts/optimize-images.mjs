@@ -3,6 +3,8 @@ import { readdirSync, statSync, existsSync, writeFileSync } from 'node:fs';
 import { join, extname } from 'node:path';
 import sharp from 'sharp';
 
+sharp.cache(false); // Windows: a cached handle keeps the file locked while it is rewritten.
+
 const PUBLIC = join(process.cwd(), 'public');
 const IMAGES = join(PUBLIC, 'images');
 const MAX_EDGE = 1600;
@@ -35,6 +37,13 @@ for (const file of walk(IMAGES)) {
     const stale = !existsSync(webp) || statSync(webp).mtimeMs < statSync(file).mtimeMs;
     if (stale) {
       await sharp(file).webp({ quality: 80, effort: 5 }).toFile(webp);
+      converted++;
+    }
+
+    // An 800 px copy for the srcset (SITE_RULES 4.9), so phones never fetch the full-size file.
+    const small = file.slice(0, -ext.length) + '-800w.webp';
+    if (Math.min(meta.width ?? 0, MAX_EDGE) > 800 && (!existsSync(small) || statSync(small).mtimeMs < statSync(file).mtimeMs)) {
+      await sharp(file).resize({ width: 800 }).webp({ quality: 78, effort: 5 }).toFile(small);
       converted++;
     }
   } catch (error) {

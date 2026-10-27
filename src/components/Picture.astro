@@ -1,5 +1,5 @@
 ---
-import { imageInfo } from '../lib/images';
+import { imageInfo, webpSrcset } from '../lib/images';
 
 interface Props {
   src: string;
@@ -10,16 +10,17 @@ interface Props {
   sizes?: string;
 }
 
-const { src, alt, class: className, loading = 'lazy', fetchpriority = 'auto', sizes } = Astro.props;
+const { src, alt, class: className, loading = 'lazy', fetchpriority = 'auto', sizes = '(max-width: 760px) 100vw, 50vw' } = Astro.props;
 const info = await imageInfo(src);
 const width = info?.width ?? 1200;
 const height = info?.height ?? 800;
+const srcset = info ? webpSrcset(info) : undefined;
 ---
 
 {
-  info?.webp ? (
+  srcset ? (
     <picture>
-      <source type="image/webp" srcset={info.webp} sizes={sizes} />
+      <source type="image/webp" srcset={srcset} sizes={sizes} />
       <img src={src} alt={alt} class={className} width={width} height={height} loading={loading} fetchpriority={fetchpriority} decoding="async" />
     </picture>
   ) : (

@@ -1,0 +1,33 @@
+{
+  "_note": "Rock Solid Tile's own job photos, straightened and privacy-cropped (docs/PHOTO_STRAIGHTENING_LOG.md). The gallery is the live site's carousel, in the live order, with the captions corrected (photos 1 and 12 were swapped on the live site).",
+  "gallery": [
+    { "src": "/images/work/c01-arched-window-shower.jpg", "caption": "Shower with Built-In Bench", "alt": "Subway tile shower with a built-in bench and an arched window" },
+    { "src": "/images/work/c02-wood-plank-shower.jpg", "caption": "Wood-Look Plank Tile Shower", "alt": "Wood-look plank tile shower with a terrazzo mosaic floor" },
+    { "src": "/images/work/c03-white-kitchen.jpg", "caption": "Modern White Kitchen", "alt": "Modern white kitchen with a quartz island and marble-look floor tile" },
+    { "src": "/images/work/c04-hex-strip-shower.jpg", "caption": "Hexagon Mosaic Shower", "alt": "Hexagon mosaic tile shower with a vertical accent strip" },
+    { "src": "/images/work/c05-subway-tub.jpg", "caption": "White Subway Tile Tub Surround", "alt": "White subway tile tub surround and deck" },
+    { "src": "/images/work/c06-herringbone.jpg", "caption": "Herringbone Wood-Look Plank", "alt": "Herringbone wood-look plank tile flooring" },
+    { "src": "/images/work/c07-mosaic-backsplash.jpg", "caption": "Full Mosaic Tile Backsplash", "alt": "Kitchen with a full mosaic tile backsplash and a mosaic-wrapped island" },
+    { "src": "/images/work/c08-corner-tub.jpg", "caption": "Corner Soaking Tub", "alt": "Corner soaking tub with a ledgestone accent wall and wood-look plank tile" },
+    { "src": "/images/work/c09-diamond-panel-shower.jpg", "caption": "Mosaic Inset Accent Panel", "alt": "Subway tile shower with a mosaic inset accent panel and corner bench" },
+    { "src": "/images/work/c10-geometric-shower.jpg", "caption": "Geometric Pattern Shower", "alt": "Geometric star-pattern tile shower walls" },
+    { "src": "/images/work/c11-penny-wall-tub.jpg", "caption": "Penny Tile Accent Wall", "alt": "Freestanding tub and glass shower with a penny tile accent wall" },
+    { "src": "/images/work/c12-glass-shower-bench.jpg", "caption": "Glass-Enclosed Shower", "alt": "Glass-enclosed tile shower with a teak bench and matte black fixtures" },
+    { "src": "/images/work/c13-pebble-strip.jpg", "caption": "Pebble Tile Accent Strip", "alt": "Walk-in shower with a vertical pebble tile accent strip" },
+    { "src": "/images/work/c14-blue-glass-backsplash.jpg", "caption": "Blue & Gray Glass Mosaic Backsplash", "alt": "Blue and gray glass mosaic tile backsplash" },
+    { "src": "/images/work/c15-brick-entry.jpg", "caption": "Brick-Pattern Tile Entryway", "alt": "Brick-pattern tile flooring in a home entryway" }
+  ],
+  "mosaic": [
+    { "key": "bath", "src": "/images/work/hero-bath.jpg", "caption": "Walk-in shower & soaking tub", "alt": "Freestanding soaking tub beside a glass walk-in shower with a pebble floor" },
+    { "key": "hex", "src": "/images/work/hero-hex-floor.jpg", "caption": "Marble hex floor", "alt": "Marble-look hexagon floor tile with dark grout lines" },
+    { "key": "slab", "src": "/images/work/hero-slab-shower.jpg", "caption": "Slab shower", "alt": "Marble-look slab shower walls with a circle mosaic floor" },
+    { "key": "kitchen", "src": "/images/work/hero-kitchen.jpg", "caption": "Kitchen backsplash", "alt": "Grey kitchen with a white tile backsplash and quartz counters" },
+    { "key": "tub", "src": "/images/work/hero-tub-window.jpg", "caption": "Subway & arabesque bath", "alt": "Subway tile bath with a marble arabesque feature panel" },
+    { "key": "fire", "src": "/images/work/hero-fireplace.jpg", "caption": "Fireplace surround", "alt": "Stacked-stone fireplace with a floating travertine hearth" }
+  ],
+  "phoneHero": { "src": "/images/work/hero-bath-phone.jpg", "caption": "Walk-in shower", "alt": "Walk-in tile shower with a pebble floor and bronze fixtures beside a freestanding tub" },
+  "more": {
+    "travertine": { "src": "/images/work/svc-travertine-shower.jpg", "caption": "Travertine shower", "alt": "Travertine walk-in shower with a glass mosaic band beside a soaking tub" },
+    "floorRoom": { "src": "/images/work/svc-floor-room.jpg", "caption": "Large-format floor", "alt": "Room with large-format marble-look porcelain floor tile" }
+  }
+}
