@@ -1,6 +1,6 @@
 ---
-title: "Tile Contractor in Port Charlotte & SW FL | Rock Solid Tile"
-description: "Family-owned, licensed & insured tile contractor with 30+ years in SW Florida. Shower and bathroom tile, free written estimates. Call (941) 276-0305."
+title: "Tile Contractor in Port Charlotte, FL | Rock Solid Tile"
+description: "Family-owned, licensed & insured tile contractor with 30+ years in SW Florida. Shower, bathroom & floor tile, free written quotes. Call (941) 276-0305."
 heading: "Trusted Tile Installer in Southwest Florida"
 subheading: "Rock Solid Tile is a family-owned tile installer that homeowners throughout Southwest Florida have trusted for expert installation for over 30 years — from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral, and Bradenton. Our crew handles bathrooms, kitchens, floors, showers, and…"
 path: "/"
