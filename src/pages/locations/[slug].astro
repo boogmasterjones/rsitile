@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Reviews from '../../components/Reviews.astro';
 import { getLocations } from '../../lib/content';
 import { areaSchema, breadcrumbSchema, faqSchema, serviceSchema } from '../../lib/schema';
 import { site } from '../../lib/site';
@@ -13,9 +14,12 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const path = `/locations/${entry.id}`;
+// Three or four real reviews under every location page (owner decision 2026-10-26).
+const REVIEWS: Record<string, string[]> = { sarasota: ['mary', 'jill', 'taylor'], venice: ['janet', 'craig', 'jed'], 'north-port': ['jessica', 'russell', 'mary'], 'port-charlotte': ['jill', 'janet', 'taylor', 'craig'], 'punta-gorda': ['craig', 'jed', 'jessica'], 'cape-coral': ['taylor', 'mary', 'russell'], bradenton: ['jed', 'janet', 'jill'] };
 const jsonLd = [areaSchema(entry.data.city, path), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Service Areas', path: '/locations' }, { name: entry.data.name, path }]), ...(entry.data.faqs.length > 0 ? [faqSchema(entry.data.faqs)] : [])];
 ---
 
 <Base title={entry.data.title} description={entry.data.description} image={entry.data.image} jsonLd={jsonLd}>
   <Content />
+  <Reviews variant="compact" ids={REVIEWS[entry.id] ?? ['jill', 'craig', 'mary']} />
 </Base>

@@ -17,8 +17,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/venice-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/venice-hero.jpg" alt="Tile installation Venice FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -36,6 +35,7 @@ faqs:
           </span>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c02-wood-plank-shower.webp" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c02-wood-plank-shower.jpg" alt="Wood-look plank tile shower with a terrazzo mosaic floor" width="772" height="1600" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Wood-Look Plank Tile Shower</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-tub-window-800w.webp 800w, /images/work/hero-tub-window.webp 1200w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/hero-tub-window.jpg" alt="Subway tile bath with a marble arabesque feature panel" width="1200" height="674" loading="lazy" decoding="async"></picture><figcaption>Subway &amp; arabesque bath</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c14-blue-glass-backsplash-800w.webp 800w, /images/work/c14-blue-glass-backsplash.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c14-blue-glass-backsplash.jpg" alt="Blue and gray glass mosaic tile backsplash" width="1400" height="1052" loading="lazy" decoding="async"></picture><figcaption>Blue &amp; Gray Glass Mosaic Backsplash</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -47,7 +47,7 @@ faqs:
           <p>Many of Venice's downtown homes and commercial buildings still reflect the city's original Northern Italian Renaissance-style architecture, and older homes throughout the area often have existing terrazzo or ceramic tile that needs careful matching or a clean transition point during a remodel. Out toward South Venice and Nokomis, newer single-family neighborhoods call for more straightforward whole-home flooring projects. Whichever type of Venice home you're working with, we bring the same licensed, insured craftsmanship and attention to detail to every tile installation.</p>
           <p>Rock Solid Tile handles demolition, substrate prep, layout, setting, and grouting in-house on every Venice project, with a clear written scope of work before we start.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/venice-header.webp"><img src="/assets/photos/locations/venice-header.jpg" alt="Historic downtown home tile installation Venice FL" loading="lazy" width="1600" height="1067"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c08-corner-tub-800w.webp 800w, /images/work/c08-corner-tub.webp 993w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c08-corner-tub.jpg" alt="Corner soaking tub with a ledgestone accent wall and wood-look plank tile" width="993" height="1403" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

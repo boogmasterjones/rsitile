@@ -21,6 +21,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -32,6 +33,7 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c04-hex-strip-shower-800w.webp 800w, /images/work/c04-hex-strip-shower.webp 974w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c04-hex-strip-shower.jpg" alt="Hexagon mosaic tile shower with a vertical accent strip" width="974" height="1600" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Hexagon Mosaic Shower</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c12-glass-shower-bench-800w.webp 800w, /images/work/c12-glass-shower-bench.webp 803w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c12-glass-shower-bench.jpg" alt="Glass-enclosed tile shower with a teak bench and matte black fixtures" width="803" height="668" loading="lazy" decoding="async"></picture><figcaption>Glass-Enclosed Shower</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/svc-travertine-shower-800w.webp 800w, /images/work/svc-travertine-shower.webp 1100w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/svc-travertine-shower.jpg" alt="Travertine walk-in shower with a glass mosaic band beside a soaking tub" width="1100" height="834" loading="lazy" decoding="async"></picture><figcaption>Travertine shower</figcaption></figure></div>
     </div>
   </section>
   <section class="section" id="our-work">
@@ -45,16 +47,16 @@ faqs:
         <button class="carousel-btn carousel-prev" type="button" aria-label="Previous project photo">‹</button>
         <div class="carousel-track" role="region" aria-roledescription="carousel" aria-label="Shower tile installation project examples" tabindex="0">
           <div class="carousel-slide">
-            <picture><source type="image/webp" srcset="/assets/photos/shower/example-1.webp"><img src="/assets/photos/shower/example-1.jpg" alt="Glass-enclosed tile shower with teak bench and matte black fixtures" loading="lazy" width="643" height="900"></picture>
-            <p class="carousel-caption">Glass-Enclosed Shower<span>Southwest Florida</span></p>
+            <picture><source type="image/webp" srcset="/images/work/c01-arched-window-shower-800w.webp 800w, /images/work/c01-arched-window-shower.webp 1100w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c01-arched-window-shower.jpg" alt="Subway tile shower with a built-in bench and an arched window" width="1100" height="1550" loading="lazy" decoding="async"></picture>
+            <p class="carousel-caption">Shower with Built-In Bench<span>Southwest Florida</span></p>
           </div>
           <div class="carousel-slide">
-            <picture><source type="image/webp" srcset="/assets/photos/shower/example-2.webp"><img src="/assets/photos/shower/example-2.jpg" alt="Subway tile shower with mosaic inset accent panel and corner bench" loading="lazy" width="643" height="900"></picture>
+            <picture><source type="image/webp" srcset="/images/work/c09-diamond-panel-shower-800w.webp 800w, /images/work/c09-diamond-panel-shower.webp 1038w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c09-diamond-panel-shower.jpg" alt="Subway tile shower with mosaic inset accent panel and corner bench" width="1038" height="1600" loading="lazy" decoding="async"></picture>
             <p class="carousel-caption">Mosaic Inset Accent Panel<span>Southwest Florida</span></p>
           </div>
           <div class="carousel-slide">
-            <picture><source type="image/webp" srcset="/assets/photos/shower/example-3.webp"><img class="crop-5-7-right" src="/assets/photos/shower/example-3.jpg" alt="Subway tile shower with built-in bench and arched window" loading="lazy" width="840" height="672"></picture>
-            <p class="carousel-caption">Shower with Built-In Bench<span>Southwest Florida</span></p>
+            <picture><source type="image/webp" srcset="/images/work/c12-glass-shower-bench-800w.webp 800w, /images/work/c12-glass-shower-bench.webp 803w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c12-glass-shower-bench.jpg" alt="Glass-enclosed tile shower with a teak bench and matte black fixtures" width="803" height="668" loading="lazy" decoding="async"></picture>
+            <p class="carousel-caption">Glass-Enclosed Shower<span>Southwest Florida</span></p>
           </div>
         </div>
         <button class="carousel-btn carousel-next" type="button" aria-label="Next project photo">›</button>
@@ -88,7 +90,7 @@ faqs:
           </ul>
           <p>Want more detail before you start? Read our <a href="/blog/shower-tile-installation-guide">complete shower tile installation guide</a> for a full cost breakdown, material comparisons, and common mistakes to avoid.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/shower/header.webp"><img src="/assets/photos/shower/header.jpg" alt="White subway tile shower with marble arabesque accent tile" loading="lazy" width="1600" height="900"></picture>
+        <picture><source type="image/webp" srcset="/images/work/hero-tub-window-800w.webp 800w, /images/work/hero-tub-window.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/hero-tub-window.jpg" alt="White subway tile shower with marble arabesque accent tile" width="1200" height="674" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

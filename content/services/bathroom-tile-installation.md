@@ -19,6 +19,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
  <div class="container">
  <div class="page-hero-inner">
  <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -30,7 +31,8 @@ faqs:
  <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
  </div>
  </div>
- </div>
+   <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-bath-800w.webp 800w, /images/work/hero-bath.webp 1600w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/hero-bath.jpg" alt="Freestanding soaking tub beside a glass walk-in shower with a pebble floor" width="1600" height="971" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Walk-in shower &amp; soaking tub</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c11-penny-wall-tub-800w.webp 800w, /images/work/c11-penny-wall-tub.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c11-penny-wall-tub.jpg" alt="Freestanding tub and glass shower with a penny tile accent wall" width="1400" height="786" loading="lazy" decoding="async"></picture><figcaption>Penny Tile Accent Wall</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c05-subway-tub.webp" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c05-subway-tub.jpg" alt="White subway tile tub surround and deck" width="627" height="1095" loading="lazy" decoding="async"></picture><figcaption>White Subway Tile Tub Surround</figcaption></figure></div>
+    </div>
  </section>
  <section class="section" id="our-work">
  <div class="container">
@@ -43,15 +45,15 @@ faqs:
  <button class="carousel-btn carousel-prev" type="button" aria-label="Previous project photo">‹</button>
  <div class="carousel-track" role="region" aria-roledescription="carousel" aria-label="Bathroom tile installation project examples" tabindex="0">
  <div class="carousel-slide">
- <picture><source type="image/webp" srcset="/assets/photos/bathroom/example-1.webp"><img src="/assets/photos/bathroom/example-1.jpg" alt="Corner soaking tub with ledgestone accent wall and wood-look plank tile" loading="lazy" width="643" height="900"></picture>
+ <picture><source type="image/webp" srcset="/images/work/c08-corner-tub-800w.webp 800w, /images/work/c08-corner-tub.webp 993w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c08-corner-tub.jpg" alt="Corner soaking tub with ledgestone accent wall and wood-look plank tile" width="993" height="1403" loading="lazy" decoding="async"></picture>
  <p class="carousel-caption">Corner Soaking Tub<span>Southwest Florida</span></p>
  </div>
  <div class="carousel-slide">
- <picture><source type="image/webp" srcset="/assets/photos/bathroom/example-2.webp"><img src="/assets/photos/bathroom/example-2.jpg" alt="Wood-look plank tile shower with terrazzo mosaic floor" loading="lazy" width="643" height="900"></picture>
+ <picture><source type="image/webp" srcset="/images/work/c02-wood-plank-shower.webp" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c02-wood-plank-shower.jpg" alt="Wood-look plank tile shower with terrazzo mosaic floor" width="772" height="1600" loading="lazy" decoding="async"></picture>
  <p class="carousel-caption">Wood-Look Plank Tile Shower<span>Southwest Florida</span></p>
  </div>
  <div class="carousel-slide">
- <picture><source type="image/webp" srcset="/assets/photos/bathroom/example-3.webp"><img src="/assets/photos/bathroom/example-3.jpg" alt="Geometric star-pattern tile shower walls" loading="lazy" width="543" height="760"></picture>
+ <picture><source type="image/webp" srcset="/images/work/c10-geometric-shower.webp" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c10-geometric-shower.jpg" alt="Geometric star-pattern tile shower walls" width="481" height="759" loading="lazy" decoding="async"></picture>
  <p class="carousel-caption">Geometric Pattern Shower<span>Southwest Florida</span></p>
  </div>
  </div>
@@ -85,7 +87,7 @@ faqs:
  <li><strong>Final walkthrough</strong> — we review the finished bathroom with you before calling the job complete.</li>
  </ul>
  </div>
- <picture><source type="image/webp" srcset="/assets/photos/bathroom/header.webp"><img src="/assets/photos/bathroom/header.jpg" alt="Custom tile shower and freestanding tub in a newly remodeled bathroom" loading="lazy" width="1600" height="900"></picture>
+ <picture><source type="image/webp" srcset="/images/work/c11-penny-wall-tub-800w.webp 800w, /images/work/c11-penny-wall-tub.webp 1400w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c11-penny-wall-tub.jpg" alt="Freestanding tub and glass shower with a penny tile accent wall" width="1400" height="786" loading="lazy" decoding="async"></picture>
  </div>
  </div>
  </section>

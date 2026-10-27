@@ -21,6 +21,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -32,6 +33,7 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c06-herringbone-800w.webp 800w, /images/work/c06-herringbone.webp 1400w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c06-herringbone.jpg" alt="Herringbone wood-look plank tile flooring" width="1400" height="1052" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Herringbone Wood-Look Plank</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/svc-floor-room-800w.webp 800w, /images/work/svc-floor-room.webp 1100w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/svc-floor-room.jpg" alt="Room with large-format marble-look porcelain floor tile" width="1100" height="880" loading="lazy" decoding="async"></picture><figcaption>Large-format floor</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c15-brick-entry-800w.webp 800w, /images/work/c15-brick-entry.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c15-brick-entry.jpg" alt="Brick-pattern tile flooring in a home entryway" width="1400" height="1120" loading="lazy" decoding="async"></picture><figcaption>Brick-Pattern Tile Entryway</figcaption></figure></div>
     </div>
   </section>
   <section class="section" id="our-work">
@@ -45,11 +47,11 @@ faqs:
         <button class="carousel-btn carousel-prev" type="button" aria-label="Previous project photo">‹</button>
         <div class="carousel-track" role="region" aria-roledescription="carousel" aria-label="Floor tile installation project examples" tabindex="0">
           <div class="carousel-slide">
-            <picture><source type="image/webp" srcset="/assets/photos/floor/example-1.webp"><img src="/assets/photos/floor/example-1.jpg" alt="Brick-pattern tile flooring in a home entryway" loading="lazy" width="900" height="720"></picture>
+            <picture><source type="image/webp" srcset="/images/work/c15-brick-entry-800w.webp 800w, /images/work/c15-brick-entry.webp 1400w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c15-brick-entry.jpg" alt="Brick-pattern tile flooring in a home entryway" width="1400" height="1120" loading="lazy" decoding="async"></picture>
             <p class="carousel-caption">Brick-Pattern Tile Entryway<span>Southwest Florida</span></p>
           </div>
           <div class="carousel-slide">
-            <picture><source type="image/webp" srcset="/assets/photos/floor/example-3.webp"><img src="/assets/photos/floor/example-3.jpg" alt="Herringbone wood-look plank tile flooring" loading="lazy" width="900" height="720"></picture>
+            <picture><source type="image/webp" srcset="/images/work/c06-herringbone-800w.webp 800w, /images/work/c06-herringbone.webp 1400w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c06-herringbone.jpg" alt="Herringbone wood-look plank tile flooring" width="1400" height="1052" loading="lazy" decoding="async"></picture>
             <p class="carousel-caption">Herringbone Wood-Look Plank<span>Southwest Florida</span></p>
           </div>
         </div>
@@ -83,7 +85,7 @@ faqs:
             <li><strong>Grouting, sealing &amp; walkthrough</strong> — grout is applied and sealed, and we review the finished floor with you.</li>
           </ul>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/floor/header.webp"><img src="/assets/photos/floor/header.jpg" alt="Hexagon marble mosaic tile flooring" loading="lazy" width="1600" height="900"></picture>
+        <picture><source type="image/webp" srcset="/images/work/hero-fireplace-800w.webp 800w, /images/work/hero-fireplace.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/hero-fireplace.jpg" alt="Stacked-stone fireplace with a floating travertine hearth" width="1200" height="552" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

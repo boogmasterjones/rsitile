@@ -23,6 +23,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -34,6 +35,7 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c07-mosaic-backsplash.webp" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c07-mosaic-backsplash.jpg" alt="Kitchen with a full mosaic tile backsplash and a mosaic-wrapped island" width="695" height="1292" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Full Mosaic Tile Backsplash</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-kitchen-800w.webp 800w, /images/work/hero-kitchen.webp 1200w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/hero-kitchen.jpg" alt="Grey kitchen with a white tile backsplash and quartz counters" width="1200" height="959" loading="lazy" decoding="async"></picture><figcaption>Kitchen backsplash</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c14-blue-glass-backsplash-800w.webp 800w, /images/work/c14-blue-glass-backsplash.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c14-blue-glass-backsplash.jpg" alt="Blue and gray glass mosaic tile backsplash" width="1400" height="1052" loading="lazy" decoding="async"></picture><figcaption>Blue &amp; Gray Glass Mosaic Backsplash</figcaption></figure></div>
     </div>
   </section>
   <section class="section" id="our-work">
@@ -47,15 +49,15 @@ faqs:
         <button class="carousel-btn carousel-prev" type="button" aria-label="Previous project photo">‹</button>
         <div class="carousel-track" role="region" aria-roledescription="carousel" aria-label="Kitchen tile installation project examples" tabindex="0">
           <div class="carousel-slide">
-            <img src="/assets/photos/kitchen/example-1.jpg" alt="Modern white kitchen with quartz island and stainless steel appliances" loading="lazy" width="900" height="720">
+            <picture><source type="image/webp" srcset="/images/work/c03-white-kitchen-800w.webp 800w, /images/work/c03-white-kitchen.webp 1400w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c03-white-kitchen.jpg" alt="Modern white kitchen with quartz island and stainless steel appliances" width="1400" height="787" loading="lazy" decoding="async"></picture>
             <p class="carousel-caption">Modern White Kitchen<span>Southwest Florida</span></p>
           </div>
           <div class="carousel-slide">
-            <img src="/assets/photos/kitchen/example-2.jpg" alt="Freestanding tub and glass shower with penny tile accent wall" loading="lazy" width="900" height="720">
+            <picture><source type="image/webp" srcset="/images/work/c11-penny-wall-tub-800w.webp 800w, /images/work/c11-penny-wall-tub.webp 1400w" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c11-penny-wall-tub.jpg" alt="Freestanding tub and glass shower with a penny tile accent wall" width="1400" height="786" loading="lazy" decoding="async"></picture>
             <p class="carousel-caption">Penny Tile Accent Wall<span>Southwest Florida</span></p>
           </div>
           <div class="carousel-slide">
-            <img src="/assets/photos/kitchen/example-3.jpg" alt="Kitchen with full mosaic tile backsplash and marble island" loading="lazy" width="900" height="720">
+            <picture><source type="image/webp" srcset="/images/work/c07-mosaic-backsplash.webp" sizes="(max-width: 760px) 80vw, 380px"><img src="/images/work/c07-mosaic-backsplash.jpg" alt="Kitchen with full mosaic tile backsplash and marble island" width="695" height="1292" loading="lazy" decoding="async"></picture>
             <p class="carousel-caption">Full Mosaic Tile Backsplash<span>Southwest Florida</span></p>
           </div>
         </div>
@@ -89,7 +91,7 @@ faqs:
             <li><strong>Grouting, sealing &amp; walkthrough</strong> — stain-resistant grout is applied and sealed, and we review the finished kitchen with you.</li>
           </ul>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/kitchen/header.webp"><img src="/assets/photos/kitchen/header.jpg" alt="White kitchen with tile backsplash and marble-look tile flooring" loading="lazy" width="1600" height="901"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c03-white-kitchen-800w.webp 800w, /images/work/c03-white-kitchen.webp 1400w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c03-white-kitchen.jpg" alt="Modern white kitchen with a quartz island and marble-look floor tile" width="1400" height="787" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

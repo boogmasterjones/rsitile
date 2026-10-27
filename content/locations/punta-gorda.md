@@ -17,8 +17,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/punta-gorda-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/punta-gorda-hero.jpg" alt="Tile installation Punta Gorda FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -36,6 +35,7 @@ faqs:
           </span>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c08-corner-tub-800w.webp 800w, /images/work/c08-corner-tub.webp 993w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c08-corner-tub.jpg" alt="Corner soaking tub with a ledgestone accent wall and wood-look plank tile" width="993" height="1403" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Corner Soaking Tub</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c11-penny-wall-tub-800w.webp 800w, /images/work/c11-penny-wall-tub.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c11-penny-wall-tub.jpg" alt="Freestanding tub and glass shower with a penny tile accent wall" width="1400" height="786" loading="lazy" decoding="async"></picture><figcaption>Penny Tile Accent Wall</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c03-white-kitchen-800w.webp 800w, /images/work/c03-white-kitchen.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c03-white-kitchen.jpg" alt="Modern white kitchen with a quartz island and marble-look floor tile" width="1400" height="787" loading="lazy" decoding="async"></picture><figcaption>Modern White Kitchen</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -47,7 +47,7 @@ faqs:
           <p>Canal and harbor-front homes see more humidity and salt-air exposure than inland properties, so we pay close attention to moisture-tolerant materials and proper waterproofing on every Punta Gorda project, in addition to the same demolition, layout, setting, and grouting work we do on any tile job.</p>
           <p>Punta Gorda Isles' extensive canal system means many of our projects here involve waterfront homes where correct waterproofing matters as much as the finished look, especially around showers, tub surrounds, and lanai tile that see regular exposure to humidity. In the historic downtown core, older homes often need careful tile matching for additions or renovations, while the newer construction filling out the rest of Punta Gorda calls for whole-home flooring installed from scratch. Whatever your Punta Gorda home's age or location, our licensed, insured crew handles the same demolition-to-grout process on every project.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/punta-gorda-header.webp"><img src="/assets/photos/locations/punta-gorda-header.jpg" alt="Waterfront home tile installation Punta Gorda FL" loading="lazy" width="1200" height="776"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c02-wood-plank-shower.webp" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c02-wood-plank-shower.jpg" alt="Wood-look plank tile shower with a terrazzo mosaic floor" width="772" height="1600" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

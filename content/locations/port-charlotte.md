@@ -19,8 +19,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/port-charlotte-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/port-charlotte-hero.jpg" alt="Tile installation Port Charlotte FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -38,6 +37,7 @@ faqs:
           </span>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c09-diamond-panel-shower-800w.webp 800w, /images/work/c09-diamond-panel-shower.webp 1038w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c09-diamond-panel-shower.jpg" alt="Subway tile shower with a mosaic inset accent panel and corner bench" width="1038" height="1600" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Mosaic Inset Accent Panel</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-bath-800w.webp 800w, /images/work/hero-bath.webp 1600w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/hero-bath.jpg" alt="Freestanding soaking tub beside a glass walk-in shower with a pebble floor" width="1600" height="971" loading="lazy" decoding="async"></picture><figcaption>Walk-in shower &amp; soaking tub</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c15-brick-entry-800w.webp 800w, /images/work/c15-brick-entry.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c15-brick-entry.jpg" alt="Brick-pattern tile flooring in a home entryway" width="1400" height="1120" loading="lazy" decoding="async"></picture><figcaption>Brick-Pattern Tile Entryway</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -49,7 +49,7 @@ faqs:
           <p>As our home base, Port Charlotte is where we've done more tile work than anywhere else in Southwest Florida — from canal-front homes near the Peace River to inland neighborhoods like Deep Creek and Gulf Cove. Waterfront homes here often call for moisture-tolerant materials and careful attention to slab conditions near canals, while our whole-home flooring projects for established Port Charlotte neighborhoods focus on durable, easy-to-maintain porcelain and LVP. Because we're local, scheduling and follow-up visits are simple — we're never far from your job site.</p>
           <p>Rock Solid Tile handles demolition, substrate prep, layout, setting, and grouting in-house on every Port Charlotte project, with a clear written scope of work before we start.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/port-charlotte-header.webp"><img src="/assets/photos/locations/port-charlotte-header.jpg" alt="Home remodel tile installation Port Charlotte FL" loading="lazy" width="707" height="472"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c04-hex-strip-shower-800w.webp 800w, /images/work/c04-hex-strip-shower.webp 974w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c04-hex-strip-shower.jpg" alt="Hexagon mosaic tile shower with a vertical accent strip" width="974" height="1600" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

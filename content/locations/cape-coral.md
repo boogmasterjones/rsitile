@@ -19,8 +19,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/cape-coral-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/cape-coral-hero.jpg" alt="Tile installation Cape Coral FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -32,6 +31,7 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c04-hex-strip-shower-800w.webp 800w, /images/work/c04-hex-strip-shower.webp 974w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c04-hex-strip-shower.jpg" alt="Hexagon mosaic tile shower with a vertical accent strip" width="974" height="1600" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Hexagon Mosaic Shower</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/svc-travertine-shower-800w.webp 800w, /images/work/svc-travertine-shower.webp 1100w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/svc-travertine-shower.jpg" alt="Travertine walk-in shower with a glass mosaic band beside a soaking tub" width="1100" height="834" loading="lazy" decoding="async"></picture><figcaption>Travertine shower</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-fireplace-800w.webp 800w, /images/work/hero-fireplace.webp 1200w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/hero-fireplace.jpg" alt="Stacked-stone fireplace with a floating travertine hearth" width="1200" height="552" loading="lazy" decoding="async"></picture><figcaption>Fireplace surround</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -44,7 +44,7 @@ faqs:
           <p>We handle demolition or new-build layout, substrate prep, setting, and grouting in-house on every Cape Coral project, with a clear written scope of work before we start.</p>
           <p>Planning a bathroom remodel specifically? Read our <a href="/blog/bathroom-tile-installation-cape-coral">guide to bathroom tile installation in Cape Coral</a> for real cost ranges and moisture-smart material advice. Updating your outdoor space instead? See our <a href="/blog/lanai-pool-deck-tile-cape-coral">guide to lanai and pool deck tile in Cape Coral</a> for materials and cost guidance.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/cape-coral-header.webp"><img src="/assets/photos/locations/cape-coral-header.jpg" alt="Canal-front lanai tile installation Cape Coral FL" loading="lazy" width="1200" height="674"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c07-mosaic-backsplash.webp" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c07-mosaic-backsplash.jpg" alt="Kitchen with a full mosaic tile backsplash and a mosaic-wrapped island" width="695" height="1292" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

@@ -23,8 +23,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/bradenton-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/bradenton-hero.jpg" alt="Tile installation Bradenton FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -36,6 +35,7 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c07-mosaic-backsplash.webp" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c07-mosaic-backsplash.jpg" alt="Kitchen with a full mosaic tile backsplash and a mosaic-wrapped island" width="695" height="1292" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Full Mosaic Tile Backsplash</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/svc-floor-room-800w.webp 800w, /images/work/svc-floor-room.webp 1100w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/svc-floor-room.jpg" alt="Room with large-format marble-look porcelain floor tile" width="1100" height="880" loading="lazy" decoding="async"></picture><figcaption>Large-format floor</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c12-glass-shower-bench-800w.webp 800w, /images/work/c12-glass-shower-bench.webp 803w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c12-glass-shower-bench.jpg" alt="Glass-enclosed tile shower with a teak bench and matte black fixtures" width="803" height="668" loading="lazy" decoding="async"></picture><figcaption>Glass-Enclosed Shower</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -48,7 +48,7 @@ faqs:
           <p>We handle demolition or new-build layout, substrate prep, setting, and grouting in-house on every Bradenton project, with a clear written scope of work before we start.</p>
           <p>Renovating a historic downtown home? Read our <a href="/blog/historic-home-tile-bradenton">guide to tiling a historic Bradenton home</a> for what to expect with older subfloors and tile matching. Planning a bathroom specifically? See our <a href="/blog/bathroom-tile-installation-bradenton">Bradenton bathroom tile installation guide</a> for real cost ranges.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/bradenton-header.webp"><img src="/assets/photos/locations/bradenton-header.jpg" alt="Riverfront home tile installation Bradenton FL" loading="lazy" width="1600" height="900"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c01-arched-window-shower-800w.webp 800w, /images/work/c01-arched-window-shower.webp 1100w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c01-arched-window-shower.jpg" alt="Subway tile shower with a built-in bench and an arched window" width="1100" height="1550" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

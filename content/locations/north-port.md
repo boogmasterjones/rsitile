@@ -19,8 +19,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/north-port-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/north-port-hero.jpg" alt="Tile installation North Port FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -38,6 +37,7 @@ faqs:
           </span>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c01-arched-window-shower-800w.webp 800w, /images/work/c01-arched-window-shower.webp 1100w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/c01-arched-window-shower.jpg" alt="Subway tile shower with a built-in bench and an arched window" width="1100" height="1550" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Shower with Built-In Bench</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c06-herringbone-800w.webp 800w, /images/work/c06-herringbone.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c06-herringbone.jpg" alt="Herringbone wood-look plank tile flooring" width="1400" height="1052" loading="lazy" decoding="async"></picture><figcaption>Herringbone Wood-Look Plank</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-kitchen-800w.webp 800w, /images/work/hero-kitchen.webp 1200w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/hero-kitchen.jpg" alt="Grey kitchen with a white tile backsplash and quartz counters" width="1200" height="959" loading="lazy" decoding="async"></picture><figcaption>Kitchen backsplash</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -49,7 +49,7 @@ faqs:
           <p>Much of North Port's rapid growth has centered around planned communities like Wellen Park and the broader West Villages area, where new-construction homes need whole-home tile installation from the studs out — often including large-format porcelain plank flooring, walk-in showers, and kitchen backsplashes all as part of one coordinated project. In North Port's older, more established neighborhoods, homeowners are more often updating a single bathroom or kitchen rather than flooring an entire house. We handle both scopes with the same licensed, insured crew and clear written estimate.</p>
           <p>Whatever stage your home is at, we handle demolition or new-build layout, substrate prep, setting, and grouting in-house, with a clear written scope of work before we start.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/north-port-header.webp"><img src="/assets/photos/locations/north-port-header.jpg" alt="New construction home tile installation North Port FL" loading="lazy" width="1600" height="1200"></picture>
+        <picture><source type="image/webp" srcset="/images/work/hero-slab-shower-800w.webp 800w, /images/work/hero-slab-shower.webp 827w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/hero-slab-shower.jpg" alt="Marble-look slab shower walls with a circle mosaic floor" width="827" height="1600" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

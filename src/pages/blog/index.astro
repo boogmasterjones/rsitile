@@ -1,32 +1,55 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import Picture from '../../components/Picture.astro';
+import Reviews from '../../components/Reviews.astro';
 import { formatDate, getPosts, readingTime } from '../../lib/content';
+import { cardPhoto } from '../../lib/legacy-photos';
 import { breadcrumbSchema } from '../../lib/schema';
-import { site } from '../../lib/site';
+import { phoneHref, site } from '../../lib/site';
 
 const posts = await getPosts();
 const jsonLd = [breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }])];
 const title = "Tile Installation Tips & Guides | Rock Solid Tile Blog";
 const description = "Expert tile installation tips, cost guides, and buying advice for Southwest Florida homeowners from the licensed crew at Rock Solid Tile.";
+const tel = phoneHref(site.business.phone);
 ---
 
 <Base title={title} description={description} jsonLd={jsonLd}>
-<section class="hero page-hero">
+  <section class="hero page-hero">
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Tips &amp; Guides</span>
         <h1>Tile Installation Tips &amp; Guides for Southwest Florida Homeowners</h1>
         <p class="hero-lede">Real, practical advice on tile installation, costs, materials, and hiring the right contractor — written by the licensed crew at Rock Solid Tile.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href={tel} data-cta="blog_hero"><Icon name="phone" />Call {site.business.phone}</a>
+          <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
+        </div>
       </div>
+      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>{posts.length}</b><span>guides for Southwest Florida homeowners</span></div><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
     </div>
   </section>
   <section class="section section--tight">
     <div class="container">
-      <div class="card-grid">
+      <div class="post-grid">
       {posts.length === 0 && <p>New articles are coming soon.</p>}
-      {posts.map((p) => (
-        <a class="card" href={`/blog/${p.id}`}>{p.data.image && <img class="card-photo" src={p.data.image} alt={p.data.imageAlt ?? ''} loading="lazy" width="1600" height="900" />}<div class="card-body"><h3>{p.data.title}</h3><p>{p.data.description}</p><span class="card-link">Read the Guide</span></div></a>
-      ))}
+      {posts.map((p, n) => {
+        const photo = cardPhoto(p.id);
+        return (
+          <a class="card post-card" href={`/blog/${p.id}`}>
+            <span class="glare"></span>
+            {photo ? <div class="ph-img"><Picture src={photo.src} alt={photo.alt} sizes="(max-width: 760px) 50vw, 33vw" /><span class="idx">{String(n + 1).padStart(2, '0')}</span></div> : <div class="tiles" aria-hidden="true"><span class="idx">{String(n + 1).padStart(2, '0')}</span></div>}
+            <div class="card-body">
+              {p.data.category && <span class="cat">{p.data.category}</span>}
+              <h2 class="post-card-title">{p.data.title}</h2>
+              <p>{p.data.description}</p>
+              <span class="card-link">Read the Guide <span class="sr-only">: {p.data.title}</span></span>
+            </div>
+          </a>
+        );
+      })}
       </div>
     </div>
   </section>
@@ -35,9 +58,10 @@ const description = "Expert tile installation tips, cost guides, and buying advi
       <h2>Ready to Start Your Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href={tel} data-cta="blog_end">Call {site.business.phone}</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
   </section>
+  <Reviews variant="compact" ids={['jill', 'mary', 'jed', 'taylor']} />
 </Base>

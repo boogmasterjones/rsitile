@@ -7,8 +7,7 @@ path: "/schedule"
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/bathroom/hero.webp"><img class="page-hero-bg" src="/assets/photos/bathroom/hero.jpg" alt="Freestanding soaking tub and walk-in tile shower in a Southwest Florida bathroom remodel" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Free · No-Obligation Estimates</span>
@@ -19,6 +18,7 @@ path: "/schedule"
           <a class="btn btn-outline" href="#book">Schedule a Call</a>
         </div>
       </div>
+      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>5.0<small>★</small></b><span>on Google from 17 reviews</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
     </div>
   </section>
   <section class="section section--navy" id="book">
@@ -34,10 +34,11 @@ path: "/schedule"
           <h3>Request A Quote Today</h3>
           <p>Fill out the form below and we'll follow up to set up your free estimate.</p>
         </div>
-        <form class="quote-form" name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form class="quote-form" name="quote-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="quote-request">
+          <input type="hidden" name="page" value="/schedule">
           <p class="quote-form-honeypot" aria-hidden="true">
-            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+            <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1"></label>
           </p>
           <div class="qf-step" data-step="1">
           <div class="quote-form-row">
@@ -131,7 +132,6 @@ path: "/schedule"
           <div class="calendly-embed">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/rsitile-info/30min?hide_event_type_details=1&amp;hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async=""></script>
             <!-- Calendly inline widget end -->
           </div>
         </div>

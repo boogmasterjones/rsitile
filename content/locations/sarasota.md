@@ -17,8 +17,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <picture><source type="image/webp" srcset="/assets/photos/locations/sarasota-hero.webp"><img class="page-hero-bg" src="/assets/photos/locations/sarasota-hero.jpg" alt="Tile installation Sarasota FL" loading="eager" fetchpriority="high" width="1600" height="900"></picture>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -36,6 +35,7 @@ faqs:
           </span>
         </div>
       </div>
+      <div class="hero-photos"><figure style="--t:0"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/hero-slab-shower-800w.webp 800w, /images/work/hero-slab-shower.webp 827w" sizes="(max-width: 1180px) 50vw, 320px"><img src="/images/work/hero-slab-shower.jpg" alt="Marble-look slab shower walls with a circle mosaic floor" width="827" height="1600" loading="eager" fetchpriority="high" decoding="async"></picture><figcaption>Slab shower</figcaption></figure><figure style="--t:1"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c03-white-kitchen-800w.webp 800w, /images/work/c03-white-kitchen.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c03-white-kitchen.jpg" alt="Modern white kitchen with a quartz island and marble-look floor tile" width="1400" height="787" loading="lazy" decoding="async"></picture><figcaption>Modern White Kitchen</figcaption></figure><figure style="--t:2"><picture><source media="(max-width: 760px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><source type="image/webp" srcset="/images/work/c06-herringbone-800w.webp 800w, /images/work/c06-herringbone.webp 1400w" sizes="(max-width: 1180px) 30vw, 240px"><img src="/images/work/c06-herringbone.jpg" alt="Herringbone wood-look plank tile flooring" width="1400" height="1052" loading="lazy" decoding="async"></picture><figcaption>Herringbone Wood-Look Plank</figcaption></figure></div>
     </div>
   </section>
   <section class="section">
@@ -47,7 +47,7 @@ faqs:
           <p>Many of our Sarasota clients are updating homes in neighborhoods like Southside Village, Laurel Park, and the Rosemary District downtown, as well as newer construction further out toward Fruitville and Bee Ridge. Because Sarasota's real estate market skews upscale, we see a lot of demand for large-format porcelain, natural stone, and custom mosaic work in kitchens and bathrooms — material choices that hold up well in a coastal climate without sacrificing a high-end look. Whether you're renovating a Siesta Key condo or a single-family home near downtown, our tile installers bring the same licensed, insured craftsmanship to every Sarasota tile installation project.</p>
           <p>Rock Solid Tile handles demolition, substrate prep, layout, setting, and grouting in-house on every Sarasota project, with a clear written scope of work before we start.</p>
         </div>
-        <picture><source type="image/webp" srcset="/assets/photos/locations/sarasota-header.webp"><img src="/assets/photos/locations/sarasota-header.jpg" alt="Downtown condo tile installation Sarasota FL" loading="lazy" width="1600" height="1067"></picture>
+        <picture><source type="image/webp" srcset="/images/work/c09-diamond-panel-shower-800w.webp 800w, /images/work/c09-diamond-panel-shower.webp 1038w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c09-diamond-panel-shower.jpg" alt="Subway tile shower with a mosaic inset accent panel and corner bench" width="1038" height="1600" loading="lazy" decoding="async"></picture>
       </div>
     </div>
   </section>

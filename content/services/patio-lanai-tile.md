@@ -19,8 +19,7 @@ faqs:
 ---
 
 <section class="hero page-hero">
-    <div class="placeholder page-hero-bg" role="img" aria-label="Patio and lanai tile installation Southwest Florida"></div>
-    <div class="page-hero-scrim"></div>
+    <div class="amb" aria-hidden="true"><i class="veins"></i><i class="sweep"></i></div>
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
@@ -32,11 +31,12 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
+      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>5.0<small>★</small></b><span>on Google from 17 reviews</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
     </div>
   </section>
   <section class="section">
     <div class="container">
-      <div class="two-col">
+      <div class="two-col no-photo">
         <div class="content-block">
           <h2>Outdoor Tile Built for Florida Weather</h2>
           <p>A lanai or pool deck has to handle direct sun, heavy seasonal rain, and constant wet feet, so outdoor tile installation calls for different materials and prep than an indoor floor. Rock Solid Tile has installed patio and lanai tile across Southwest Florida for more than 30 years, with slip resistance and proper drainage built into every layout.</p>
@@ -49,9 +49,6 @@ faqs:
             <li><strong>Setting</strong> — tile is set with outdoor-rated thin-set suited to sun and moisture exposure.</li>
             <li><strong>Grouting, sealing &amp; walkthrough</strong> — weather-resistant grout and sealant are applied, and we review the finished space with you.</li>
           </ul>
-        </div>
-        <div class="placeholder" role="img" aria-label="Outdoor lanai and pool deck tile installation Port Charlotte FL">
-          <span>Patio &amp; Lanai Tile<br>Port Charlotte, FL</span>
         </div>
       </div>
     </div>
@@ -75,22 +72,18 @@ faqs:
       </div>
       <div class="materials-grid">
         <div class="material">
-          <picture><source type="image/webp" srcset="/assets/photos/lanai/porcelain-pavers.webp"><img class="material-photo" src="/assets/photos/lanai/porcelain-pavers.jpg" alt="Large-format porcelain paver tile" loading="lazy" width="657" height="657"></picture>
           <h3>Porcelain Pavers</h3>
           <p>Outdoor-rated, large-format, and highly durable — our most common recommendation for lanais and pool decks.</p>
         </div>
         <div class="material">
-          <picture><source type="image/webp" srcset="/assets/photos/lanai/travertine.webp"><img class="material-photo" src="/assets/photos/lanai/travertine.jpg" alt="Travertine pool deck tile" loading="lazy" width="219" height="219"></picture>
           <h3>Travertine</h3>
           <p>A classic Florida pool deck material that stays cooler underfoot and offers a natural, textured surface.</p>
         </div>
         <div class="material">
-          <picture><source type="image/webp" srcset="/assets/photos/lanai/textured-tile.webp"><img class="material-photo" src="/assets/photos/lanai/textured-tile.jpg" alt="Textured slip-resistant tile" loading="lazy" width="559" height="559"></picture>
           <h3>Textured &amp; Slip-Resistant Tile</h3>
           <p>Specialty finishes engineered for wet-foot traffic around pools, spas, and open patios.</p>
         </div>
         <div class="material">
-          <picture><source type="image/webp" srcset="/assets/photos/lanai/natural-stone-coping.webp"><img class="material-photo" src="/assets/photos/lanai/natural-stone-coping.jpg" alt="Natural stone coping" loading="lazy" width="553" height="555"></picture>
           <h3>Natural Stone Coping</h3>
           <p>Stone edging and coping details that finish a pool deck or lanai with a clean, upgraded look.</p>
         </div>
