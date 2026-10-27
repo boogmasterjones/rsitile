@@ -80,7 +80,7 @@
     $$("[data-amb], .page-hero").forEach(function (el) { ambIO.observe(el); });
   }
 
-  /* ---------- filmstrip carousel (homepage): arrows, keys, counter, autoplay with a Pause button (SITE_RULES 8.7, 9.8) ---------- */
+  /* ---------- filmstrip carousel (homepage): two arrows, keys, swipe/drag, gentle autoplay that pauses on hover, focus, touch, off screen and in background tabs ---------- */
   $$("[data-strip]").forEach(function (strip) {
     var sec = strip.closest("section") || d;
     var track = $("[data-track]", strip), shots = $$(".shot", track);
@@ -118,6 +118,12 @@
     }, { passive: true });
     var setPaused = function (p) { paused = p; if (pb) { pb.textContent = p ? "Play" : "Pause"; pb.setAttribute("aria-pressed", String(p)); } };
     if (pb) pb.addEventListener("click", function () { setPaused(!paused); });
+    // drag with a mouse (touch swipes natively)
+    var drag = null;
+    track.addEventListener("pointerdown", function (e) { if (e.pointerType !== "mouse") return; drag = { x: e.clientX, l: track.scrollLeft, moved: false }; track.classList.add("dragging"); });
+    w.addEventListener("pointermove", function (e) { if (!drag) return; var dx = e.clientX - drag.x; if (Math.abs(dx) > 4) drag.moved = true; track.scrollLeft = drag.l - dx; });
+    w.addEventListener("pointerup", function () { if (!drag) return; var moved = drag.moved; drag = null; track.classList.remove("dragging"); if (moved) { gliding = 0; track.dispatchEvent(new Event("scroll")); } });
+    track.addEventListener("dragstart", function (e) { e.preventDefault(); });
     ["pointerenter", "focusin", "touchstart"].forEach(function (ev) { strip.addEventListener(ev, function () { hover = true; }, { passive: true }); });
     ["pointerleave", "focusout"].forEach(function (ev) { strip.addEventListener(ev, function () { hover = false; }); });
     strip.addEventListener("touchend", function () { setTimeout(function () { hover = false; }, 4000); }, { passive: true });

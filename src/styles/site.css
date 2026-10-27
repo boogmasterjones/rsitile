@@ -733,3 +733,4 @@ main > .section--navy:first-child{padding-top:calc(var(--head-h) + 80px)}
 [data-prev] svg{transform:scaleX(-1)}
 .foot-contact .tel{white-space:nowrap}
 @media (max-width:760px){.foot-contact .tel{font-size:24px}}
+.track{cursor:grab}.track.dragging{cursor:grabbing;user-select:none}.track.dragging img{pointer-events:none}

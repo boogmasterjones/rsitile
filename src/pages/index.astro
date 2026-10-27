@@ -106,12 +106,12 @@ const areaBlurbs: Record<string, string> = {
         <p data-rv style="--d:2">A look at recent bathroom, kitchen, floor, and outdoor tile installations completed by our crew across Southwest Florida.</p>
       </div>
     </div>
-    <div class="strip" data-strip data-autoplay="4200" role="region" aria-roledescription="carousel" aria-label="Recent tile work">
+    <div class="strip" data-strip data-autoplay="3500" role="region" aria-roledescription="carousel" aria-label="Recent tile work">
       <div class="track" data-track tabindex="0" aria-label="Recent tile work, use the arrow keys or scroll for more">
         {photos.gallery.map((s, n) => (
           <div class="shot" role="group" aria-roledescription="slide" aria-label={`${n + 1} of ${photos.gallery.length}`}>
             <Photo src={s.src} alt={s.alt} sizes="(max-width: 760px) 250px, 820px" />
-            <span class="figcap"><b>{two(n + 1)}</b>{s.caption}</span>
+            <span class="figcap">{s.caption}</span>
           </div>
         ))}
       </div>
@@ -120,9 +120,6 @@ const areaBlurbs: Record<string, string> = {
       <div class="ctrls">
         <button type="button" data-prev aria-label="Previous photo"><Icon name="arrow" /></button>
         <button type="button" data-next aria-label="Next photo"><Icon name="arrow" /></button>
-        <button type="button" class="pause" data-pause aria-pressed="false">Pause</button>
-        <span class="count" data-count aria-live="polite">01<span>/ {photos.gallery.length}</span></span>
-        <span class="bar" aria-hidden="true"><i data-bar></i></span>
       </div>
       <div class="cta-row" data-rv>
         <p>Seen a floor or wall you like? Let's talk it through.</p>
