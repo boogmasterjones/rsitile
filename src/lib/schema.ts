@@ -68,15 +68,24 @@ export function breadcrumbSchema(crumbs: Crumb[]): JsonLd {
   };
 }
 
-export function serviceSchema(name: string, description: string, path: string, areaName: string): JsonLd {
+// The provider is named in full (not only by @id) because the business node itself is only on the homepage.
+export function serviceSchema(name: string, description: string, path: string, areaName: string | string[]): JsonLd {
+  const { business } = site;
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name,
+    serviceType: name,
     description,
     url: canonicalUrl(path),
-    provider: { '@id': businessId },
-    areaServed: areaName,
+    provider: {
+      '@type': business.schemaType,
+      '@id': businessId,
+      name: business.name,
+      url: `${site.site.url}/`,
+      telephone: phoneHref(business.phone).replace('tel:', ''),
+    },
+    areaServed: Array.isArray(areaName) ? areaName.map((n) => ({ '@type': 'City', name: n })) : areaName,
   };
 }
 
