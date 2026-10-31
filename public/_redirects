@@ -41,6 +41,10 @@
 /services/shower-tile-installation.html                      /services/shower-tile-installation                 301!
 /blog/index.html                                             /blog                                              301!
 
+# Common guesses with no page of their own (both 404ed): send them to the booking form and the homepage.
+/contact                                                     /schedule                                          301
+/about                                                       /                                                  301
+
 # Keep project notes/tooling files from being publicly readable.
 /CLAUDE.md      /404  404!
 /.claude/*      /404  404!
