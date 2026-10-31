@@ -4,7 +4,7 @@ description: "Looking for a tile contractor in Bradenton, FL? See every service 
 date: 2026-09-16
 category: "Bradenton, FL"
 author: "Rock Solid Tile"
-image: "/assets/photos/locations/bradenton-hero.jpg"
+image: "/images/work/c03-white-kitchen.jpg"
 imageAlt: "Tile Contractor in Bradenton, FL | Rock Solid Tile"
 faqs:
   - question: "What does a tile contractor in Bradenton actually do?"

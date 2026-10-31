@@ -4,7 +4,7 @@ description: "5 things to know before bathroom tile installation in Cape Coral, 
 date: 2026-08-12
 category: "Local Guide · Cape Coral, FL"
 author: "Rock Solid Tile"
-image: "/assets/photos/locations/cape-coral-hero.jpg"
+image: "/images/work/c12-glass-shower-bench.jpg"
 imageAlt: "Bathroom Tile Installation in Cape Coral: 5 Things to Know"
 faqs:
   - question: "How much does bathroom tile installation cost in Cape Coral?"

@@ -4,7 +4,7 @@ description: "Renovating an older Bradenton home? What to expect from tile match
 date: 2026-09-16
 category: "Local Guide · Bradenton, FL"
 author: "Rock Solid Tile"
-image: "/assets/photos/locations/bradenton-header.jpg"
+image: "/images/work/c11-penny-wall-tub.jpg"
 imageAlt: "Tiling a Historic Bradenton Home: What to Know First"
 faqs:
   - question: "Can you match tile in an old Bradenton home?"

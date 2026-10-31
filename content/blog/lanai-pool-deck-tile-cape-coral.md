@@ -4,7 +4,7 @@ description: "Lanai and pool deck tile installation in Cape Coral, FL: costs, be
 date: 2026-09-11
 category: "Local Guide · Cape Coral, FL"
 author: "Rock Solid Tile"
-image: "/assets/photos/locations/cape-coral-hero.jpg"
+image: "/assets/og-image.jpg"
 imageAlt: "Lanai & Pool Deck Tile in Cape Coral, FL: Costs & Materials"
 faqs:
   - question: "How much does lanai or pool deck tile cost in Cape Coral?"

@@ -4,7 +4,7 @@ description: "Bathroom tile installation in Bradenton, FL: real cost ranges, moi
 date: 2026-09-16
 category: "Local Guide · Bradenton, FL"
 author: "Rock Solid Tile"
-image: "/assets/photos/locations/bradenton-hero.jpg"
+image: "/images/work/hero-bath.jpg"
 imageAlt: "Bathroom Tile Installation in Bradenton, FL: Costs & Materials"
 faqs:
   - question: "How much does bathroom tile installation cost in Bradenton?"
