@@ -1,5 +1,5 @@
 ---
-title: "Kitchen Tile Remodeling: The Complete Guide for Southwest Florida Homeowners"
+title: "Kitchen Tile Remodeling Guide for Southwest Florida"
 description: "Kitchen tile remodeling guide for Southwest Florida homeowners: backsplash and floor tile costs, popular materials, the installation process, and FAQs."
 date: 2026-08-31
 category: "Cost Guide · Southwest Florida"

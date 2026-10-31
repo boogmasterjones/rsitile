@@ -1,5 +1,5 @@
 ---
-title: "Tile Contractor in Bradenton, FL: Services, Neighborhoods & What to Expect"
+title: "Tile Contractor in Bradenton, FL: What to Expect"
 description: "Looking for a tile contractor in Bradenton, FL? See every service we offer, the neighborhoods we serve, and how to get a free estimate."
 date: 2026-09-16
 category: "Bradenton, FL"

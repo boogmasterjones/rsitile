@@ -1,5 +1,5 @@
 ---
-title: "Bathroom Tile Installation in Bradenton, FL: Costs, Materials & What to Know"
+title: "Bathroom Tile in Bradenton, FL: Costs & Materials"
 description: "Bathroom tile installation in Bradenton, FL: real cost ranges, moisture-smart materials for riverfront homes, and tile-matching advice for older houses."
 date: 2026-09-16
 category: "Local Guide · Bradenton, FL"

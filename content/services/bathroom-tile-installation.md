@@ -1,5 +1,5 @@
 ---
-title: "Bathroom Remodel & Tile Installation | Port Charlotte, SW Florida"
+title: "Bathroom Tile & Remodels | Port Charlotte, SW Florida"
 description: "Tiled bathroom remodels across Charlotte, Sarasota, Lee & Manatee Counties: demo, waterproofing and tile done in-house. Free estimates with written quotes."
 name: "Bathroom Tile Installation"
 heading: "Bathroom Tile Installation in Southwest Florida"

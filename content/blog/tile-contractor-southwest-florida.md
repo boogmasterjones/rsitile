@@ -1,5 +1,5 @@
 ---
-title: "Tile Contractor in Southwest Florida: Services, Areas We Serve & What to Expect"
+title: "Tile Contractor in Southwest Florida: What to Expect"
 description: "Looking for a tile contractor in Southwest Florida? See every service we offer, areas we serve, what to expect, and how to get a free estimate."
 date: 2026-09-11
 category: "Southwest Florida"

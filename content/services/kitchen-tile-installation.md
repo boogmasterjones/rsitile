@@ -1,5 +1,5 @@
 ---
-title: "Kitchen Tile & Backsplash Installation | Sarasota to Cape Coral"
+title: "Kitchen Tile & Backsplash Installation | SW Florida"
 description: "Kitchen backsplash installation from $2,000–$5,000 across Southwest Florida. Licensed, insured, 30+ years experience. Free written quote!"
 name: "Kitchen Tile & Backsplash Installation"
 heading: "Kitchen Tile & Backsplash Installation in Southwest Florida"

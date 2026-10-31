@@ -1,5 +1,5 @@
 ---
-title: "Bathroom Tile Installation in Cape Coral, FL: 5 Things Homeowners Should Know"
+title: "Bathroom Tile in Cape Coral, FL: 5 Things to Know"
 description: "5 things to know before bathroom tile installation in Cape Coral, FL: real costs, moisture-smart materials, the process, and how to choose a contractor."
 date: 2026-08-12
 category: "Local Guide · Cape Coral, FL"

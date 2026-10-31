@@ -1,5 +1,5 @@
 ---
-title: "Lanai & Pool Deck Tile in Cape Coral, FL: Costs, Materials & What to Expect"
+title: "Lanai & Pool Deck Tile in Cape Coral, FL: Costs"
 description: "Lanai and pool deck tile installation in Cape Coral, FL: costs, best materials, slip resistance, and what to expect from a licensed, insured contractor."
 date: 2026-09-11
 category: "Local Guide · Cape Coral, FL"

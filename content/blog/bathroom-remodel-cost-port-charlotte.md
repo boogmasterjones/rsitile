@@ -1,5 +1,5 @@
 ---
-title: "Bathroom Remodel Cost in Port Charlotte, Punta Gorda & Venice"
+title: "Bathroom Remodel Cost: Port Charlotte, Punta Gorda, Venice"
 description: "What a tiled bathroom remodel typically costs in Port Charlotte, Punta Gorda, North Port and Venice, what moves the price, and why written quotes matter."
 date: 2026-10-06
 category: "Guides"

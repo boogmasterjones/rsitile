@@ -1,5 +1,5 @@
 ---
-title: "Tiling a Historic Bradenton Home: What to Know Before You Remodel"
+title: "Tiling a Historic Bradenton Home: What to Know"
 description: "Renovating an older Bradenton home? What to expect from tile matching, uneven subfloors, and material choices in historic downtown Bradenton houses."
 date: 2026-09-16
 category: "Local Guide · Bradenton, FL"

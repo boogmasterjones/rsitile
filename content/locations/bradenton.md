@@ -1,5 +1,5 @@
 ---
-title: "Tile Installer in Bradenton, FL | Riverfront & Historic Homes"
+title: "Tile Installer in Bradenton, FL | Historic & Riverfront"
 description: "Tile installer in Bradenton, FL serving riverfront, historic downtown, Palma Sola & Lakewood Ranch-area homes. Licensed & insured, 30+ years. Free estimates!"
 name: "Bradenton, FL"
 heading: "Tile Installer in Bradenton, FL"
