@@ -26,10 +26,11 @@ export function businessSchema(cities: string[], serviceNames: string[]): JsonLd
     image: `${site.site.url}${site.site.defaultOgImage}`,
     address: {
       '@type': 'PostalAddress',
-      ...(address.street && { streetAddress: address.street }),
+      // A service-area business with a hidden address on Google: no street or ZIP in the schema either.
+      ...(address.showOnSite && address.street && { streetAddress: address.street }),
       addressLocality: address.city,
       addressRegion: address.region,
-      ...(address.postalCode && { postalCode: address.postalCode }),
+      ...(address.showOnSite && address.postalCode && { postalCode: address.postalCode }),
       addressCountry: 'US',
     },
     areaServed: [...cities, ...business.alsoServing].map((name) => ({ '@type': 'City', name })),
