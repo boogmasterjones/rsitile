@@ -117,7 +117,7 @@ h3{font-size:clamp(22px,2vw,28px);line-height:1.12;margin:0 0 10px}
 .drop a::before{content:"";width:5px;height:13px;background:var(--brass);-webkit-mask:var(--mark-url) center/contain no-repeat;mask:var(--mark-url) center/contain no-repeat;opacity:.7}
 .drop a:hover{background:rgba(232,217,181,.08);color:var(--brass-hi)}
 .head-call{display:flex;align-items:center;gap:14px;margin-left:10px}
-.head-call .num{font:700 17px/1 var(--body);text-decoration:none;white-space:nowrap;color:var(--ivory);padding:12px 0}
+.head-call .num{font:700 17px/1 var(--body);text-decoration:none;white-space:nowrap;color:var(--ivory);padding:14px 0}
 .btn-sq{position:relative;display:inline-flex;align-items:center;justify-content:center;width:50px;height:50px;flex:none;background:var(--ivory);color:var(--night);border-radius:3px;text-decoration:none;border:0;cursor:pointer;box-shadow:0 0 0 1px var(--brass),0 0 0 4px rgba(168,134,58,.2);transition:transform .3s var(--ease)}
 .btn-sq:hover{transform:translateY(-2px) rotate(-4deg)}
 .btn-sq svg{width:21px;height:21px}
@@ -738,3 +738,12 @@ main > .section--navy:first-child{padding-top:calc(var(--head-h) + 80px)}
 .foot-contact .tel{white-space:nowrap}
 @media (max-width:760px){.foot-contact .tel{font-size:24px}}
 .track{cursor:grab}.track.dragging{cursor:grabbing;user-select:none}.track.dragging img{pointer-events:none}
+
+/* accessibility (2026-10-31, from the 10-22 audit): nothing here changes the look at rest */
+/* the phone-only "hide on scroll down" header comes back when a keyboard user tabs into it */
+.site-head.stuck.hide:focus-within{transform:none}
+/* a block still waiting for its scroll-in reveal shows at once when something inside it gets keyboard focus */
+.js .rv:focus-within{opacity:1;transform:none;transition:none}
+/* phone links at least 44px tall to tap: inline links grow their hit box with padding (no layout shift); the footer number keeps its 36px slot */
+a[href^="tel:"]:not([class]){padding-block:12px}
+.foot-contact .tel{min-height:44px;margin-block:-4px}
