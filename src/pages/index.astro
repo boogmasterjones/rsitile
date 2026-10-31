@@ -1,4 +1,5 @@
 ---
+import reviewData from '../../data/reviews.json';
 // Homepage, built to the owner-approved concept (rock-solid-tile-concept, 2026-10-26).
 // Order (SITE_RULES 1.1): hero > photo carousel > quote form > reviews > everything else.
 // CTA cadence (2.1): hero (CTA) . work (CTA row) . form . reviews . services (CTA row) . steps . why (CTA) . areas . footer panel (CTA).
@@ -88,7 +89,7 @@ const areaBlurbs: Record<string, string> = {
       <div class="wrap">
         <div class="pf"><b>30<small>+</small></b><span>Years in Business<br>in Southwest Florida</span></div>
         <div class="pf"><b>1,000<small>+</small></b><span>Jobs Completed</span></div>
-        <div class="pf"><b>5.0<small>★</small></b><span>on Google from<br>17 reviews</span></div>
+        <div class="pf"><b>5.0<small>★</small></b><span>on Google from<br>{reviewData.rating.count} reviews</span></div>
         <div class="pf"><b>Free</b><span>in-home estimates<br>with a written quote</span></div>
       </div>
     </div>

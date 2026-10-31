@@ -31,7 +31,7 @@ faqs:
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
-      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>5.0<small>★</small></b><span>on Google from 17 reviews</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
+      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>5.0<small>★</small></b><span>on Google from 19 reviews</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
     </div>
   </section>
   <section class="section">

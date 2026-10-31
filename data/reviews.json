@@ -1,6 +1,6 @@
 {
-  "_note": "Real Google reviews, word for word, as already published on the live homepage. No dates (owner decision 2026-10-26). The rating line is the owner-confirmed 5.0 from 17 Google reviews.",
-  "rating": { "value": "5.0", "count": 17, "url": "https://maps.app.goo.gl/SiuYt8LwLa9h79CBA" },
+  "_note": "Real Google reviews, word for word, as already published on the live homepage. No dates (owner decision 2026-10-26). The rating line is 5.0 from 19 Google reviews (owner confirmed 5.0 from 17 on 2026-10-26; count re-read 2026-10-31 from the Google reviews Hubert syncs: 19 reviews, all 5 stars, newest 2026-10-25). Re-read before each push. schedule.md and patio-lanai-tile.md carry the same number as plain text.",
+  "rating": { "value": "5.0", "count": 19, "url": "https://maps.app.goo.gl/SiuYt8LwLa9h79CBA" },
   "reviews": [
     { "id": "jill", "name": "Jill", "lead": true, "text": "Matt & Wyatt at Rock Solid do incredible work. Not only do they hang tile and lay flooring well, but they do it impeccably. Their floor leveling, pattern matching, water mitigation and alignment are above excellence." },
     { "id": "craig", "name": "Craig", "text": "Great tile installers. Had some very intricate work that needed to be done and these guys had no problem making it look spectacular. Also they're a family and really cool people." },
