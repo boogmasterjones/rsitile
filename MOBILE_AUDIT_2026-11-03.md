@@ -126,3 +126,66 @@ Home page height: 390 px 11,861 -> 11,871 (two 2 px taller tap targets); 768 px 
 4. At 1024-1180 the opened menu is a full-width sheet with a 960 px Call button; a right-hand panel would feel more at home on an iPad.
 5. The hero mosaic captions are 10-10.5 px and the hero chip 11 px (uppercase, tracked labels). They are legible but at the floor.
 6. Real devices: iOS Safari (safe area under the call bar, `100svh`) and a small Android; still not done.
+
+---
+
+# Pass 3 (final, 2026-11-03)
+
+## How it was checked
+
+- Full-page screenshots of all 30 pages at 360x780, 390x844, 430x932, 768x1024, 1024x1366, 1024x768 and 1180x820 (210 pages, with touch emulation, reveals finished and lazy photos loaded), plus scroll-by-scroll frames of the main page types at 360 and 390 and the opened menu at 768, 1024 and 1180.
+- Automated sweeps on all 30 pages at those 7 sizes plus 1112x834: sideways scroll, text under 12.5 px, tap targets under 44 px, text spilling out of its box, one-word last lines in headings and FAQ questions.
+- Contrast sweep at 1440 and 1280 (desktop bugs), and a check that every new `nowrap` span keeps its parent's font, size and colour (50 spans on 27 pages, 0 differences).
+- **Desktop proof:** the layout fingerprint (box plus 30 computed styles for every element) of all 30 pages at 1440 and 1280, before and after. **26 pages identical.** The only differences are the three approved bug fixes: the FAQ text colours on the 7 location pages (96 elements, colour only) and the stray Markdown on 4 pages (it moves onto the page grid, so those 4 pages grow 270-410 px and everything below it moves down). Inlining the stylesheet changed nothing.
+- `npm run check` 0 errors, `npm run build` 30 pages, `npm run audit` 0 errors (the old /404 warning).
+
+## What passes 1 and 2 missed, and the fixes
+
+| # | Where | Problem | Fix |
+|---|---|---|---|
+| 1 | **Desktop bug.** All 7 location pages, every width | FAQ questions invisible (ivory on white, 1.1:1), answers 1.9:1 (approved fix) | Ink questions, muted answers at every width (moved out of the tablet query) |
+| 2 | **Desktop bug.** Kitchen and bathroom service pages, North Port, Port Charlotte, every width | The Markdown the platform appended after the last HTML section ("Serving Sarasota, Punta Gorda...", "Bathroom Tiling in North Port"...) sat straight in `<main>`: no side gutter (text against the screen edge), 1,400 px lines on desktop, browser-default bullets | `main > h2/h3/p/ul/ol` sit on the page grid with the content-block type, a 780 px measure, brass tile bullets, underlined links and spacing to the sections around them; on phones the town links are 44 px rows. No content file touched |
+| 3 | **Bug at every width.** 27 pages | A written phone number broke after its hyphen ("Call (941) 276- / 0305") in body copy and FAQ answers | A build step (`src/integrations/nowrap-phone.mjs`) wraps written numbers in `<span class="nowrap">` after the build, never inside a tag, attribute, script, style, button or the big phone links. No desktop line changed |
+| 4 | **Bug at every width** (old iPhones) | A picked service or timing option is styled only with `:has()`; on iOS Safari before 15.4 a picked option looked unpicked | `main.js` also sets `.is-on` on the option, styled the same |
+| 5 | Phones and tablets | Older iOS (no `svh`): the opened menu had no height limit, so an opened drop-down could run off the screen without scrolling | `100vh` fallback before the `100svh` value |
+| 6 | Tablet landscape 1024-1180 | Opened menu a full-width sheet with a 960 px Call button | A 400 px right-hand panel that slides in over a dimmed page (tap outside or Esc closes it) |
+| 7 | 1024-1180 (iPad landscape, 12.9-inch portrait) | Proof strip a 2 x 2 block with a wide empty middle | One row of four, as on smaller tablets |
+| 8 | Blog index, phones | Title-only cards with 4-5 ragged lines of tight 18 px Gloock under a short 16:10 photo; categories breaking unevenly | 17 px titles, line-height 1.2, balanced lines; a 4:3 photo; balanced 11 px category; slightly tighter padding (descriptions stay off) |
+| 9 | Footer, phones | Privacy/Terms were inline-blocks with 11 px padding, which opened a 32 px gap inside the copyright line ("Licensed & / [gap] Insured.") | The copyright reads as one balanced block; Privacy · Terms sit on their own 44 px row |
+| 10 | Footer, phones and tablets | "Blog" 30 px wide, "Terms" 37-41 px | Wider hit areas (padding with matching negative margin, the words don't move) |
+| 11 | Quote form consent, phones and tablets | Privacy Policy / Terms links 41 px tall, Terms 36 px wide | 45 px tall, 44 px wide, nothing moves |
+| 12 | Card names, FAQ questions, headings (phones; headings and FAQ up to 1180) | One-word last lines: "Port Charlotte, / FL", "Tile Installer in Sarasota, / FL" (768), "...call you / back", about ten FAQ questions at 768 | `text-wrap: balance` on card names, FAQ and schedule toggles, page headlines and content headings; `pretty` on running text. Not on the step titles, where balance split "Free In- / Home" |
+| 13 | Location and service pages, up to 1180 | "Why ... Homeowners Choose Us" was the only section label without the brass tile mark | Mark added (desktop left as it is: a design point, not a bug) |
+| 14 | Phones | Hero chips 11 px, hero photo caption 10 px, photo-strip place names 10.5 px; tablets: inner-page photo captions 10 px | 11.5 px chips (still one line at 360), 10.5 px caption, 11 px place names and tablet captions. The homepage mosaic captions stay 10.5 px: its 110 px cells clip anything larger |
+| 15 | Every page (speed) | The one stylesheet was the only render-blocking request (est. 0.3-0.5 s) | Inlined into each page (`build.inlineStylesheets: 'always'`, about 15 KB compressed); no visual change |
+
+Checked and fine: no sideways scroll anywhere; animations are transform/opacity only (the new menu slide and scrim too) and nothing new moves on scroll; older iOS without `:has()` or `text-wrap` falls back to plain wrapping, the duplicate footer CTA on the blog shows again (harmless) and the option picks now still show; every price, fact, "24/7", `data-cta`, `call_click` (the click handler uses `closest()`, so the new spans inside tel links still fire it), the forms, SMS consent and Calendly are untouched; two-up grids kept.
+
+## Lighthouse (mobile, local production build with gzip, analytics and Calendly blocked)
+
+| Page | Performance (before -> after) | LCP | FCP | CLS | TBT | Accessibility / Best practices / SEO |
+|---|---|---|---|---|---|---|
+| Home | 97 -> 99 | 2.4 -> 2.1 s | 1.4 -> 1.2 s | 0 | 60 ms | 100 / 100 / 100 |
+| Service (shower) | 98 -> 99 | 2.2 -> 2.0 s | 1.4 -> 1.2 s | 0 | 0 | 100 / 100 / 100 |
+| Location (Venice) | 99 -> 99 | 2.0 -> 1.8 s | 1.4 -> 1.2 s | 0 | 0 | 100 / 100 / 100 |
+| Blog index | 98 -> 99 | 2.3 -> 2.0 s | 1.4 -> 1.2 s | 0 | 0 | 100 / 100 / 100 |
+| Article (kitchen guide) | n/a -> 98 | 2.3 s | 1.2 s | 0 | 0 | 100 / 100 / 100 |
+
+The win is the inlined stylesheet (render-blocking request gone, FCP 1.4 -> 1.2 s on every page). Lab numbers on a local machine; rule 7.1 still wants PageSpeed Insights on the live URL after a deploy.
+
+Left alone (no look change possible without new image sizes): the homepage and service-page photo strips download the 800 px WebP for a 200-300 px slot (Lighthouse estimates 120-260 KB). They are lazy and off the first screen, so they don't affect LCP. A 400 px variant from `optimize-images.mjs` would fix it; that writes new files into `public/images`, so it's left for a template change.
+
+## Still the owner's call (unchanged)
+
+Call-button position (700 px at 390x844), dropped card descriptions, reviews fold, SEO-text fold, Calendly height; the in-article CTAs written into the blog Markdown remain inline text links (content-owned).
+
+## Real-phone checklist for the owner (iPhone)
+
+1. Home page: the Call button is on the first screen without scrolling, and tapping it opens the dialer with (941) 276-0305.
+2. Scroll down any page: the dark "Call now / Free estimate" bar slides up, hides while the quote form is on screen, and nothing hides behind it at the very bottom of the footer.
+3. In the quote form, tap two services and a timing: each tapped button turns dark brown. Tick the SMS box by tapping its text.
+4. Open the menu (top-right), open "Services", scroll inside it, then tap a page: it goes there and the menu closes.
+5. Open a location page (say Venice), scroll to "Venice Tile Installation Questions" and open one: the question and answer are dark and easy to read.
+6. Blog page: the cards look even and read well, two across; nothing is cut off.
+7. Footer: open "Services" with the +, tap "Privacy": it opens. Check the phone number never splits over two lines anywhere you see it in the text.
+8. If you have an iPad: turn it sideways and open the menu: it should slide in from the right as a panel.

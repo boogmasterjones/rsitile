@@ -250,6 +250,11 @@
       if (e.defaultPrevented) return;
       if (form.checkValidity()) gtagEvent("quote_form_submit", { event_category: "lead", event_label: location.pathname });
     });
+    // the picked service and timing buttons are styled with :has(input:checked); a class does the same for browsers
+    // without :has() (iOS Safari before 15.4), where a picked option otherwise looked unpicked
+    var opts = $$(".quote-form-option input", form);
+    var markOpts = function () { opts.forEach(function (i) { i.parentNode.classList.toggle("is-on", i.checked); }); };
+    form.addEventListener("change", markOpts); markOpts();
 
     var steps = $$(".qf-step", form);
     if (steps.length < 2) return;

@@ -555,7 +555,7 @@ h3{font-size:clamp(22px,2vw,28px);line-height:1.12;margin:0 0 10px}
   :root{--gut:32px}
   .nav{display:none}
   .menu-btn{display:inline-flex}
-  .menu-open .nav{display:flex;position:fixed;inset:var(--head-h) 0 auto 0;max-height:calc(100svh - var(--head-h));overflow:auto;flex-direction:column;align-items:stretch;gap:0;padding:16px var(--gut) 28px;background:var(--night);border-bottom:1px solid var(--brass);box-shadow:0 30px 60px -20px rgba(0,0,0,.8)}
+  .menu-open .nav{display:flex;position:fixed;inset:var(--head-h) 0 auto 0;max-height:calc(100vh - var(--head-h));max-height:calc(100svh - var(--head-h));overflow:auto;flex-direction:column;align-items:stretch;gap:0;padding:16px var(--gut) 28px;background:var(--night);border-bottom:1px solid var(--brass);box-shadow:0 30px 60px -20px rgba(0,0,0,.8)}
   .menu-open .site-head.stuck .nav{top:68px}
   .menu-open .nav > a,.menu-open .nav-drop > button{width:100%;justify-content:space-between;min-height:52px;padding:0 4px;border-bottom:1px solid rgba(168,134,58,.25);font-size:17px}
   .menu-open .nav > a::after,.menu-open .nav-drop > button::after{display:none}
@@ -925,10 +925,7 @@ a[href^="tel:"]:not([class]){padding-block:12px}
      a 100-380 px hole on the right at 761-1180; they belong at the right edge, as on phones */
   .head-call{margin-left:auto}
 
-  /* location-page FAQ on the dark band: the questions inherited the band's ivory text on their white cards
-     (contrast 1.1:1, invisible) and the answers its pale grey (1.9:1) */
-  .section--navy .faq-item summary{color:var(--ink)}
-  .section--navy .faq-item > p,.section--navy .faq-item > div{color:var(--muted)}
+  /* (the location-page FAQ colour fix moved to every width in pass 3, see the end of this file) */
 
   /* FAQ plus sign: the Gloock "+" drew about 9 px wide inside its 34 px box; a drawn cross reads at a glance */
   .faq-item summary::after{content:"";background-image:linear-gradient(currentColor,currentColor),linear-gradient(currentColor,currentColor);background-size:14px 2px,2px 14px;background-position:center;background-repeat:no-repeat}
@@ -987,3 +984,108 @@ a[href^="tel:"]:not([class]){padding-block:12px}
   .site-head .brand{gap:8px}
 }
 @media (max-width:339px){.site-head .brand-name{display:none}}
+
+/* ======================================================================================================
+   MOBILE PASS 3 (2026-11-03, final). The approved desktop bug fixes come first and apply at every width;
+   everything else sits in a max-width:1180px (or narrower) query, so the desktop layout is otherwise untouched.
+   ====================================================================================================== */
+/* bug fix, every width: the location-page FAQ sits on the dark band, so its questions took the band's ivory text
+   on white cards (contrast 1.1:1, invisible) and the answers its pale grey (1.9:1) */
+.section--navy .faq-item summary{color:var(--ink)}
+.section--navy .faq-item > p,.section--navy .faq-item > div{color:var(--muted)}
+/* bug fix, every width: a written phone number never breaks after its hyphen ("276- / 0305"); the span is added
+   after the build by src/integrations/nowrap-phone.mjs */
+.nowrap{white-space:nowrap}
+/* bug fix, every width: a picked service or timing option is styled with :has(input:checked); main.js adds .is-on
+   too, so browsers without :has() (iOS Safari before 15.4) also show the pick */
+.quote-form-option.is-on{background:var(--umber);border-color:var(--umber);color:var(--ivory);box-shadow:0 0 0 1px var(--brass)}
+
+@media (max-width:1180px){
+  /* no one-word last lines in running text (browsers without text-wrap just wrap as before) */
+  .content-block p,.prose p,.content-block li,.prose li,.section-head p,.hero-lede,.rcard blockquote,.area-note,.faq-item > p,.cta-band p{text-wrap:pretty}
+  /* "Why Venice Homeowners Choose Us": the only section label without the brass tile mark (7 location and 5 service pages) */
+  .why-grid .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+  .why-grid .eyebrow::before{content:"";width:8px;height:20px;flex:none;background:var(--brass);-webkit-mask:var(--mark-url) center/contain no-repeat;mask:var(--mark-url) center/contain no-repeat}
+  :is(.on-dark,.section--navy,.top) .why-grid .eyebrow::before{background:var(--brass-hi)}
+}
+
+/* tablet landscape (1024-1180, iPads): the opened menu is a right-hand panel over a dimmed page, not a full-width
+   sheet with a 960 px Call button */
+@media (min-width:1024px) and (max-width:1180px){
+  .menu-open .nav{inset:var(--head-h) 0 0 auto;width:400px;max-height:none;padding:24px 32px 32px;border-bottom:0;border-left:1px solid var(--brass);box-shadow:-40px 0 80px -30px rgba(0,0,0,.85);animation:navIn .4s var(--ease)}
+  body.menu-open::after{content:"";position:fixed;inset:0;z-index:29;background:rgba(14,9,4,.55);animation:scrimIn .3s ease}
+}
+@keyframes navIn{from{transform:translateX(100%)}to{transform:none}}
+@keyframes scrimIn{from{opacity:0}}
+
+@media (max-width:760px){
+  /* blog cards (title only on phones): a calmer title (17 px, balanced lines, a little more leading), a balanced
+     category line and a 4:3 photo, so the photo and the words weigh about the same */
+  .post-card .ph-img,.post-card .tiles{aspect-ratio:4/3}
+  .post-card .card-body{padding:12px 12px 14px}
+  .post-card .cat{font-size:11px;letter-spacing:.1em;line-height:1.4;margin-bottom:6px;text-wrap:balance}
+  .post-card .post-card-title{font-size:17px;line-height:1.2;letter-spacing:0;margin:0 0 12px;text-wrap:balance}
+
+  /* card names and FAQ questions break evenly ("Port Charlotte, / FL" becomes "Port / Charlotte, FL") */
+  .area-card h3,.related-card h3,.svc h3,.material h3,.faq-item summary,.sched summary,.mid-cta p,.cta-row p{text-wrap:balance}
+
+  /* the footer's last line: the Privacy and Terms links were inline-blocks with 11 px padding, which opened a 32 px gap
+     between the two lines of the copyright; they now sit on their own 44 px row under it */
+  .foot-bottom > span:first-child{display:flex;flex-wrap:wrap;align-items:center;column-gap:6px;text-wrap:balance}
+  .foot-bottom > span:first-child a{padding:12px 10px;margin:0 -8px}
+  /* footer "Blog" (30 px wide) and "Terms" (41 px): wider hit areas, the words stay where they were */
+  .foot-grid > div:last-child nav a{padding-inline:8px;margin-inline:-8px}
+
+  /* the smallest labels, one notch up: hero chips 11 -> 11.5 px (still one line at 360), the hero photo caption 10 -> 10.5 px,
+     the photo-strip place names 10.5 -> 11 px */
+  .chip,.hero-eyebrow{font-size:11.5px}
+  .phone-photo .ph-cap{font-size:10.5px;letter-spacing:.1em}
+  .carousel-caption span{font-size:11px}
+}
+@media (max-width:1180px){
+  /* the SMS consent text's Privacy Policy and Terms links: 41 -> 45 px tall and at least 44 px wide (inline padding, nothing moves) */
+  .quote-form .quote-form-consent a:not(.btn){padding:14px 4px;margin:0 -4px}
+}
+@media (max-width:1180px){
+  /* footer "Blog" (30 px wide) and "Terms" (37 px) on tablets too: wider hit areas, the words stay put */
+  .foot-grid > div:last-child nav a,.foot-bottom a{padding-inline:8px;margin-inline:-8px}
+  /* headlines, FAQ questions and keyword headings break evenly: no "Sarasota, / FL" or one-word last lines */
+  .page-hero h1,.faq-item summary,.content-block h2,.content-block h3,.prose h2,.prose h3,.section-head h2{text-wrap:balance}
+  /* photo captions on tablets: 10-10.5 px -> 11 px (not the homepage mosaic, whose 110 px cells would clip them) */
+  .hero-photos figcaption,.carousel-caption span{font-size:11px}
+}
+
+/* bug fix, every width: Markdown that the platform appends after a page's last HTML section (the kitchen and bathroom
+   service pages, North Port and Port Charlotte) landed straight in <main>: no side gutter (the text touched the screen
+   edge), lines as wide as the window and browser-default lists. It now sits on the page grid and reads like the
+   keyword section above it. Nothing else on any page is a direct child of <main> of these types. */
+main > :is(h2,h3,p,ul,ol){width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gut) max(var(--gut),calc(min(100%,var(--wrap)) - var(--gut) - 780px))}
+main > :is(p,ul,ol){font-size:18px;line-height:1.7;color:var(--ink);margin-top:0;margin-bottom:18px}
+main > h2{font-size:clamp(30px,3vw,42px);line-height:1.1;margin-top:0;margin-bottom:18px}
+main > h3{font-size:clamp(22px,2vw,27px);margin-top:0;margin-bottom:12px}
+main > section + :is(h2,h3,p,ul,ol){margin-top:80px}
+main > :is(p,ul,ol) + :is(h2,h3){margin-top:44px}
+main > :is(h2,h3,p,ul,ol) + section{margin-top:72px}
+main > :is(ul,ol){list-style:none;display:grid;gap:12px;margin-bottom:22px}
+main > :is(ul,ol) > li{position:relative;padding-left:26px}
+main > ul > li::before{content:"";position:absolute;left:2px;top:.42em;width:7px;height:17px;background:var(--brass);-webkit-mask:var(--mark-url) center/contain no-repeat;mask:var(--mark-url) center/contain no-repeat}
+main > :is(h2,h3,p,ul,ol) a:not(.btn){color:var(--umber);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+@media (max-width:1180px){main > :is(h2,h3){text-wrap:balance} main > :is(p,ul,ol){text-wrap:pretty}}
+@media (max-width:760px){
+  main > :is(p,ul,ol){font-size:16.5px}
+  main > section + :is(h2,h3,p,ul,ol){margin-top:48px}
+  main > :is(p,ul,ol) + :is(h2,h3){margin-top:40px}
+  main > :is(h2,h3,p,ul,ol) + section{margin-top:40px}
+  /* the town links: 44 px rows */
+  main > ul{gap:0}
+  main > ul a{display:inline-block;padding-block:10px}
+  main > ul > li::before{top:13px}
+}
+/* tablet landscape and the 12.9-inch iPad in portrait (1024-1180): the proof strip was a 2 x 2 block with a wide empty
+   middle; one row of four, as on smaller tablets */
+@media (min-width:1024px) and (max-width:1180px){
+  .proof .wrap{grid-template-columns:repeat(4,1fr)}
+  .pf{flex-direction:column;gap:6px;padding:24px 22px 26px}
+  .pf b{font-size:46px}
+  .pf:nth-child(3)::before{display:block}
+}
