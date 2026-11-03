@@ -774,8 +774,8 @@ a[href^="tel:"]:not([class]){padding-block:12px}
   .pf:nth-child(3)::before{display:block}
   .hero-eyebrow{letter-spacing:.14em}
 }
-/* ---------- phones and tablets: reviews as a rating strip plus a few cards; repeated blocks trimmed ---------- */
-@media (max-width:1023px){
+/* ---------- phones and tablets (up to 1180, where the menu button takes over): reviews as a rating strip plus a few cards; repeated blocks trimmed ---------- */
+@media (max-width:1180px){
   .rev-layout{gap:24px}
   .rev-layout .score{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;padding:28px 32px}
   .rev-layout .score .label{flex-basis:100%}
@@ -915,3 +915,75 @@ a[href^="tel:"]:not([class]){padding-block:12px}
   .intro{font-size:16px;line-height:1.45}
   .area-card h3,.related-card h3,.svc h3{font-size:18px}
 }
+
+/* ======================================================================================================
+   MOBILE PASS 2 (2026-11-03). Same contract as pass 1: every rule sits in a max-width:1180px (or narrower)
+   query, so the desktop layout (1181 px and up) is untouched.
+   ====================================================================================================== */
+@media (max-width:1180px){
+  /* header: with the menu folded away the phone, Call and menu buttons sat packed against the logo, leaving
+     a 100-380 px hole on the right at 761-1180; they belong at the right edge, as on phones */
+  .head-call{margin-left:auto}
+
+  /* location-page FAQ on the dark band: the questions inherited the band's ivory text on their white cards
+     (contrast 1.1:1, invisible) and the answers its pale grey (1.9:1) */
+  .section--navy .faq-item summary{color:var(--ink)}
+  .section--navy .faq-item > p,.section--navy .faq-item > div{color:var(--muted)}
+
+  /* FAQ plus sign: the Gloock "+" drew about 9 px wide inside its 34 px box; a drawn cross reads at a glance */
+  .faq-item summary::after{content:"";background-image:linear-gradient(currentColor,currentColor),linear-gradient(currentColor,currentColor);background-size:14px 2px,2px 14px;background-position:center;background-repeat:no-repeat}
+  .faq-item[open] summary::after{background-color:var(--umber);background-image:linear-gradient(currentColor,currentColor),linear-gradient(currentColor,currentColor)}
+  /* the quote band's "Schedule A Call" toggle had the same thin glyph */
+  .sched summary::after{content:"";flex:none;width:16px;height:16px;color:var(--brass-hi);background:linear-gradient(currentColor,currentColor) center/16px 2px no-repeat,linear-gradient(currentColor,currentColor) center/2px 16px no-repeat}
+  /* page-hero headlines: no one-word last line ("Tile Installer in Sarasota, / FL" at 1024) */
+  .page-hero h1{text-wrap:pretty}
+
+  /* reviews: the lead quote is the big one; on two columns it takes the full row instead of a 10-line sliver */
+  .masonry > .rcard.lead{column-span:all;margin-bottom:22px}
+
+  /* tap targets on tablets: the SMS consent box and its links (inline padding grows the hit area without moving text),
+     and the email link beside the form */
+  .quote-form-consent{grid-template-columns:24px 1fr;font-size:13px}
+  .quote-form-consent input{width:22px;height:22px;margin-top:0}
+  .quote-form .quote-form-consent a:not(.btn){padding-block:12px}
+  .q-facts a{padding-block:12px}
+}
+/* tablets: with the lead quote on its own row, four cards follow it (two even columns) instead of three */
+@media (min-width:761px) and (max-width:1180px){
+  .js [data-rev]:not(.rev-all) .masonry > .rcard:nth-child(5){display:block}
+  /* the footer's bottom Privacy and Terms links (inline padding: a 44 px hit area, nothing moves) */
+  .foot-bottom a{padding-block:13px}
+}
+
+/* tablet landscape (1024-1180): the page heroes stack (as on tablets), but the photos and the fact box stopped at 640 px
+   and left the right third empty; they take the full width, the facts as one row of four */
+@media (min-width:1024px) and (max-width:1180px){
+  .hero-photos,.hero-facts{max-width:none}
+  .hero-facts{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .hero-facts div,.hero-facts div:nth-child(2n){border-bottom:0;border-right:1px solid rgba(168,134,58,.35)}
+  .hero-facts div:last-child{border-right:0}
+}
+
+@media (max-width:760px){
+  /* the "Or get a quote" link: 42 -> 44 px tall */
+  .jump{padding:13px 0}
+
+  /* blog and schedule hero facts: the labels were 12.5 px */
+  .hero-facts span{font-size:13.5px}
+
+  /* footer accordions: a clear brass cross, and the service names in one column (two columns broke them over two lines) */
+  .js .foot-tog::after{content:"";width:16px;height:16px;right:6px;background:linear-gradient(currentColor,currentColor) center/16px 2px no-repeat,linear-gradient(currentColor,currentColor) center/2px 16px no-repeat}
+  .foot-acc:first-of-type ul{grid-template-columns:1fr}
+  .foot-grid > div:last-child nav ul{display:flex;flex-wrap:wrap;column-gap:32px}
+
+  /* blog index and articles: the page's own closing band ("Ready to Start Your Tile Project?") is followed, after two
+     reviews, by the footer panel with the same words and buttons; phones keep the first one (the call bar stays up) */
+  body:has(main > .cta-band + [data-rev]:last-child) .foot-cta{display:none}
+}
+
+@media (max-width:374px){
+  /* 360-374 px: the wordmark was hidden, leaving a bare "I" in the header and the footer; it fits at 20 px */
+  .brand-name,.site-head.stuck .brand-name{display:block;font-size:20px}
+  .site-head .brand{gap:8px}
+}
+@media (max-width:339px){.site-head .brand-name{display:none}}
