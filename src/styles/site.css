@@ -747,3 +747,171 @@ main > .section--navy:first-child{padding-top:calc(var(--head-h) + 80px)}
 /* phone links at least 44px tall to tap: inline links grow their hit box with padding (no layout shift); the footer number keeps its 36px slot */
 a[href^="tel:"]:not([class]){padding-block:12px}
 .foot-contact .tel{min-height:44px;margin-block:-4px}
+
+/* ======================================================================================================
+   MOBILE MAKEOVER, pass 1 (2026-11-03). Every rule below lives inside a phone or tablet media query, or
+   styles markup that is hidden from 1024 px up, so the desktop layout (1181 px and up) is untouched.
+   Client rule kept: card grids stay two-up on phones, never stacked or swipe rows.
+   ====================================================================================================== */
+.rev-more[hidden],.foot-tog{display:none}
+.nav .nav-call{display:none}
+@media (max-width:1180px){
+  /* the opened menu ends with a big Call button */
+  .menu-open .nav .nav-call{display:flex;justify-content:center;margin-top:20px;min-height:60px;padding:0 20px;border-bottom:0;background:var(--ivory);color:var(--night);font-size:17px}
+}
+
+/* ---------- tablet portrait (761-1023): stack the hero, a full-width mosaic, a 4-up proof strip ---------- */
+@media (min-width:761px) and (max-width:1023px){
+  .hero .wrap{grid-template-columns:1fr;gap:48px;padding-top:48px;padding-bottom:56px}
+  .hero-copy{max-width:600px}
+  .chip{font-size:12px;letter-spacing:.14em}
+  .hero h1{font-size:clamp(56px,8vw,72px);margin:24px 0}
+  .intro{font-size:18px;max-width:34em}
+  .mosaic{height:520px;min-height:0}
+  .proof .wrap{grid-template-columns:repeat(4,1fr)}
+  .pf{flex-direction:column;gap:6px;padding:24px 18px 26px}
+  .pf b{font-size:42px}
+  .pf:nth-child(3)::before{display:block}
+  .hero-eyebrow{letter-spacing:.14em}
+}
+/* ---------- phones and tablets: reviews as a rating strip plus a few cards; repeated blocks trimmed ---------- */
+@media (max-width:1023px){
+  .rev-layout{gap:24px}
+  .rev-layout .score{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;padding:28px 32px}
+  .rev-layout .score .label{flex-basis:100%}
+  .rev-layout .score .big{font-size:84px;margin:0}
+  .rev-layout .score p{margin:0;flex:1 1 200px}
+  .rev-layout .score .btn{width:auto}
+  .js [data-rev]:not(.rev-all) .masonry > .rcard:nth-child(n+5){display:none}
+  .rev-more{display:flex;width:100%;margin-top:4px}
+  /* the article's side card repeats the mid-article CTA and the closing band right below it */
+  .post-aside{display:none}
+  .site-footer nav a,.foot-contact a{min-height:44px}
+}
+
+/* ---------- phones ---------- */
+@media (max-width:760px){
+  /* header: 44 px tap target on the logo link */
+  .site-head .brand,.site-footer .brand{min-height:44px}
+  .quote-form .quote-form-consent a:not(.btn){padding-block:12px}
+
+  /* hero: the headline grows with the screen, chips stay on one line */
+  .hero h1{font-size:clamp(39px,11.4vw,50px)}
+  .intro{font-size:clamp(16px,4.2vw,17.5px)}
+  .chip,.hero-eyebrow{font-size:11px;letter-spacing:.12em;padding:8px 11px 8px 10px;gap:8px}
+  .hero-eyebrow::before{height:14px}
+  .phone-photo .ph-cap{font-size:10px}
+  .jump{padding:12px 0;margin-top:4px}
+  .page-hero h1{margin:16px 0 12px}
+  .hero-lede{line-height:1.55;margin-bottom:12px}
+  .last-updated{margin-bottom:24px}
+  .trust-badges{margin-top:16px}
+
+  /* section heads: tighter label row */
+  .eyebrow-row,.section-head .eyebrow{margin-bottom:12px}
+  .section-head .eyebrow{line-height:1.35}
+
+  /* quote band: the four steps repeat "How It Works" further down, so phones skip them here */
+  .quote p.lead{font-size:16.5px;margin:16px 0 24px}
+  .q-list{display:none}
+  .quote .wrap{gap:32px}
+  .q-side{margin-top:0}
+  .q-facts{font-size:15px}
+  .sched summary{min-height:56px;padding:12px 16px;font-size:15.5px}
+  .quote-form-consent{grid-template-columns:24px 1fr;font-size:13px}
+  .quote-form-consent input{width:22px;height:22px;margin-top:0}
+  .quote-form-option{min-height:48px;font-size:15px}
+
+  /* reviews: a slim rating strip, then three cards (two on inner pages) and "Show all" */
+  .rev-layout .score,.rev-compact .score{padding:20px 20px 22px;gap:4px 16px}
+  .rev-layout .score .big,.rev-compact .score .big{font-size:60px;line-height:.9}
+  .rev-layout .score .label{margin-bottom:4px}
+  .score .stars{gap:4px}
+  .score .stars i{width:22px;height:22px}
+  .rev-layout .score p,.rev-compact .score p{flex:1 1 100%;margin:6px 0 10px;font-size:15.5px}
+  .rev-layout .score .btn,.rev-compact .score .btn{width:100%;min-height:52px}
+  .rev-compact .score{margin-bottom:16px}
+  .js [data-rev]:not(.rev-all) .masonry > .rcard:nth-child(n+4),
+  .js [data-rev]:not(.rev-all) .rev-grid > .rcard:nth-child(n+3){display:none}
+  .masonry .rcard{margin-bottom:12px}
+  .rev-grid{gap:12px}
+  .rev-compact .rev-more{margin-top:12px}
+  .rcard{padding:22px 20px 18px}
+  .rcard blockquote{font-size:16px;margin:12px 0 16px}
+  .rcard.lead blockquote{font-size:20px;line-height:1.32}
+  .rcard .corner{top:18px;right:18px}
+  .rev-more{min-height:54px;font-size:16px}
+
+  /* service cards: photo, number and name; the one-line blurbs are dropped on phones (each service page says it in full) */
+  .svc p{display:none}
+  .svc h3{font-size:20px;margin-bottom:12px}
+  .svc .body{padding:14px 14px 16px}
+  .svc .ph-img{aspect-ratio:1/1}
+  .svc-wide{flex-direction:row;min-height:0}
+  .svc-wide .tiles{flex:0 0 34%;height:auto}
+  .svc-wide .body{padding:18px 16px}
+  .svc-wide p{display:block;margin:0 0 12px;font-size:15px}
+  .svc-grid + .cta-row{margin-top:24px}
+  .cta-row{gap:12px}
+  .cta-row p{margin-bottom:4px}
+
+  /* area and related cards: two-up and compact; the pin moves to the corner, the arrow sits on the name line */
+  .area-card,.related-card{padding:16px 14px 18px;gap:4px}
+  .area-card .icon-badge{position:absolute;bottom:14px;right:12px;width:28px;height:28px;background:transparent;color:var(--brass);box-shadow:inset 0 0 0 1px rgba(168,134,58,.55)}
+  .area-card .icon-badge svg{width:16px;height:16px}
+  .area-card h3,.related-card h3{font-size:19px;margin:2px 0 4px}
+  .related-card h3{font-size:18px}
+  .area-card p,.related-card p{font-size:14.5px;line-height:1.45;margin:0 0 10px}
+  .area-grid > :last-child:nth-child(odd),.related-grid > :last-child:nth-child(odd),.post-grid > :last-child:nth-child(odd),.materials-grid > :last-child:nth-child(odd){grid-column:1/-1}
+  .related-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+  .related-card::after{margin-top:8px;line-height:1}
+  .related-card p{margin-bottom:0}
+  .area-note{margin-top:24px;font-size:15.5px}
+  .home-seo{margin-top:40px!important}
+
+  /* blog cards: category and title; the description is on the article itself */
+  .post-card p{display:none}
+  .post-card .cat{font-size:11px;margin-bottom:8px}
+  .post-card .card-body{padding:14px 14px 16px}
+  .post-grid > .post-card:last-child:nth-child(odd){flex-direction:row}
+  .post-grid > .post-card:last-child:nth-child(odd) > .ph-img,.post-grid > .post-card:last-child:nth-child(odd) > .tiles{flex:0 0 46%;aspect-ratio:auto;min-height:150px}
+
+  /* steps */
+  .step{padding:20px 14px}
+  .step p{font-size:14.5px;line-height:1.5}
+
+  /* service-page photo strips: a touch narrower so the next slide peeks in */
+  .carousel-slide{width:min(300px,74vw)}
+
+  /* the closing bands */
+  .cta-band h2{font-size:clamp(28px,8vw,34px)}
+  .cta-band p{font-size:16px}
+  .cta-band .cta-actions{margin-top:20px}
+
+  /* footer: a compact block, the two link lists fold into accordions */
+  .foot-cta{padding:44px 0 40px;gap:16px}
+  .foot-cta .big{font-size:clamp(30px,8.6vw,36px)}
+  .foot-cta p{font-size:16px;margin-top:8px}
+  .foot-grid{grid-template-columns:1fr;gap:0;padding:32px 0 8px}
+  .foot-brand{padding-bottom:24px}
+  .foot-brand .brand{margin-bottom:12px}
+  .js .foot-acc{border-top:1px solid rgba(168,134,58,.3)}
+  .js .foot-acc .foot-title{position:relative;margin:0;min-height:56px;padding-right:48px}
+  .js .foot-tog{display:block;position:absolute;inset:0;width:100%;padding:0;background:none;border:0;cursor:pointer;color:var(--brass-hi)}
+  .js .foot-tog::after{content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);font:400 26px/1 var(--head);transition:transform .3s var(--ease)}
+  .js .foot-acc.open .foot-tog::after{transform:translateY(-50%) rotate(45deg)}
+  .js .foot-acc:not(.open) ul{display:none}
+  .foot-acc ul{grid-template-columns:1fr 1fr;column-gap:16px;padding-bottom:16px!important}
+  .site-footer nav a,.foot-contact a{min-height:44px}
+  .foot-grid > div:last-child{border-top:1px solid rgba(168,134,58,.3);padding-top:24px}
+  .foot-contact{gap:0}
+  .foot-grid > div:last-child nav ul{grid-template-columns:1fr 1fr;column-gap:16px}
+  .foot-bottom{padding:16px 0 24px;font-size:13.5px;line-height:1.55}
+  .foot-bottom a{display:inline-block;padding:11px 2px}
+}
+@media (max-width:374px){
+  .site-head .brand{min-width:44px}
+  .hero h1{font-size:39px}
+  .intro{font-size:16px;line-height:1.45}
+  .area-card h3,.related-card h3,.svc h3{font-size:18px}
+}

@@ -194,6 +194,28 @@
     }, { passive: true });
   }
 
+  /* ---------- phones and tablets: reviews show the first few cards, "Show all" opens the rest (CSS does the clamping) ---------- */
+  $$("[data-rev]").forEach(function (sec) {
+    var btn = $("[data-rev-more]", sec); if (!btn) return;
+    var cards = $$(".rcard", sec);
+    var check = function () { btn.hidden = sec.classList.contains("rev-all") || !cards.some(function (c) { return getComputedStyle(c).display === "none"; }); };
+    btn.addEventListener("click", function () {
+      var first = cards.filter(function (c) { return getComputedStyle(c).display === "none"; })[0];
+      sec.classList.add("rev-all"); btn.hidden = true;
+      if (first) { first.setAttribute("tabindex", "-1"); first.focus({ preventScroll: true }); }
+    });
+    w.addEventListener("resize", check, { passive: true });
+    check();
+  });
+
+  /* ---------- phones: the footer's Services and Service Areas lists open as accordions ---------- */
+  $$(".foot-tog").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var nav = b.closest(".foot-acc"), open = nav.classList.toggle("open");
+      b.setAttribute("aria-expanded", String(open));
+    });
+  });
+
   /* ---------- the jump link hands focus to the form ---------- */
   $$("[data-jump]").forEach(function (a) {
     a.addEventListener("click", function () { setTimeout(function () { var f = $("#qf-name"); if (f) f.focus({ preventScroll: true }); }, 600); });

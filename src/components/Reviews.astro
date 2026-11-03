@@ -2,6 +2,7 @@
 // Real Google reviews, word for word, no dates (owner decision 2026-10-26).
 // variant "full": the homepage block, a big rating card beside a masonry of all eight.
 // variant "compact": inner pages, a rating strip and 3-4 chosen reviews.
+// Phones and tablets show the first few cards and a "Show all" button (main.js un-hides it only when cards are clamped).
 import Icon from './Icon.astro';
 import data from '../../data/reviews.json';
 
@@ -13,7 +14,7 @@ const { rating } = data;
 const headId = `${id}-h`;
 ---
 
-<section class={`sec ${tone === 'stone' ? 'bg-stone grout' : tone === 'white' ? 'bg-white bg-grid' : 'bg-grid'} ${variant === 'compact' ? 'rev-compact' : ''}`} id={id} aria-labelledby={headId}>
+<section data-rev class={`sec ${tone === 'stone' ? 'bg-stone grout' : tone === 'white' ? 'bg-white bg-grid' : 'bg-grid'} ${variant === 'compact' ? 'rev-compact' : ''}`} id={id} aria-labelledby={headId}>
   <div class="wrap">
     <div class="sec-head">
       <div data-rv>
@@ -42,6 +43,7 @@ const headId = `${id}-h`;
             </article>
           ))}
         </div>
+        <button class="btn btn-line rev-more" type="button" data-rev-more hidden>Show all {list.length} reviews</button>
       </div>
     ) : (
       <>
@@ -63,6 +65,7 @@ const headId = `${id}-h`;
             </article>
           ))}
         </div>
+        <button class="btn btn-line rev-more" type="button" data-rev-more hidden>Show all {list.length} reviews</button>
       </>
     )}
   </div>

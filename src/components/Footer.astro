@@ -35,13 +35,14 @@ const year = new Date().getFullYear();
         </a>
         <p>Locally owned, licensed &amp; insured tile contractor serving Southwest Florida for over 30 years.</p>
       </div>
-      <nav aria-labelledby="ft-services">
-        <p class="foot-title" id="ft-services">Services</p>
-        <ul>{services.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      <!-- On phones the two link lists fold into accordions (the toggle button is phone-only CSS; main.js opens and closes them). -->
+      <nav class="foot-acc" aria-labelledby="ft-services">
+        <p class="foot-title" id="ft-services">Services<button class="foot-tog" type="button" aria-expanded="false" aria-controls="ft-services-list"><span class="sr-only">(show the links)</span></button></p>
+        <ul id="ft-services-list">{services.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
       </nav>
-      <nav aria-labelledby="ft-areas">
-        <p class="foot-title" id="ft-areas">Service Areas</p>
-        <ul>{areas.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      <nav class="foot-acc" aria-labelledby="ft-areas">
+        <p class="foot-title" id="ft-areas">Service Areas<button class="foot-tog" type="button" aria-expanded="false" aria-controls="ft-areas-list"><span class="sr-only">(show the links)</span></button></p>
+        <ul id="ft-areas-list">{areas.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
       </nav>
       <div>
         <p class="foot-title">Contact</p>
