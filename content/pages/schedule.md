@@ -52,10 +52,14 @@ path: "/schedule"
             </div>
           </div>
           <!-- SMS consent for Rock Solid Tile's 10DLC campaign: unchecked, optional, separate from any terms, names the business and the message types, links to the policy pages. -->
-          <label class="quote-form-consent" for="qf-sms-consent">
-            <input type="checkbox" id="qf-sms-consent" name="sms_consent" value="yes">
-            <span>By providing my phone number and checking this box, I agree to receive SMS customer care messages from Rock Solid Tile: callback confirmations, follow-ups on my request, appointment reminders and a review request after a completed job. Message frequency may vary. Standard message and data rates may apply. Reply STOP to opt out, HELP for help. We will not share mobile information with third parties for promotional or marketing purposes. Consent is not a condition of purchase. <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms</a>.</span>
-          </label>
+          <div class="quote-form-consent">
+            <input type="checkbox" id="qf-sms-consent" name="sms_consent" value="yes" aria-describedby="qf-sms-consent-legal">
+            <div class="sms-copy">
+              <label class="sms-plain" for="qf-sms-consent"><strong>This agreement here is just legal jargon so that we can legally contact you. It's simply to communicate.</strong> <span class="sms-teaser">By providing my phone number…</span></label>
+              <details class="sms-more"><summary><span class="sms-show">read more</span><span class="sms-hide">read less</span></summary><p class="sms-legal" id="qf-sms-consent-legal">By providing my phone number and checking this box, I agree to receive SMS customer care messages from Rock Solid Tile: callback confirmations, follow-ups on my request, appointment reminders and a review request after a completed job. Message frequency may vary. Standard message and data rates may apply. Reply STOP to opt out, HELP for help. We will not share mobile information with third parties for promotional or marketing purposes. Consent is not a condition of purchase. <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms</a>.</p></details>
+              <span class="sms-links"><a href="/privacy">Privacy Policy</a> <span aria-hidden="true">·</span> <a href="/terms">Terms</a></span>
+            </div>
+          </div>
           </div>
           <div class="qf-step" data-step="2">
           <div class="quote-form-row">
