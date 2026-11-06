@@ -14,7 +14,7 @@ faqs:
   - question: "Do you tile lanais on canal-front homes in Cape Coral?"
     answer: "Yes, canal-front and dock-adjacent lanais are some of our most common Cape Coral projects. We pay close attention to slip resistance and moisture-tolerant materials on every waterfront outdoor space."
   - question: "Do you offer free lanai and pool deck tile estimates in Cape Coral?"
-    answer: "Yes, every lanai and pool deck tile estimate in Cape Coral is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every lanai and pool deck tile estimate in Cape Coral is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
 ---
 
 Cape Coral has more canal miles than any other city in the world, and that shapes outdoor living here more than almost anywhere else in Southwest Florida — lanais, pool decks, and dock areas aren't an afterthought, they're where a huge share of daily life happens. This guide covers what lanai and pool deck tile costs in Cape Coral, the materials that actually hold up to sun, splash, and canal-front humidity, and what to expect from the installation process.
@@ -23,7 +23,7 @@ Cape Coral has more canal miles than any other city in the world, and that shape
 
 With canals running through nearly every neighborhood, a large share of Cape Coral homes are built around outdoor living — a lanai or pool deck that connects the house to the water, the dock, or the pool. That means the tile out there isn't just decorative flooring; it's a surface that has to handle bare feet coming off a boat, constant sun exposure, and Southwest Florida's seasonal downpours, all while still looking good enough to be the backdrop for how the home is actually used day to day.
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 ## How Much Does Lanai & Pool Deck Tile Cost in Cape Coral?
 

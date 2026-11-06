@@ -14,7 +14,7 @@ faqs:
   - question: "How long does a bathroom tile installation take in Cape Coral?"
     answer: "Most single-bathroom tile installations take 3–7 working days depending on scope. We'll give you a specific timeline based on your bathroom's size and the work involved during your free estimate."
   - question: "Do you offer free bathroom tile estimates in Cape Coral?"
-    answer: "Yes, every bathroom tile estimate in Cape Coral is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every bathroom tile estimate in Cape Coral is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
 ---
 
 Cape Coral has more canal miles than any other city in the world, which shapes bathroom tile installation here in a few practical ways — from the materials that hold up best to the moisture considerations that matter more near open water. This guide covers what to expect, what things cost, and what to ask for whether you're renovating a canal-front primary bathroom or a guest bath a few streets inland.
@@ -23,7 +23,7 @@ Cape Coral has more canal miles than any other city in the world, which shapes b
 
 A typical bathroom tile remodel in Cape Coral costs **$7,000–$15,000**. Where a project lands in that range depends on:
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 -   **Scope** — a tub surround replacement is far less involved than a full floor-to-ceiling remodel with a custom shower.
 -   **Materials** — porcelain and ceramic cost less than natural stone or extensive mosaic work.

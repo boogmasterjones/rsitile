@@ -15,7 +15,7 @@ faqs:
   - question: "How long does whole-home floor tile installation take?"
     answer: "A single room typically takes 2–4 working days, while a whole-home floor tile project can take 1–3 weeks depending on square footage, pattern complexity, and how much furniture needs to move. We'll give you a specific timeline during your free estimate."
   - question: "Do you offer free estimates for floor tile installation?"
-    answer: "Yes, every floor tile estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every floor tile estimate is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "How much does whole-house floor tile installation cost?"
     answer: "Whole-house floor tile installation in Southwest Florida typically costs $10,000–$20,000, depending on square footage and material. Larger whole-home projects that also include kitchen and bathroom tile typically run $20,000–$50,000. We'll give you an exact, written quote during your free estimate."
 ---
@@ -29,7 +29,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs ceramic, porcelain, natural stone, and LVP flooring for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
@@ -64,7 +64,7 @@ faqs:
       <h2>Questions About Your Floor Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about floor tile work — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -114,7 +114,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free estimates for floor tile installation?</summary>
-          <p>Yes, every floor tile estimate is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every floor tile estimate is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
         <details class="faq-item">
           <summary>How much does whole-house floor tile installation cost?</summary>
@@ -122,7 +122,7 @@ faqs:
         </details>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -193,7 +193,7 @@ faqs:
       <h2>Ready to Update Your Floors?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -215,7 +215,7 @@ faqs:
           <li>Mosaic tile floors, entryway tile, and whole-home tile flooring</li>
         </ul>
         <h3>Floor Tile Installation Near You in Southwest Florida</h3>
-        <p>We provide floor tile installation in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured tile flooring contractor in Southwest Florida, we offer free estimates on every floor tile installation project. Call (941) 276-0305 to book your free floor tile flooring estimate today.</p>
+        <p>We provide floor tile installation in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured tile flooring contractor in Southwest Florida, we offer free estimates on every floor tile installation project. Call (941) 229-8282 to book your free floor tile flooring estimate today.</p>
       </div>
     </div>
   </section>

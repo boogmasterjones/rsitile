@@ -14,7 +14,7 @@ faqs:
   - question: "Should a historic home use the same tile throughout, or can rooms differ?"
     answer: "It's your call — some homeowners want a consistent look that reads as original to the house, while others use each room's remodel as a chance to modernize. We can advise on what will look intentional either way, given the home's age and style."
   - question: "Do you offer free estimates for historic home tile projects in Bradenton?"
-    answer: "Yes, every estimate is free and comes with a written quote, including a look at your existing tile and subfloor condition. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate is free and comes with a written quote, including a look at your existing tile and subfloor condition. Call (941) 229-8282 or request an estimate online to get started."
 ---
 
 A lot of our downtown Bradenton work happens in homes that were built long before today's tile sizes, adhesives, or waterproofing methods existed. That's not a problem — it just means the approach is different from a straightforward remodel in newer construction. This guide covers what to actually expect.
@@ -23,7 +23,7 @@ A lot of our downtown Bradenton work happens in homes that were built long befor
 
 The single most common question we get on a historic Bradenton renovation is whether we can match what's already there. Sometimes we can get close — certain classic tile sizes and grout colors are still made. More often, the exact original has been discontinued for years, especially in homes built mid-century or earlier.
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 When an exact match isn't realistic, we'll lay out the honest options: a close match that reads as original from a normal viewing distance, or a deliberate transition — a threshold, a change in pattern, or a complementary tile — that looks intentional rather than like a patch job.
 

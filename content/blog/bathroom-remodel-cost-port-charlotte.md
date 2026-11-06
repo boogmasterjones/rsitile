@@ -74,4 +74,4 @@ You can learn more about the [bathroom tile installation](/services/bathroom-til
 
 ## Get a Number Based on Your Bathroom
 
-The typical ranges above are a good place to start, but the most useful number is the one built around your own space. To get a free, written quote from Rock Solid Tile, call (941) 276-0305.
+The typical ranges above are a good place to start, but the most useful number is the one built around your own space. To get a free, written quote from Rock Solid Tile, call (941) 229-8282.

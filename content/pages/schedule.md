@@ -14,7 +14,7 @@ path: "/schedule"
         <h1>Schedule a Call About Your Free Estimate</h1>
         <p class="hero-lede">Pick a time for us to call you back and go over your project — we'll set up your in-person estimate from there at a time that works for both of us. Prefer to just call now instead?</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="#book">Schedule a Call</a>
         </div>
       </div>
@@ -112,7 +112,7 @@ path: "/schedule"
             <ul class="contact-list">
               <li>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                <span><strong>Phone</strong><a href="tel:+19412760305">(941) 276-0305</a></span>
+                <span><strong>Phone</strong><a href="tel:+19412298282">(941) 229-8282</a></span>
               </li>
               <li>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 7 10 6 10-6"></path></svg>
@@ -127,7 +127,7 @@ path: "/schedule"
                 <span><strong>Licensed &amp; Insured</strong>Free estimates on every project</span>
               </li>
             </ul>
-            <a class="btn btn-gold btn-block" href="tel:+19412760305">Call (941) 276-0305</a>
+            <a class="btn btn-gold btn-block" href="tel:+19412298282">Call (941) 229-8282</a>
           </div>
           <div class="calendly-embed">
             <!-- Calendly inline widget begin -->

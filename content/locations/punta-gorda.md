@@ -13,7 +13,7 @@ faqs:
   - question: "Can you match tile in an older, historic Punta Gorda home?"
     answer: "Yes. For renovations or additions in Punta Gorda's older homes, we'll do our best to match existing tile or grout, or recommend a clean transition point where an exact match isn't available."
   - question: "Do you offer free tile estimates in Punta Gorda?"
-    answer: "Yes, every estimate in Punta Gorda is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate in Punta Gorda is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
 ---
 
 <section class="hero page-hero">
@@ -25,7 +25,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Punta Gorda — from the historic downtown to the canals of Punta Gorda Isles.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
         <div class="trust-badges">
@@ -56,7 +56,7 @@ faqs:
       <h2>Questions About Your Punta Gorda Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about tile work in Punta Gorda — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -139,7 +139,7 @@ faqs:
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -161,7 +161,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free tile estimates in Punta Gorda?</summary>
-          <p>Yes, every estimate in Punta Gorda is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every estimate in Punta Gorda is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -205,7 +205,7 @@ faqs:
       <h2>Ready to Start Your Punta Gorda Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -224,7 +224,7 @@ faqs:
           <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for Punta Gorda's waterfront homes</li>
         </ul>
-        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Punta Gorda and all of Southwest Florida, we offer free estimates on every Punta Gorda tile installation project. Call (941) 276-0305 to book your free Punta Gorda tile estimate today.</p>
+        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Punta Gorda and all of Southwest Florida, we offer free estimates on every Punta Gorda tile installation project. Call (941) 229-8282 to book your free Punta Gorda tile estimate today.</p>
       </div>
     </div>
   </section>

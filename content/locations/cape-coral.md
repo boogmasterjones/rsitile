@@ -13,9 +13,9 @@ faqs:
   - question: "Can you tile a new-construction home in Cape Coral?"
     answer: "Yes, whole-home tile installation in new-construction homes is a regular part of our Cape Coral work, given how much of the city continues to be built out."
   - question: "Do you offer free tile estimates in Cape Coral?"
-    answer: "Yes, every estimate in Cape Coral is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate in Cape Coral is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "Do you serve all of Lee County?"
-    answer: "Yes, Lee County is part of our service area, including Cape Coral. We also work across Charlotte, Sarasota, and Manatee Counties. Call (941) 276-0305 to confirm your address and set up a free estimate with a written quote."
+    answer: "Yes, Lee County is part of our service area, including Cape Coral. We also work across Charlotte, Sarasota, and Manatee Counties. Call (941) 229-8282 to confirm your address and set up a free estimate with a written quote."
 ---
 
 <section class="hero page-hero">
@@ -27,7 +27,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Cape Coral, a city built around more canals than anywhere else in the world.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
@@ -53,7 +53,7 @@ faqs:
       <h2>Questions About Your Cape Coral Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about tile work in Cape Coral — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -136,7 +136,7 @@ faqs:
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -158,7 +158,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free tile estimates in Cape Coral?</summary>
-          <p>Yes, every estimate in Cape Coral is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every estimate in Cape Coral is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -202,7 +202,7 @@ faqs:
       <h2>Ready to Start Your Cape Coral Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -221,7 +221,7 @@ faqs:
           <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for Cape Coral's canal-front homes</li>
         </ul>
-        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Cape Coral and all of Southwest Florida, we offer free estimates on every Cape Coral tile installation project. Call (941) 276-0305 to book your free Cape Coral tile estimate today.</p>
+        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Cape Coral and all of Southwest Florida, we offer free estimates on every Cape Coral tile installation project. Call (941) 229-8282 to book your free Cape Coral tile estimate today.</p>
       </div>
     </div>
   </section>

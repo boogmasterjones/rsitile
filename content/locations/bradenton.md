@@ -13,7 +13,7 @@ faqs:
   - question: "Can you match tile in an older, historic Bradenton home?"
     answer: "Yes, for renovations or additions in Bradenton's older homes we'll do our best to match existing tile or grout, or recommend a clean transition point where an exact match isn't available."
   - question: "Do you offer free tile estimates in Bradenton?"
-    answer: "Yes, every estimate in Bradenton is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate in Bradenton is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "How much does tile installation cost in Bradenton?"
     answer: "Most Bradenton bathroom remodels run $7,000–$15,000, kitchen backsplashes run $2,000–$5,000, whole-home floor tile runs $10,000–$20,000 or more, and lanai or pool deck tile runs $3,000–$8,000. Your exact cost depends on square footage, material, and scope, which we confirm during a free in-home estimate."
   - question: "Do you install tile in new-construction homes near Lakewood Ranch?"
@@ -31,7 +31,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Bradenton, from the Manatee River waterfront to growing suburban neighborhoods.</p>
         <p class="last-updated">Last updated: September 16, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
@@ -90,7 +90,7 @@ faqs:
       <h2>Questions About Your Bradenton Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about tile work in Bradenton — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -173,7 +173,7 @@ faqs:
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -195,7 +195,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free tile estimates in Bradenton?</summary>
-          <p>Yes, every estimate in Bradenton is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every estimate in Bradenton is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
         <details class="faq-item">
           <summary>How much does tile installation cost in Bradenton?</summary>
@@ -251,7 +251,7 @@ faqs:
       <h2>Ready to Start Your Bradenton Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -270,7 +270,7 @@ faqs:
           <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for Bradenton's riverfront homes</li>
         </ul>
-        <p>For a closer look at what we offer city-wide, see our <a href="/blog/tile-contractor-bradenton">Bradenton tile contractor overview</a>. As a top-rated, 5-star, licensed and insured tile contractor serving Bradenton, Palma Sola, Cortez, West Bradenton, the Lakewood Ranch area, and all of Southwest Florida, we offer free estimates on every Bradenton tile installation project. Call (941) 276-0305 to book your free Bradenton tile estimate today.</p>
+        <p>For a closer look at what we offer city-wide, see our <a href="/blog/tile-contractor-bradenton">Bradenton tile contractor overview</a>. As a top-rated, 5-star, licensed and insured tile contractor serving Bradenton, Palma Sola, Cortez, West Bradenton, the Lakewood Ranch area, and all of Southwest Florida, we offer free estimates on every Bradenton tile installation project. Call (941) 229-8282 to book your free Bradenton tile estimate today.</p>
       </div>
     </div>
   </section>

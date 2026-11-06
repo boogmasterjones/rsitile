@@ -13,7 +13,7 @@ faqs:
   - question: "Do you install tile in beachside condos and homes?"
     answer: "Yes, we serve homes throughout Venice Island and the surrounding beach communities, using moisture-tolerant materials and proper sealing given the salt air."
   - question: "Do you offer free tile estimates in Venice?"
-    answer: "Yes, every estimate in Venice is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate in Venice is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
 ---
 
 <section class="hero page-hero">
@@ -25,7 +25,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Venice, from the historic downtown to the beach communities along Venice Island.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
         <div class="trust-badges">
@@ -56,7 +56,7 @@ faqs:
       <h2>Questions About Your Venice Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about tile work in Venice — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -139,7 +139,7 @@ faqs:
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -161,7 +161,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free tile estimates in Venice?</summary>
-          <p>Yes, every estimate in Venice is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every estimate in Venice is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -205,7 +205,7 @@ faqs:
       <h2>Ready to Start Your Venice Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -224,7 +224,7 @@ faqs:
           <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for Venice's beachside homes</li>
         </ul>
-        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Venice and all of Southwest Florida, we offer free estimates on every Venice tile installation project. Call (941) 276-0305 to book your free Venice tile estimate today.</p>
+        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Venice and all of Southwest Florida, we offer free estimates on every Venice tile installation project. Call (941) 229-8282 to book your free Venice tile estimate today.</p>
       </div>
     </div>
   </section>
