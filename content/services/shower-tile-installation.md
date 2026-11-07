@@ -89,6 +89,7 @@ faqs:
             <li><strong>Grouting, sealing &amp; walkthrough</strong> — grout and sealant are applied, and we review the finished shower with you before calling the job complete.</li>
           </ul>
           <p>Want more detail before you start? Read our <a href="/blog/shower-tile-installation-guide">complete shower tile installation guide</a> for a full cost breakdown, material comparisons, and common mistakes to avoid.</p>
+          <p>Thinking about swapping an old tub for a walk-in or curbless shower? Our <a href="/blog/tub-to-shower-conversion-port-charlotte">tub-to-shower conversion guide</a> walks through the options, and our <a href="/blog/bathroom-remodel-cost-port-charlotte">bathroom remodel cost guide</a> covers typical price ranges and what moves them.</p>
         </div>
         <picture><source type="image/webp" srcset="/images/work/hero-tub-window-800w.webp 800w, /images/work/hero-tub-window.webp 1200w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/hero-tub-window.jpg" alt="White subway tile shower with marble arabesque accent tile" width="1200" height="674" loading="lazy" decoding="async"></picture>
       </div>

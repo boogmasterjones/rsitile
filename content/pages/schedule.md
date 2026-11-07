@@ -104,7 +104,7 @@ path: "/schedule"
       <div class="schedule-col">
         <div class="quote-form-head">
           <h3>Schedule A Call</h3>
-          <p>Pick a time below for us to call you back and go over your project.</p>
+          <p>Pick a time in the call scheduler below and we'll call you back to go over your project.</p>
         </div>
         <div class="contact-grid">
           <div class="contact-card">
@@ -133,6 +133,7 @@ path: "/schedule"
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/rsitile-info/30min?hide_event_type_details=1&amp;hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
             <!-- Calendly inline widget end -->
+            <noscript><p><a href="https://calendly.com/rsitile-info/30min">Open the call scheduler</a> to pick a time.</p></noscript>
           </div>
         </div>
       </div>
