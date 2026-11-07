@@ -23,7 +23,7 @@ If you're searching for a tile contractor in Bradenton, you probably already hav
 
 A true full-service tile contractor covers the entire range of tile work a home might need. In Bradenton, that includes:
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 -   [Bathroom tile installation](/services/bathroom-tile-installation) — floors, tub surrounds, and full bathroom remodels.
 -   [Shower tile installation](/services/shower-tile-installation) — custom showers with niches, benches, and proper waterproofing.

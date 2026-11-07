@@ -84,4 +84,4 @@ From our home base in Port Charlotte, Rock Solid Tile works with homeowners in P
 
 ## Ready to Retire That Tub?
 
-If you're tired of stepping over a tub you never use, we'd be glad to take a look. Request your free estimate or call Rock Solid Tile at (941) 276-0305 to talk through a walk-in or curbless shower for your home.
+If you're tired of stepping over a tub you never use, we'd be glad to take a look. Request your free estimate or call Rock Solid Tile at (941) 229-8282 to talk through a walk-in or curbless shower for your home.

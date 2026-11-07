@@ -13,9 +13,9 @@ faqs:
   - question: "Do you install tile in canal-front Port Charlotte homes?"
     answer: "Yes, we regularly work on canal-front homes throughout Port Charlotte, paying close attention to moisture-tolerant materials and proper waterproofing."
   - question: "Do you offer free tile estimates in Port Charlotte?"
-    answer: "Yes, every estimate in Port Charlotte is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate in Port Charlotte is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "How much does a bathroom remodel cost in Port Charlotte?"
-    answer: "A bathroom remodel typically runs $7,000–$15,000. These are typical ranges, not exact prices. Every Port Charlotte estimate is free and comes with a written quote that confirms the cost for your bathroom. Call (941) 276-0305 to get started."
+    answer: "A bathroom remodel typically runs $7,000–$15,000. These are typical ranges, not exact prices. Every Port Charlotte estimate is free and comes with a written quote that confirms the cost for your bathroom. Call (941) 229-8282 to get started."
 ---
 
 <section class="hero page-hero">
@@ -27,7 +27,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile is based right here in Port Charlotte, installing bathroom, kitchen, floor, shower, and lanai tile throughout the community we call home.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
         <div class="trust-badges">
@@ -58,7 +58,7 @@ faqs:
       <h2>Questions About Your Port Charlotte Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about tile work in Port Charlotte — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -141,7 +141,7 @@ faqs:
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -163,7 +163,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free tile estimates in Port Charlotte?</summary>
-          <p>Yes, every estimate in Port Charlotte is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every estimate in Port Charlotte is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -207,7 +207,7 @@ faqs:
       <h2>Ready to Start Your Port Charlotte Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -226,7 +226,7 @@ faqs:
           <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for Port Charlotte's canal-front homes</li>
         </ul>
-        <p>As your local, top-rated, 5-star, licensed and insured Port Charlotte tile contractor, we offer free estimates on every Port Charlotte tile installation project. Call (941) 276-0305 to book your free Port Charlotte tile estimate today.</p>
+        <p>As your local, top-rated, 5-star, licensed and insured Port Charlotte tile contractor, we offer free estimates on every Port Charlotte tile installation project. Call (941) 229-8282 to book your free Port Charlotte tile estimate today.</p>
       </div>
     </div>
   </section>
@@ -240,7 +240,7 @@ Planning a bathroom remodel in Port Charlotte? Rock Solid Tile handles the showe
 - **Custom showers:** niches and benches for storage and seating.
 - **Waterproofing:** done in-house, along with demolition, setting and grouting.
 
-Learn more on our [shower tile installation](/services/shower-tile-installation) page, or see our [bathroom tile installation](/services/bathroom-tile-installation) page for floors and tub surrounds. Every Port Charlotte estimate is free and comes with a written quote. Call (941) 276-0305 to get started.
+Learn more on our [shower tile installation](/services/shower-tile-installation) page, or see our [bathroom tile installation](/services/bathroom-tile-installation) page for floors and tub surrounds. Every Port Charlotte estimate is free and comes with a written quote. Call (941) 229-8282 to get started.
 
 ## Bathroom Remodels and Custom Showers in Port Charlotte
 
@@ -251,4 +251,4 @@ Typical cost ranges:
 - Bathroom remodel: $7,000–$15,000
 - Custom shower: $4,000–$10,000
 
-These are typical ranges, not exact prices. Your cost is confirmed by a free written quote after we see your bathroom. Call (941) 276-0305 to request your free estimate.
+These are typical ranges, not exact prices. Your cost is confirmed by a free written quote after we see your bathroom. Call (941) 229-8282 to request your free estimate.

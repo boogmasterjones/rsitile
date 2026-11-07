@@ -42,7 +42,7 @@ You can ask us to correct or delete the details we hold about you, and you can o
 
 ## Contact us
 
-Rock Solid Tile, (941) 276-0305, info@rsitile.com.
+Rock Solid Tile, (941) 229-8282, info@rsitile.com.
 
     </div>
   </section>

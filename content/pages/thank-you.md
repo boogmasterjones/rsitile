@@ -14,7 +14,7 @@ noindex: true
         <h1>Thanks, We Got Your Project Details</h1>
         <p class="hero-lede">We'll follow up by phone or email to set up your free in-home estimate. Every estimate comes with a written quote. Want to talk sooner? Give us a call.</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/">Back to Homepage</a>
         </div>
       </div>

@@ -15,7 +15,7 @@ faqs:
   - question: "Can you add a niche, bench, or accent band to my shower?"
     answer: "Yes, niches, seated benches, and mosaic or glass accent bands are some of the most common shower upgrades we install, and we build the waterproofing and framing for each one correctly rather than cutting into finished tile after the fact."
   - question: "Do you offer free estimates for shower remodels?"
-    answer: "Yes, every shower tile estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every shower tile estimate is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "How much does a custom shower tile remodel cost?"
     answer: "A custom shower tile remodel in Southwest Florida typically costs $4,000–$10,000, depending on size and features like niches, benches, or a curbless entry. We'll give you an exact, written quote during your free estimate."
 ---
@@ -29,7 +29,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile builds custom tile showers — niches, benches, curbless entries, and proper waterproofing — for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
@@ -68,7 +68,7 @@ faqs:
       <h2>Questions About Your Shower Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about shower tile work — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -119,7 +119,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free estimates for shower remodels?</summary>
-          <p>Yes, every shower tile estimate is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every shower tile estimate is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
         <details class="faq-item">
           <summary>How much does a custom shower tile remodel cost?</summary>
@@ -127,7 +127,7 @@ faqs:
         </details>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -198,7 +198,7 @@ faqs:
       <h2>Ready to Build Your Custom Shower?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -219,7 +219,7 @@ faqs:
           <li>Tub-to-shower conversions and full shower remodels</li>
         </ul>
         <h3>Shower Tile Installation Near You in Southwest Florida</h3>
-        <p>We build tile showers in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured shower tile contractor in Southwest Florida, we offer free estimates on every custom shower tile installation. Call (941) 276-0305 to book your free shower tile estimate today.</p>
+        <p>We build tile showers in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured shower tile contractor in Southwest Florida, we offer free estimates on every custom shower tile installation. Call (941) 229-8282 to book your free shower tile estimate today.</p>
       </div>
     </div>
   </section>

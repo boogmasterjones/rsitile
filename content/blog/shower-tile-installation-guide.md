@@ -24,7 +24,7 @@ If you're planning a shower tile installation, the two questions on your mind ar
 
 A custom shower tile installation typically costs **$4,000–$10,000** in Southwest Florida, depending on a few key factors:
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 -   **Shower size** — a larger footprint means more tile, more labor, and a bigger waterproofing area.
 -   **Tile material** — ceramic and porcelain run less expensive than natural stone or handmade/imported tile.

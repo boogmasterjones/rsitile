@@ -15,7 +15,7 @@ faqs:
   - question: "What grout should I use in a kitchen?"
     answer: "We typically recommend a stain-resistant grout for both backsplashes and floors, since kitchens see frequent spills and grease. Sealing isn't always necessary depending on the grout type — we'll go over grout color and whether sealing makes sense for your kitchen during the estimate."
   - question: "Do you offer free estimates for kitchen tile projects?"
-    answer: "Yes, every kitchen tile and backsplash estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every kitchen tile and backsplash estimate is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "How much does a kitchen backsplash installation cost?"
     answer: "A kitchen backsplash installation in Southwest Florida typically costs $2,000–$5,000, depending on tile material and square footage. We'll give you an exact, written quote during your free estimate."
   - question: "Can you supply and source the tile for my backsplash?"
@@ -31,7 +31,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs kitchen floor tile and custom backsplashes for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
@@ -70,7 +70,7 @@ faqs:
       <h2>Questions About Your Kitchen Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about kitchen tile work — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -120,7 +120,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free estimates for kitchen tile projects?</summary>
-          <p>Yes, every kitchen tile and backsplash estimate is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every kitchen tile and backsplash estimate is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
         <details class="faq-item">
           <summary>How much does a kitchen backsplash installation cost?</summary>
@@ -128,7 +128,7 @@ faqs:
         </details>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -199,7 +199,7 @@ faqs:
       <h2>Ready to Update Your Kitchen?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -220,7 +220,7 @@ faqs:
           <li>Complete kitchen tile remodels to match your cabinets and counters</li>
         </ul>
         <h3>Kitchen Tile Installation Near You in Southwest Florida</h3>
-        <p>We install kitchen tile and backsplashes in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured kitchen tile contractor in Southwest Florida, we offer free estimates on every kitchen tile and backsplash installation. Call (941) 276-0305 to book your free kitchen tile estimate today.</p>
+        <p>We install kitchen tile and backsplashes in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured kitchen tile contractor in Southwest Florida, we offer free estimates on every kitchen tile and backsplash installation. Call (941) 229-8282 to book your free kitchen tile estimate today.</p>
       </div>
     </div>
   </section>
@@ -237,4 +237,4 @@ Rock Solid Tile is a family-owned tile installer based in Port Charlotte, and we
 - [Cape Coral](/locations/cape-coral)
 - [Bradenton](/locations/bradenton)
 
-Wherever you are in the area, every kitchen tile and backsplash estimate is free and comes with a written quote. Call (941) 276-0305 to get started.
+Wherever you are in the area, every kitchen tile and backsplash estimate is free and comes with a written quote. Call (941) 229-8282 to get started.

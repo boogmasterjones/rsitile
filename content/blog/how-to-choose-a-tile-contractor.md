@@ -23,7 +23,7 @@ Tile work is one of those home projects where the quality is invisible for the f
 
 A tile contractor handles the full scope of a tile installation project — not just setting tile, but everything that has to happen correctly before and after it. That includes demolition of old flooring or tile, substrate prep (leveling, backer board, waterproofing membrane), layout planning so cuts and patterns land correctly, setting the tile with the right thin-set and trowel size for the material, and grouting and sealing the finished surface. A contractor who's only comfortable with the "setting tile" part of that list, and not the prep and waterproofing that come before it, is a real risk for a bathroom, shower, or kitchen project.
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 ## Why Licensing & Insurance Matter
 

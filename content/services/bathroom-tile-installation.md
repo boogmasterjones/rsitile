@@ -13,7 +13,7 @@ faqs:
   - question: "Do I need to buy the tile myself, or can you provide it?"
     answer: "Either way works. We can source and supply tile for you through our suppliers, or install tile you've already purchased yourself — we'll go over material options and pricing during your free estimate so you can decide what makes sense."
   - question: "Do you offer free estimates for bathroom tile projects?"
-    answer: "Yes, every bathroom tile estimate is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every bathroom tile estimate is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "How much does a bathroom tile remodel cost?"
     answer: "A typical bathroom tile remodel in Southwest Florida costs $7,000–$15,000, depending on scope — a single tub surround replacement costs less than a full floor-to-ceiling remodel with a custom shower. We'll give you an exact, written quote during your free estimate."
 ---
@@ -27,7 +27,7 @@ faqs:
  <p class="hero-lede">Rock Solid Tile installs bathroom tile floors, tub surrounds, and custom showers for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties.</p>
  <p class="last-updated">Last updated: August 12, 2026</p>
  <div class="hero-actions">
- <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+ <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
  <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
  </div>
  </div>
@@ -66,7 +66,7 @@ faqs:
  <h2>Questions About Your Bathroom Tile Project?</h2>
  <p>Call, request an estimate online, or ask us anything about bathroom tile work — we're happy to help.</p>
  <div class="cta-actions">
- <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+ <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
  <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
  </div>
  </div>
@@ -112,7 +112,7 @@ faqs:
  </details>
  <details class="faq-item">
  <summary>Do you offer free estimates for bathroom tile projects?</summary>
- <p>Yes, every bathroom tile estimate is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+ <p>Yes, every bathroom tile estimate is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
  </details>
  <details class="faq-item">
  <summary>How much does a bathroom tile remodel cost?</summary>
@@ -120,7 +120,7 @@ faqs:
  </details>
  </div>
  <div class="section-cta">
- <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+ <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
  <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
  </div>
  </div>
@@ -191,7 +191,7 @@ faqs:
  <h2>Ready to Update Your Bathroom?</h2>
  <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
  <div class="cta-actions">
- <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+ <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
  <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
  </div>
  </div>
@@ -212,7 +212,7 @@ faqs:
  <li>Complete bathroom remodels and master bath renovations</li>
  </ul>
  <h3>Bathroom Tile Installation Near You in Southwest Florida</h3>
- <p>We install bathroom tile in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured bathroom tile contractor in Southwest Florida, we offer free estimates on every bathroom tile installation and remodel. Call (941) 276-0305 to book your free bathroom tile estimate today.</p>
+ <p>We install bathroom tile in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured bathroom tile contractor in Southwest Florida, we offer free estimates on every bathroom tile installation and remodel. Call (941) 229-8282 to book your free bathroom tile estimate today.</p>
  </div>
  </div>
  </section>
@@ -221,7 +221,7 @@ faqs:
 
 Rock Solid Tile publishes typical cost ranges so you can plan before you call. A typical bathroom remodel runs **$7,000–$15,000**. If a custom shower is part of your plans, our typical range for a custom shower is $4,000–$10,000. Our [shower tile installation guide](/blog/shower-tile-installation-guide) covers shower costs in more detail.
 
-These are typical ranges, not set prices. Your actual figure comes from a free estimate with a written quote. For more on local remodel budgets, read our post on [bathroom remodel costs in Port Charlotte](/blog/bathroom-remodel-cost-port-charlotte), or call (941) 276-0305 to set up your free estimate.
+These are typical ranges, not set prices. Your actual figure comes from a free estimate with a written quote. For more on local remodel budgets, read our post on [bathroom remodel costs in Port Charlotte](/blog/bathroom-remodel-cost-port-charlotte), or call (941) 229-8282 to set up your free estimate.
 
 ## Converting a Tub to a Walk-In Shower
 

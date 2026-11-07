@@ -13,7 +13,7 @@ faqs:
   - question: "Can you handle whole-home flooring for a new build?"
     answer: "Yes, we regularly install porcelain, ceramic, and LVP flooring throughout a new North Port home in a single coordinated project, in addition to bathroom, kitchen, and lanai tile."
   - question: "Do you offer free tile estimates in North Port?"
-    answer: "Yes, every estimate in North Port is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every estimate in North Port is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
   - question: "Can you remove my old flooring and level the subfloor before installing new tile in North Port?"
     answer: "Yes. Old flooring removal and subfloor leveling are part of our services, and demolition, setting, and grouting are all handled in-house by our own crew. This prep is common in North Port's established neighborhoods, where homeowners are replacing older floors. Your free written quote will lay out the removal and leveling work before we start."
 ---
@@ -27,7 +27,7 @@ faqs:
         <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout North Port, one of Florida's fastest-growing cities.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
-          <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+          <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
         <div class="trust-badges">
@@ -58,7 +58,7 @@ faqs:
       <h2>Questions About Your North Port Tile Project?</h2>
       <p>Call, request an estimate online, or ask us anything about tile work in North Port — we're happy to help.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -141,7 +141,7 @@ faqs:
         </a>
       </div>
       <div class="section-cta">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-primary" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -163,7 +163,7 @@ faqs:
         </details>
         <details class="faq-item">
           <summary>Do you offer free tile estimates in North Port?</summary>
-          <p>Yes, every estimate in North Port is free and comes with a written quote. Call <a href="tel:+19412760305">(941) 276-0305</a> or request an estimate online to get started.</p>
+          <p>Yes, every estimate in North Port is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -207,7 +207,7 @@ faqs:
       <h2>Ready to Start Your North Port Tile Project?</h2>
       <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
       <div class="cta-actions">
-        <a class="btn btn-gold" href="tel:+19412760305">Call (941) 276-0305</a>
+        <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
@@ -226,7 +226,7 @@ faqs:
           <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for North Port homes</li>
         </ul>
-        <p>As a top-rated, 5-star, licensed and insured tile contractor serving North Port and all of Southwest Florida, we offer free estimates on every North Port tile installation project. Call (941) 276-0305 to book your free North Port tile estimate today.</p>
+        <p>As a top-rated, 5-star, licensed and insured tile contractor serving North Port and all of Southwest Florida, we offer free estimates on every North Port tile installation project. Call (941) 229-8282 to book your free North Port tile estimate today.</p>
       </div>
     </div>
   </section>
@@ -237,7 +237,7 @@ Bathroom tiling is one of the most common projects we take on for North Port hom
 
 Waterproofing, demolition, setting, and grouting are all done in-house by our crew, so one team is responsible for the job from start to finish. Every North Port bathroom project starts with a free estimate and a written quote, so you know the scope before work begins.
 
-[See our bathroom tile installation services](/services/bathroom-tile-installation) or call (941) 276-0305.
+[See our bathroom tile installation services](/services/bathroom-tile-installation) or call (941) 229-8282.
 
 ## Pool Deck Tile in North Port
 
@@ -245,4 +245,4 @@ Many North Port homes have a pool, lanai, or patio where tile has to handle sun,
 
 If you are not sure what material to use, we also help with tile supply and sourcing, so you can choose a tile that suits your outdoor space. As with all our work, prep, setting, and grouting are handled in-house by our own crew.
 
-Every pool deck project in North Port starts with a free estimate and a written quote. [Learn more about our patio, lanai, and pool deck tile work](/services/patio-lanai-tile) or call (941) 276-0305.
+Every pool deck project in North Port starts with a free estimate and a written quote. [Learn more about our patio, lanai, and pool deck tile work](/services/patio-lanai-tile) or call (941) 229-8282.

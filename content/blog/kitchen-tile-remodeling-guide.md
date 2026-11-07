@@ -23,7 +23,7 @@ A kitchen remodel touches a lot of trades — cabinets, countertops, appliances,
 
 When homeowners say "kitchen remodel," that can mean anything from a full gut renovation to a single afternoon swapping out a dated backsplash. Rock Solid Tile handles the tile portion specifically — kitchen floor tile and backsplash installation — rather than cabinets, countertops, or appliances. If you're planning a larger remodel with multiple trades, we're glad to coordinate our schedule around your general contractor or the rest of your project timeline; if you're just updating the backsplash or floor, we can handle that as a standalone job with its own free estimate.
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 ## How Much Does Kitchen Tile Remodeling Cost in Southwest Florida?
 

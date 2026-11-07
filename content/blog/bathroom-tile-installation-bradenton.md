@@ -14,7 +14,7 @@ faqs:
   - question: "What tile is best for a riverfront Bradenton bathroom?"
     answer: "Porcelain tends to be the better choice over standard ceramic for riverfront and coastal-adjacent Bradenton homes, since it's denser and less porous, paired with stain-resistant grout and a properly installed waterproofing membrane."
   - question: "Do you offer free bathroom tile estimates in Bradenton?"
-    answer: "Yes, every bathroom tile estimate in Bradenton is free and comes with a written quote. Call (941) 276-0305 or request an estimate online to get started."
+    answer: "Yes, every bathroom tile estimate in Bradenton is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
 ---
 
 Bradenton's mix of historic downtown homes, riverfront properties, and newer construction near Lakewood Ranch means bathroom tile work here looks a little different depending on where you are in the city. This guide covers what to expect: real cost ranges, the materials that hold up best near the water, and what tile-matching looks like in an older home.
@@ -23,7 +23,7 @@ Bradenton's mix of historic downtown homes, riverfront properties, and newer con
 
 A typical bathroom tile remodel in Bradenton costs **$7,000–$15,000**. Where a project lands in that range depends on:
 
-[Call (941) 276-0305](tel:+19412760305) [Or Schedule A Later Call](/schedule)
+[Call (941) 229-8282](tel:+19412298282) [Or Schedule A Later Call](/schedule)
 
 -   **Square footage** — a small guest bath costs far less than a full primary bathroom.
 -   **Material** — porcelain and ceramic run less than natural stone or intricate mosaic work.
