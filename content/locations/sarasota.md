@@ -31,7 +31,7 @@ faqs:
         <div class="trust-badges">
           <span class="trust-badge">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="m9 12 2 2 4-4"></path></svg>
-            30+ Years · 1,000+ Jobs Completed
+            250+ Sarasota Tile Projects Completed
           </span>
         </div>
       </div>
