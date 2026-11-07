@@ -5,8 +5,11 @@
 import Icon from './Icon.astro';
 import data from '../../data/reviews.json';
 
+// "5-star rated on Google" only while the live Google rating is 5.0 (owner rule 2026-11-07).
+const defaultIntro = data.rating.value === '5.0' ? '5-star rated on Google. Real reviews from real customers.' : 'Real reviews from real customers on Google.';
+
 interface Props { variant?: 'full' | 'compact'; ids?: string[]; heading?: string; intro?: string; id?: string; tone?: 'stone' | 'ivory' | 'white' }
-const { variant = 'full', ids, heading = 'What Southwest Florida Homeowners Are Saying', intro = 'Real reviews from real customers on Google.', id = 'reviews', tone = variant === 'compact' ? 'white' : 'stone' } = Astro.props;
+const { variant = 'full', ids, heading = 'What Southwest Florida Homeowners Are Saying', intro = defaultIntro, id = 'reviews', tone = variant === 'compact' ? 'white' : 'stone' } = Astro.props;
 const all = data.reviews;
 const list = ids ? ids.map((x) => all.find((r) => r.id === x)).filter((r): r is (typeof all)[number] => Boolean(r)) : all;
 const { rating } = data;
