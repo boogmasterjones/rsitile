@@ -97,6 +97,10 @@ path: "/schedule"
             <label for="qf-details">Tell Us A Little About Your Project</label>
             <textarea id="qf-details" name="details" placeholder="Write here..."></textarea>
           </div>
+          <label class="quote-form-consent" for="qf-sms-consent">
+            <input type="checkbox" id="qf-sms-consent" name="sms_consent" value="yes">
+            <span>By providing my phone number and checking this box, I agree to receive SMS customer care messages from Rock Solid Tile: callback confirmations, follow-ups on my request, appointment reminders and a review request after a completed job. Message frequency may vary. Standard message and data rates may apply. Reply STOP to opt out, HELP for help. We will not share mobile information with third parties for promotional or marketing purposes. Consent is not a condition of purchase. <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms</a>.</span>
+          </label>
           <button type="submit" class="btn btn-primary btn-block">Submit</button>
           </div>
         </form>
