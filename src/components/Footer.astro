@@ -4,12 +4,15 @@
 import Icon from './Icon.astro';
 import { navLinks } from '../lib/nav';
 import { phoneHref, site } from '../lib/site';
+import reviews from '../../data/reviews.json';
 
 interface Props { home?: boolean; cta?: boolean }
 const { home = false, cta = true } = Astro.props;
 const { services, areas } = await navLinks();
 const tel = phoneHref(site.business.phone);
 const quote = home ? '#contact' : '/#contact';
+// "5-star rated on Google" only while the live Google rating is 5.0 (owner rule 2026-11-07).
+const fiveStar = reviews.rating.value === '5.0';
 const year = new Date().getFullYear();
 ---
 
@@ -33,7 +36,7 @@ const year = new Date().getFullYear();
           <span class="mark" aria-hidden="true"></span>
           <span><span class="brand-name">{site.brand.logoText}</span><span class="brand-sub">{site.business.regionLabel}</span></span>
         </a>
-        <p>Locally owned, licensed &amp; insured tile contractor serving Southwest Florida for over 30 years.</p>
+        <p>Locally owned, licensed &amp; insured tile contractor serving Southwest Florida for over 30 years.{fiveStar && <> 5-star rated on Google.</>}</p>
       </div>
       <!-- On phones the two link lists fold into accordions (the toggle button is phone-only CSS; main.js opens and closes them). -->
       <nav class="foot-acc" aria-labelledby="ft-services">
