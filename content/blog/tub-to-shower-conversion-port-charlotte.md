@@ -1,87 +1,87 @@
 ---
 title: "Tub-to-Shower Conversion in Port Charlotte & SW Florida"
-description: "Turning an unused tub into a walk-in or curbless tiled shower in Port Charlotte and SW Florida: options, waterproofing, tile choices, timeline, and typical costs."
+description: "Swap your tub for a walk-in or curbless tile shower in Port Charlotte. See your choices, the time it takes, and the cost."
 date: 2026-10-06
 category: "Guides"
 faqs:
   - question: "How much does a tub-to-shower conversion cost in Port Charlotte?"
-    answer: "Your cost depends on size, tile selection, prep work, and features like niches, benches, or a curbless design. Any figure is a general range, not a quote. Every project starts with a free estimate and a written quote."
-  - question: "What's the difference between a curbed and a curbless shower?"
-    answer: "A curbed shower has a low tiled threshold that helps keep water in. A curbless shower has no threshold, so the floor flows straight into the shower. Curbless builds need more planning, typically a recessed or sloped floor and often a linear drain, so water is directed to the drain instead of across the bathroom."
+    answer: "Your cost depends on the size, the tile, and the prep work. It also depends on extras like wall shelves, seats, or a curbless design. Any figure is a rough range, not a quote. Each job starts with a free estimate and a written quote."
+  - question: "How is a curbed shower different from a curbless shower?"
+    answer: "A curbed shower has a low tile ledge that helps keep water in. A curbless shower has no ledge. So the floor flows right into the shower. Curbless showers take more planning. They most often need a lowered or sloped floor. They often need a long, thin drain too. That sends water to the drain, not across the bathroom."
   - question: "How long does it take to convert a tub to a shower?"
-    answer: "The timeline depends on the shower's size, curbed or curbless design, subfloor prep, and tile choice. Rock Solid Tile can give you a clearer timeline after seeing your bathroom."
-  - question: "Does Rock Solid Tile handle the waterproofing?"
-    answer: "Yes. Demolition, waterproofing, setting, and grouting are all done in-house by Rock Solid Tile."
+    answer: "The timeline depends on the shower's size. It depends on whether it is curbed or curbless. Floor prep and tile choice matter too. We can give you a clearer timeline after we see your bathroom."
+  - question: "Does Rock Solid Tile do the sealing?"
+    answer: "Yes. Our own crew does the tear-out, sealing, setting, and grout."
 ---
 
-If the bathtub in your Port Charlotte home mostly holds shampoo bottles and the occasional beach towel, you're not alone. Many people end up stepping over a high tub wall to take a shower. A tub-to-shower conversion replaces that tub with a custom tiled walk-in or curbless shower that's easier to get into and makes the bathroom feel bigger.
+Does the tub in your Port Charlotte home mostly hold shampoo bottles? Maybe the odd beach towel too? You're not alone. Lots of people end up stepping over a high tub wall to take a shower. A tub-to-shower conversion swaps that tub for a custom tile shower. It can be a walk-in or a curbless shower. It is easier to get into. And it makes the bathroom feel bigger.
 
-Rock Solid Tile is a family-owned tile installer based in Port Charlotte, and tub-to-shower conversions are one of the services we offer across Charlotte, Sarasota, Lee, and Manatee Counties. Here's a practical look at how these projects work, what to decide up front, and what they typically cost.
+We are a family-owned tile installer based in Port Charlotte. Tub-to-shower conversions are one of the services we offer. We do them across Charlotte, Sarasota, Lee, and Manatee Counties. Here's a plain look at how these jobs work. You'll see what to decide up front. And you'll see what they cost.
 
-## Why Homeowners Swap the Tub for a Shower
+## Why People Swap the Tub for a Shower
 
 The reasons tend to be simple and everyday:
 
-- **An easier step-in.** Climbing over a tub wall gets old, especially when floors are wet. A low curb, or no curb at all, makes daily showers simpler for everyone in the house.
-- **More usable floor space.** A tub takes up a lot of room for something you may rarely use. A walk-in shower can open up the layout and make a small bathroom feel less cramped.
-- **A cleaner, updated look.** A tiled shower with a niche or bench can turn a dated tub alcove into the most finished-looking part of the bathroom.
+- **An easier step-in.** Climbing over a tub wall gets old. That is extra true when the floor is wet. A low curb or no curb makes daily showers easier for all.
+- **More floor space you can use.** A tub takes up lots of room for something you may rarely use. A walk-in shower can open up the layout. It can make a small bathroom feel less cramped.
+- **A clean, new look.** A tile shower with a wall shelf or seat can change a dated tub nook. It can become the best-looking part of the bathroom.
 
 ## Curbed vs. Curbless: Which Is Right for You?
 
-The first big decision is whether your new shower has a curb.
+The first big choice is whether your new shower has a curb.
 
-**Curbed walk-in showers** have a low tiled threshold that helps keep water inside the shower. They're a straightforward choice for many tub alcoves and still give you a much lower step than a tub wall.
+**Curbed walk-in showers** have a low tile ledge. It helps keep water inside the shower. They are a simple choice for lots of tub nooks. And the step is still much lower than a tub wall.
 
-**Curbless showers** have no threshold at all; the bathroom floor flows right into the shower. They look open and modern and remove the step entirely. But a curbless build takes more planning, because without a curb the floor itself has to do all the work of keeping water where it belongs. That typically means:
+**Curbless showers** have no ledge at all. The bathroom floor flows right into the shower. They look open and modern. There is no step at all. But a curbless shower takes more planning. With no curb, the floor itself has to keep the water where it belongs. That most often means:
 
-- **A recessed or sloped shower floor**, so the shower area sits slightly lower or is pitched to direct water toward the drain instead of into the rest of the bathroom.
-- **A linear drain** in many designs, a long, narrow drain that lets the floor slope in one direction. It works well with larger tiles and a clean, flat look.
-- **Careful attention to the subfloor**, since getting the slope right depends on what's underneath. Rock Solid Tile handles old flooring removal and subfloor leveling, which matters when a floor needs prep before tile goes down.
+- **A lowered or sloped shower floor.** The shower area sits a bit lower. Or it tilts to send water to the drain. It won't run into the rest of the bathroom.
+- **A long, thin drain** in lots of designs. It lets the floor slope one way. It works well with bigger tiles and a clean, flat look.
+- **Careful work on the base under the floor.** Getting the slope right depends on what's under it. We take out old floors and level the base. That matters when a floor needs prep before tile goes down.
 
-During a free estimate, we can walk through which option fits your bathroom and how you plan to use it.
+At a free estimate, we can walk through which choice fits your bathroom. We'll talk about how you plan to use it.
 
-## Waterproofing and Pre-Slope: The Part You Don't See
+## Sealing and Sloping: The Part You Don't See
 
-The tile is what you look at every day, but what's behind it is what protects your home.
+You look at the tile each day. But what's behind it is what guards your home.
 
-A properly built tiled shower includes a **pre-slope**, which shapes the shower floor so water drains toward the drain rather than sitting in place, and a **waterproofing membrane** that covers the floor and walls so moisture that gets past the grout doesn't reach the framing or subfloor.
+A good tile shower has a **sloped base**. It shapes the shower floor so water runs to the drain. That way it doesn't just sit there. It also has a **seal layer** over the floor and walls. Some water gets past the grout. The seal layer keeps that water from reaching the framing or the floor below.
 
-At Rock Solid Tile, demolition, waterproofing, setting, and grouting are all done in-house, so the steps that matter most stay in the same hands from start to finish. You can read more about how we approach this on our [shower tile installation](/services/shower-tile-installation) page.
+Our own crew does the tear-out, sealing, setting, and grout. So the steps that matter most stay in the same hands from start to finish. You can read more about how we do this on our [shower tile installation](/services/shower-tile-installation) page.
 
-## Choosing Slip-Resistant Floor Tile
+## Choosing Non-Slip Floor Tile
 
-Shower floors get wet, so tile choice is about more than looks. A few things to keep in mind:
+Shower floors get wet. So the tile you pick is about more than looks. Here are a few things to keep in mind:
 
-- **Smaller tiles and mosaics** have more grout lines, which can add grip underfoot and help the tile follow the floor's slope.
-- **Textured or matte finishes** are generally a better fit for shower floors than highly polished surfaces.
-- **Natural stone tile** can be beautiful in a shower, but finishes vary, so it's worth talking through the options for a wet area.
-- **Larger-format tile** can work well with a linear drain, since the floor slopes in a single direction.
+- **Small tiles and mosaics** have more grout lines. That can add grip under your feet. It also helps the tile follow the floor's slope.
+- **Textured or matte finishes** most often suit shower floors better than shiny ones.
+- **Stone tile** can look great in a shower. But the finishes vary. So it's worth talking through your choices for a wet spot.
+- **Bigger tile** can work well with a long, thin drain. That is because the floor slopes just one way.
 
-Rock Solid Tile also offers tile supply and sourcing, so we can help you find options that suit both the look you want and how the shower will be used.
+We also help you find and buy tile. So we can help you find tile that suits the look you want. It will suit how you use the shower too.
 
-## Benches and Niches
+## Seats and Wall Shelves
 
-One of the best parts of a custom tiled shower is building in what you actually need:
+A big plus of a custom tile shower is building in what you need:
 
-- **Recessed niches** give shampoo and soap a dedicated spot, set into the wall so nothing sticks out.
-- **Built-in benches** offer a place to sit, prop a foot while shaving, or just relax.
+- **Wall shelves** give shampoo and soap their own spot. They are set into the wall so nothing sticks out.
+- **Built-in seats** give you a place to sit. You can rest a foot while shaving or just relax.
 
-Planning these early helps make sure they're in a convenient spot and line up neatly with the tile layout.
+Plan these early. That helps them land in a handy spot. It also helps them line up neatly with the tile.
 
 ## How Long Does a Tub-to-Shower Conversion Take?
 
-The timeline depends on the size of the shower, whether it's curbed or curbless, subfloor prep, and the tile you choose. More detailed tile work, multiple niches, or a bench can add time. We'll give you a clearer picture once we've seen your bathroom.
+The timeline depends on the size of the shower. It depends on whether it's curbed or curbless. Floor prep and the tile you pick matter too. More detailed tile work, a few wall shelves, or a seat can add time. We'll give you a clearer picture once we've seen your bathroom.
 
 ## What Does It Cost?
 
-The cost of a custom shower depends on the size of the space, the tile you pick, the amount of prep and demolition, and features like niches, benches, or a curbless design. Any figure you see is a general range, not a quote.
+The cost of a custom shower depends on the size of the space. It depends on the tile you pick. It depends on how much prep and tear-out the job needs. Extras like wall shelves, seats, or a curbless design matter too. Any figure you see is a rough range, not a quote.
 
-Every project starts with a free estimate and a written quote, so you know what you're looking at before work begins. If you're thinking about updating more than just the shower, take a look at our [bathroom tile installation](/services/bathroom-tile-installation) services as well.
+Each job starts with a free estimate and a written quote. So you know what you're looking at before work begins. Thinking about updating more than just the shower? Then take a look at our [bathroom tile installation](/services/bathroom-tile-installation) services too.
 
 ## Serving Port Charlotte and Southwest Florida
 
-From our home base in Port Charlotte, Rock Solid Tile works with homeowners in Punta Gorda, North Port, Venice, Sarasota, Bradenton, and Cape Coral, along with the surrounding areas of Charlotte, Sarasota, Lee, and Manatee Counties. With 30+ years of experience and more than 1,000 jobs completed, we're licensed and insured and focused on doing the details right.
+Our home base is Port Charlotte. From here, we work with people in Punta Gorda, North Port, Venice, and Sarasota. We work in Bradenton and Cape Coral too. We serve the areas around them in Charlotte, Sarasota, Lee, and Manatee Counties. We have 30+ years in the trade and more than 1,000 jobs done. We are licensed and insured. We focus on getting the details right.
 
 ## Ready to Retire That Tub?
 
-If you're tired of stepping over a tub you never use, we'd be glad to take a look. Request your free estimate or call Rock Solid Tile at (941) 229-8282 to talk through a walk-in or curbless shower for your home.
+Tired of stepping over a tub you never use? We'd be glad to take a look. Ask for your free estimate. Or call us at (941) 229-8282. We'll talk through a walk-in or curbless shower for your home.
