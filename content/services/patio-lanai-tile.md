@@ -1,21 +1,21 @@
 ---
 title: "Patio & Lanai Tile Installation | Southwest Florida"
-description: "Slip-resistant patio & lanai tile installation across Southwest Florida. Licensed, insured, 30+ years experience. Free estimates!"
+description: "Non-slip patio and lanai tile in SW Florida. We are licensed and insured. We have 30+ years in the trade. Get a free estimate."
 name: "Patio & Lanai Tile Installation"
 heading: "Patio & Lanai Tile Installation in Southwest Florida"
-summary: "Rock Solid Tile installs slip-resistant tile for lanais, patios, and pool decks for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties."
+summary: "We put in non-slip tile for lanais, patios, and pool decks. We work all over Southwest Florida, in Charlotte, Sarasota, Lee, and Manatee Counties."
 order: 5
 faqs:
-  - question: "Is your patio and lanai tile slip-resistant?"
-    answer: "Yes. Outdoor and pool-deck areas call for textured, slip-resistant tile rated for wet-foot traffic, and we help you choose a material and finish that meets that standard without sacrificing the look you want."
-  - question: "Can you tile around an existing pool deck?"
-    answer: "Yes, we regularly install tile around existing pools and spas, including coping and deck areas, working carefully around the pool shell and any equipment."
-  - question: "Do you tile screened lanais as well as open patios?"
-    answer: "Yes, both. Screened lanais and open patios are prepped and installed a little differently — a screened lanai stays drier day to day, while an open patio needs full outdoor-rated materials and drainage planning — and we'll spec the right approach for your space."
-  - question: "How do you handle drainage and expansion joints outdoors?"
-    answer: "Outdoor tile needs a proper slope away from the home and expansion joints placed to handle Florida's heat swings and seasonal rain. We plan both as part of every patio and lanai layout, not as an afterthought."
-  - question: "Do you offer free estimates for patio and lanai tile projects?"
-    answer: "Yes, every patio and lanai tile estimate is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
+  - question: "Is your patio and lanai tile non-slip?"
+    answer: "Yes. Outdoor spots and pool decks need textured, non-slip tile. It must be rated for wet feet. We help you pick a tile and finish that meets that rule. You still get the look you want."
+  - question: "Can you tile around the pool deck I have now?"
+    answer: "Yes. We often put in tile around pools and spas that are already there. That includes the coping and the deck. We work with care around the pool shell and any pool gear."
+  - question: "Do you tile screened lanais and open patios?"
+    answer: "Yes, both. We prep and tile them a little differently. A screened lanai stays drier day to day. An open patio needs tile and grout made for full outdoor use. It also needs a plan for drainage. We'll pick the right plan for your space."
+  - question: "How do you handle drainage and joints outdoors?"
+    answer: "Outdoor tile needs a slope away from the home. It needs expansion joints for Florida's heat swings and summer rain. We plan both into each patio and lanai layout from the start. They are never an afterthought."
+  - question: "Are your patio and lanai tile estimates free?"
+    answer: "Yes. Each patio and lanai tile estimate is free. It comes with a written quote. Call (941) 229-8282 or ask for an estimate online to get started."
 ---
 
 <section class="hero page-hero">
@@ -24,7 +24,7 @@ faqs:
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
         <h1>Patio &amp; Lanai Tile Installation in Southwest Florida</h1>
-        <p class="hero-lede">Rock Solid Tile installs slip-resistant tile for lanais, patios, and pool decks for homeowners throughout Southwest Florida, across Charlotte, Sarasota, Lee, and Manatee Counties.</p>
+        <p class="hero-lede">We put in non-slip tile for lanais, patios, and pool decks. We work all over Southwest Florida, in Charlotte, Sarasota, Lee, and Manatee Counties.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
@@ -39,15 +39,15 @@ faqs:
       <div class="two-col no-photo">
         <div class="content-block">
           <h2>Outdoor Tile Built for Florida Weather</h2>
-          <p>A lanai or pool deck has to handle direct sun, heavy seasonal rain, and constant wet feet, so outdoor tile installation calls for different materials and prep than an indoor floor. Rock Solid Tile has installed patio and lanai tile across Southwest Florida for more than 30 years, with slip resistance and proper drainage built into every layout.</p>
-          <p>We handle substrate and slope evaluation, layout and expansion joint planning, setting with outdoor-rated thin-set, and weather-resistant grouting and sealing — whether it's a screened lanai, an open patio, or tile around an existing pool deck.</p>
-          <h2>Our Patio &amp; Lanai Tile Installation Process</h2>
+          <p>A lanai or pool deck gets hot sun and heavy summer rain. It gets wet feet all day. So outdoor tile needs other tile types and prep than an indoor floor. We have tiled patios and lanais in Southwest Florida for 30+ years. Each layout we plan is non-slip. Each one lets water drain the right way.</p>
+          <p>We check the base and the slope. We plan the layout and the expansion joints. We set the tile with thin-set made for outdoors. Then we grout and seal it to stand up to the weather. We do this for screened lanais and open patios. We do it for tile around a pool deck you already have.</p>
+          <h2>How We Tile Your Patio &amp; Lanai</h2>
           <ul>
-            <li><strong>Free in-home estimate</strong> — we measure your outdoor space, discuss slip-resistant material options, and provide a firm, written quote.</li>
-            <li><strong>Slab &amp; slope evaluation</strong> — we check existing drainage and slope away from the home before planning layout.</li>
-            <li><strong>Layout &amp; expansion planning</strong> — pattern and expansion joints are planned for Florida's heat and seasonal rain.</li>
-            <li><strong>Setting</strong> — tile is set with outdoor-rated thin-set suited to sun and moisture exposure.</li>
-            <li><strong>Grouting, sealing &amp; walkthrough</strong> — weather-resistant grout and sealant are applied, and we review the finished space with you.</li>
+            <li><strong>Free in-home estimate.</strong> We measure your outdoor space. We talk about non-slip tile choices. You get a firm, written quote.</li>
+            <li><strong>Slab and slope check.</strong> We check how water drains now. We make sure it slopes away from the home. Then we plan the layout.</li>
+            <li><strong>Layout plan.</strong> We plan the pattern and the joints for Florida's heat and summer rain.</li>
+            <li><strong>Setting.</strong> We set the tile with outdoor thin-set made for sun and rain.</li>
+            <li><strong>Grout, seal, and walk-through.</strong> We use grout and sealer that stand up to weather. Then we look over the space with you.</li>
           </ul>
         </div>
       </div>
@@ -56,7 +56,7 @@ faqs:
   <section class="cta-band">
     <div class="container">
       <h2>Questions About Your Patio &amp; Lanai Tile Project?</h2>
-      <p>Call, request an estimate online, or ask us anything about patio and lanai tile work — we're happy to help.</p>
+      <p>Call us or ask for an estimate online. Ask us anything about patio and lanai tile. We're happy to help.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
@@ -67,25 +67,25 @@ faqs:
     <div class="container">
       <div class="section-head">
         <span class="eyebrow">Materials</span>
-        <h2>Patio &amp; Lanai Tile Materials We Install</h2>
-        <p>We'll help you choose a slip-resistant material suited to your outdoor space and Florida's climate.</p>
+        <h2>Patio &amp; Lanai Tile Types We Put In</h2>
+        <p>We'll help you pick a non-slip tile. It will suit your outdoor space and Florida's weather.</p>
       </div>
       <div class="materials-grid">
         <div class="material">
           <h3>Porcelain Pavers</h3>
-          <p>Outdoor-rated, large-format, and highly durable — our most common recommendation for lanais and pool decks.</p>
+          <p>Big pavers made for outdoors. They are very tough. We suggest them most for lanais and pool decks.</p>
         </div>
         <div class="material">
           <h3>Travertine</h3>
-          <p>A classic Florida pool deck material that stays cooler underfoot and offers a natural, textured surface.</p>
+          <p>A classic choice for Florida pool decks. It stays cooler under your feet. It has a rough, natural feel.</p>
         </div>
         <div class="material">
-          <h3>Textured &amp; Slip-Resistant Tile</h3>
-          <p>Specialty finishes engineered for wet-foot traffic around pools, spas, and open patios.</p>
+          <h3>Textured &amp; Non-Slip Tile</h3>
+          <p>Special finishes made for wet feet. Use them around pools, spas, and open patios.</p>
         </div>
         <div class="material">
           <h3>Natural Stone Coping</h3>
-          <p>Stone edging and coping details that finish a pool deck or lanai with a clean, upgraded look.</p>
+          <p>Stone edges and coping. They finish a pool deck or lanai with a clean, high-end look.</p>
         </div>
       </div>
     </div>
@@ -98,24 +98,24 @@ faqs:
       </div>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Is your patio and lanai tile slip-resistant?</summary>
-          <p>Yes. Outdoor and pool-deck areas call for textured, slip-resistant tile rated for wet-foot traffic, and we help you choose a material and finish that meets that standard without sacrificing the look you want.</p>
+          <summary>Is your patio and lanai tile non-slip?</summary>
+          <p>Yes. Outdoor spots and pool decks need textured, non-slip tile. It must be rated for wet feet. We help you pick a tile and finish that meets that rule. You still get the look you want.</p>
         </details>
         <details class="faq-item">
-          <summary>Can you tile around an existing pool deck?</summary>
-          <p>Yes, we regularly install tile around existing pools and spas, including coping and deck areas, working carefully around the pool shell and any equipment.</p>
+          <summary>Can you tile around the pool deck I have now?</summary>
+          <p>Yes. We often put in tile around pools and spas that are already there. That includes the coping and the deck. We work with care around the pool shell and any pool gear.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you tile screened lanais as well as open patios?</summary>
-          <p>Yes, both. Screened lanais and open patios are prepped and installed a little differently — a screened lanai stays drier day to day, while an open patio needs full outdoor-rated materials and drainage planning — and we'll spec the right approach for your space.</p>
+          <summary>Do you tile screened lanais and open patios?</summary>
+          <p>Yes, both. We prep and tile them a little differently. A screened lanai stays drier day to day. An open patio needs tile and grout made for full outdoor use. It also needs a plan for drainage. We'll pick the right plan for your space.</p>
         </details>
         <details class="faq-item">
-          <summary>How do you handle drainage and expansion joints outdoors?</summary>
-          <p>Outdoor tile needs a proper slope away from the home and expansion joints placed to handle Florida's heat swings and seasonal rain. We plan both as part of every patio and lanai layout, not as an afterthought.</p>
+          <summary>How do you handle drainage and joints outdoors?</summary>
+          <p>Outdoor tile needs a slope away from the home. It needs expansion joints for Florida's heat swings and summer rain. We plan both into each patio and lanai layout from the start. They are never an afterthought.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you offer free estimates for patio and lanai tile projects?</summary>
-          <p>Yes, every patio and lanai tile estimate is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
+          <summary>Are your patio and lanai tile estimates free?</summary>
+          <p>Yes. Each patio and lanai tile estimate is free. It comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or ask for an estimate online to get started.</p>
         </details>
       </div>
       <div class="section-cta">
@@ -137,7 +137,7 @@ faqs:
         </a>
         <a class="related-card" href="/services/floor-tile-installation">
           <h3>Floor Tile Installation</h3>
-          <p>Bring the same tile from your lanai into your indoor living space.</p>
+          <p>Bring the same tile from your lanai inside your home.</p>
         </a>
         <a class="related-card" href="/services/kitchen-tile-installation">
           <h3>Kitchen Tile &amp; Backsplash</h3>
@@ -151,36 +151,36 @@ faqs:
       <div class="section-head">
         <span class="eyebrow">Service Areas</span>
         <h2>Patio &amp; Lanai Tile Installation Near You</h2>
-        <p>We install outdoor tile throughout Charlotte County and beyond.</p>
+        <p>We put in outdoor tile in Charlotte County and beyond.</p>
       </div>
       <div class="related-grid">
         <a class="related-card" href="/locations/sarasota">
           <h3>Sarasota, FL</h3>
-          <p>Lanai &amp; patio tile for Sarasota homes near the bayfront.</p>
+          <p>Lanai and patio tile for Sarasota homes near the bay.</p>
         </a>
         <a class="related-card" href="/locations/venice">
           <h3>Venice, FL</h3>
-          <p>Lanai &amp; patio tile for Venice's beachside properties.</p>
+          <p>Lanai and patio tile for beach homes in Venice.</p>
         </a>
         <a class="related-card" href="/locations/north-port">
           <h3>North Port, FL</h3>
-          <p>Patio &amp; lanai tile for North Port's growing neighborhoods.</p>
+          <p>Patio and lanai tile for the growing parts of North Port.</p>
         </a>
         <a class="related-card" href="/locations/port-charlotte">
           <h3>Port Charlotte, FL</h3>
-          <p>Lanai &amp; patio tile for Port Charlotte's canal-front homes.</p>
+          <p>Lanai and patio tile for canal homes in Port Charlotte.</p>
         </a>
         <a class="related-card" href="/locations/punta-gorda">
           <h3>Punta Gorda, FL</h3>
-          <p>Lanai &amp; pool deck tile for waterfront &amp; new-construction homes.</p>
+          <p>Lanai and pool deck tile for homes on the water and new builds.</p>
         </a>
         <a class="related-card" href="/locations/cape-coral">
           <h3>Cape Coral, FL</h3>
-          <p>Lanai &amp; pool deck tile for Cape Coral's boating lifestyle.</p>
+          <p>Lanai and pool deck tile for boat lovers in Cape Coral.</p>
         </a>
         <a class="related-card" href="/locations/bradenton">
           <h3>Bradenton, FL</h3>
-          <p>Lanai &amp; patio tile for Bradenton's riverfront properties.</p>
+          <p>Lanai and patio tile for homes on the river in Bradenton.</p>
         </a>
       </div>
     </div>
@@ -199,19 +199,19 @@ faqs:
     <div class="container">
       <div class="content-block">
         <h2>Patio, Lanai &amp; Pool Deck Tile Installation in Southwest Florida</h2>
-        <p>Rock Solid Tile is a licensed and insured outdoor tile installation contractor serving Southwest Florida, and lanai, patio, and pool deck tile are perfect fits for our region's indoor-outdoor lifestyle across Charlotte County, Sarasota County, Manatee County, and Lee County. If you're searching for a lanai tile installer near you, a pool deck tile contractor, a patio tile company, or a paver installer, our family-owned crew has more than 30 years of experience installing slip-resistant porcelain pavers, travertine, and textured outdoor tile built to handle Florida sun, rain, and pool splash. Outdoor tile has to stand up to UV, moisture, and temperature swings — so we select the right materials and set them for long-term durability.</p>
-        <p>Homeowners come to us for lanai tile installation, screened-lanai floors, pool deck tile and pavers, patio tile, porcelain paver installation, travertine pavers, textured slip-resistant outdoor tile, and outdoor kitchen tile. If you've searched "lanai tile installers near me," "pool deck tile contractor near me," "porcelain paver installation Southwest Florida," or "patio tile company near me," Rock Solid Tile is your local outdoor and lanai tile installation company.</p>
-        <h3>Outdoor Tile Services We Provide</h3>
+        <p>We are a licensed and insured outdoor tile contractor. We serve Southwest Florida. Here, people live inside and outside. So lanai, patio, and pool deck tile fit right in. We do this work in Charlotte County, Sarasota County, Manatee County, and Lee County. Are you looking for a lanai tile installer near you? Or a pool deck tile pro, a patio tile crew, or a paver installer? Our family-owned crew has more than 30 years of doing this work. We put in non-slip porcelain pavers, travertine, and textured outdoor tile. It is built to handle Florida sun, rain, and pool splash. Outdoor tile has to stand up to sun, water, and swings in heat. So we pick the right tile. We set it to last a long time.</p>
+        <p>People come to us for lanai tile and screened-lanai floors. We do pool deck tile and pavers. We do patio tile. We put in porcelain pavers and travertine pavers. We set textured, non-slip outdoor tile. And we tile outdoor kitchens. Have you searched for "lanai tile installers near me"? Or "pool deck tile contractor near me"? Maybe "porcelain paver installation Southwest Florida" or "patio tile company near me"? Then we are your local outdoor and lanai tile crew.</p>
+        <h3>Outdoor Tile Services We Offer</h3>
         <ul>
-          <li>Lanai and screened-lanai floor tile installation</li>
-          <li>Pool deck tile and porcelain paver installation</li>
-          <li>Patio tile and outdoor living-space flooring</li>
+          <li>Lanai and screened-lanai floor tile</li>
+          <li>Pool deck tile and porcelain pavers</li>
+          <li>Patio tile and floors for outdoor living spaces</li>
           <li>Travertine pavers and natural stone coping</li>
-          <li>Slip-resistant, textured outdoor porcelain tile</li>
+          <li>Non-slip, textured outdoor porcelain tile</li>
           <li>Outdoor kitchen and grill-area tile</li>
         </ul>
-        <h3>Lanai &amp; Patio Tile Installation Near You in Southwest Florida</h3>
-        <p>We install lanai, patio, and pool deck tile in Sarasota, Venice, North Port, Port Charlotte, Punta Gorda, Cape Coral, and Bradenton, plus Englewood, Rotonda West, Deep Creek, Gulf Cove, Osprey, Nokomis, Laurel, South Venice, Siesta Key, Fruitville, Bee Ridge, and Gulf Gate Estates. As a top-rated, 5-star, licensed and insured outdoor tile contractor in Southwest Florida, we offer free estimates on every lanai, patio, and pool deck tile installation. Call (941) 229-8282 to book your free outdoor tile estimate today.</p>
+        <h3>Lanai &amp; Patio Tile Near You in Southwest Florida</h3>
+        <p>We put in lanai, patio, and pool deck tile in Sarasota, Venice, North Port, and Port Charlotte. We also work in Punta Gorda, Cape Coral, and Bradenton. We serve Englewood, Rotonda West, Deep Creek, Gulf Cove, and Osprey. We serve Nokomis, Laurel, South Venice, and Siesta Key. And we serve Fruitville, Bee Ridge, and Gulf Gate Estates. We are a top-rated, 5-star outdoor tile contractor in Southwest Florida. We are licensed and insured. Each lanai, patio, and pool deck job gets a free estimate. Call (941) 229-8282 to book your free outdoor tile estimate today.</p>
       </div>
     </div>
   </section>
