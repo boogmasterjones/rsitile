@@ -1,21 +1,21 @@
 ---
 title: "Bathroom Tile Installers in Cape Coral, FL | Rock Solid Tile"
-description: "Tile installation in Cape Coral, FL for canal-front homes and the boating lifestyle. Licensed & insured, 30+ years experience. Free estimates!"
+description: "Tile installation in Cape Coral, FL for canal homes and life on the water. We are licensed and insured. We have 30+ years in the trade. Free quotes."
 name: "Cape Coral, FL"
 heading: "Tile Installer in Cape Coral, FL"
-summary: "Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Cape Coral, a city built around more canals than anywhere else in the world."
+summary: "We put in bathroom, kitchen, floor, shower, and lanai tile all over Cape Coral. This city has more canals than any place in the world."
 order: 6
 city: "Cape Coral"
 region: "FL"
 faqs:
-  - question: "Do you install tile on canal-front or dock homes in Cape Coral?"
-    answer: "Yes, canal-front and dock-adjacent homes are some of our most common Cape Coral projects, and we pay close attention to slip resistance and moisture-tolerant materials."
-  - question: "Can you tile a new-construction home in Cape Coral?"
-    answer: "Yes, whole-home tile installation in new-construction homes is a regular part of our Cape Coral work, given how much of the city continues to be built out."
-  - question: "Do you offer free tile estimates in Cape Coral?"
-    answer: "Yes, every estimate in Cape Coral is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
+  - question: "Do you put in tile at canal homes or dock homes in Cape Coral?"
+    answer: "Yes. Canal homes and dock homes are some of our most common Cape Coral jobs. We take care to use non-slip tile. We use tile and grout that handle damp air."
+  - question: "Can you tile a brand-new home in Cape Coral?"
+    answer: "Yes. Whole-home tile in new homes is a big part of our Cape Coral work. Lots of this city is still being built."
+  - question: "Are your tile estimates in Cape Coral free?"
+    answer: "Yes. Each estimate in Cape Coral is free. It comes with a written quote. Call (941) 229-8282 or ask for an estimate online to get started."
   - question: "Do you serve all of Lee County?"
-    answer: "Yes, Lee County is part of our service area, including Cape Coral. We also work across Charlotte, Sarasota, and Manatee Counties. Call (941) 229-8282 to confirm your address and set up a free estimate with a written quote."
+    answer: "Yes. Lee County is part of our service area, and so is Cape Coral. We also work across Charlotte, Sarasota, and Manatee Counties. Call (941) 229-8282 to check your address. We will set up a free estimate with a written quote."
 ---
 
 <section class="hero page-hero">
@@ -24,7 +24,7 @@ faqs:
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
         <h1>Tile Installer in Cape Coral, FL</h1>
-        <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Cape Coral, a city built around more canals than anywhere else in the world.</p>
+        <p class="hero-lede">We put in bathroom, kitchen, floor, shower, and lanai tile all over Cape Coral. This city has more canals than any place in the world.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
@@ -38,11 +38,11 @@ faqs:
     <div class="container">
       <div class="two-col">
         <div class="content-block">
-          <h2>Tile Installation for Cape Coral's Canal-Front, Boating Lifestyle</h2>
-          <p>Cape Coral has more miles of canals than any other city in the world, so a huge share of the tile work we do here is lanai and pool deck tile for homes with docks and seawalls, plus whole-home flooring in the city's steady pace of newer construction. Rock Solid Tile pays close attention to slip resistance and moisture-tolerant materials on every outdoor and waterfront project.</p>
-          <p>Because so much of Cape Coral was platted and built out in planned phases, we see a lot of homes from the same few construction eras clustered by neighborhood — which means we're often familiar with a street's typical slab conditions and layout before we even arrive for the estimate. Inland from the canals, in neighborhoods further from open water, Cape Coral's steady pace of new construction keeps us busy with whole-home flooring and kitchen backsplash installations. Whether your home backs up to open water or sits a few streets inland, we bring the same licensed, insured tile installation to every Cape Coral project.</p>
-          <p>We handle demolition or new-build layout, substrate prep, setting, and grouting in-house on every Cape Coral project, with a clear written scope of work before we start.</p>
-          <p>Planning a bathroom remodel specifically? Read our <a href="/blog/bathroom-tile-installation-cape-coral">guide to bathroom tile installation in Cape Coral</a> for real cost ranges and moisture-smart material advice. Updating your outdoor space instead? See our <a href="/blog/lanai-pool-deck-tile-cape-coral">guide to lanai and pool deck tile in Cape Coral</a> for materials and cost guidance.</p>
+          <h2>Tile for Canal Homes and Boat Life in Cape Coral</h2>
+          <p>No city in the world has more miles of canals than Cape Coral. So lots of our tile work here is lanai and pool deck tile. These homes have docks and seawalls. We also put in whole-home floors in the many new homes going up. On each outdoor job and each job by the water, we take care. We use non-slip tile. We use tile and grout that handle damp air.</p>
+          <p>Much of Cape Coral was planned and built in phases. So homes on the same streets were often built at the same time. So we often know a street's slabs and layouts before the estimate. Inland, away from open water, new homes keep going up. That keeps us busy with whole-home floors and kitchen backsplashes. Your home may back up to open water. Or it may sit a few streets inland. Either way, you get the same tile work on each Cape Coral job. We are licensed and insured.</p>
+          <p>Our own crew does all the work on each job in Cape Coral. We tear out, or lay out a new build. We prep the base, set, and grout. You get a clear, written list of the work before we start.</p>
+          <p>Planning just a bathroom remodel? Read our <a href="/blog/bathroom-tile-installation-cape-coral">guide to bathroom tile installation in Cape Coral</a>. It has real cost ranges. It shows which tile holds up to damp air. Updating your outdoor space instead? See our <a href="/blog/lanai-pool-deck-tile-cape-coral">guide to lanai and pool deck tile in Cape Coral</a>. It covers tile types and costs.</p>
         </div>
         <picture><source type="image/webp" srcset="/images/work/c07-mosaic-backsplash.webp" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c07-mosaic-backsplash.jpg" alt="Kitchen with a full mosaic tile backsplash and a mosaic-wrapped island" width="695" height="1292" loading="lazy" decoding="async"></picture>
       </div>
@@ -51,7 +51,7 @@ faqs:
   <section class="cta-band">
     <div class="container">
       <h2>Questions About Your Cape Coral Tile Project?</h2>
-      <p>Call, request an estimate online, or ask us anything about tile work in Cape Coral — we're happy to help.</p>
+      <p>Call us or ask for an estimate online. Ask us anything about tile work in Cape Coral. We're happy to help.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
@@ -62,9 +62,9 @@ faqs:
     <div class="container">
       <div class="why-grid">
         <div>
-          <span class="eyebrow">Why Cape Coral Homeowners Choose Us</span>
-          <h2>Built for the Canal-Front, Boating Lifestyle</h2>
-          <p>From dock-adjacent lanais to whole-home new construction, we scope the job to fit Cape Coral's waterfront living.</p>
+          <span class="eyebrow">Why People in Cape Coral Choose Us</span>
+          <h2>Built for Canal Homes and Boat Life</h2>
+          <p>We tile lanais by the dock and whole new homes. We plan each job to fit life on the water in Cape Coral.</p>
         </div>
         <div class="why-list">
           <div class="why-item">
@@ -72,8 +72,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
             </span>
             <div>
-              <h3>Canal-Front &amp; Dock Home Experience</h3>
-              <p>Slip-resistant, moisture-tolerant tile for homes with docks and seawalls.</p>
+              <h3>We Know Canal &amp; Dock Homes</h3>
+              <p>Non-slip tile that handles damp air. For homes with docks and seawalls.</p>
             </div>
           </div>
           <div class="why-item">
@@ -81,8 +81,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>
             </span>
             <div>
-              <h3>Lanai &amp; Pool Deck Specialists</h3>
-              <p>Outdoor tile built for a lifestyle that happens as much on the lanai as indoors.</p>
+              <h3>Lanai &amp; Pool Deck Pros</h3>
+              <p>Outdoor tile built for life here. People live as much on the lanai as inside.</p>
             </div>
           </div>
           <div class="why-item">
@@ -90,8 +90,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3z"></path></svg>
             </span>
             <div>
-              <h3>New Construction Whole-Home Tile</h3>
-              <p>Coordinated whole-home flooring for Cape Coral's steady pace of new builds.</p>
+              <h3>Whole-Home Tile for New Builds</h3>
+              <p>Well-planned whole-home floors for the many new homes in Cape Coral.</p>
             </div>
           </div>
           <div class="why-item">
@@ -100,7 +100,7 @@ faqs:
             </span>
             <div>
               <h3>Free, Written Estimates</h3>
-              <p>Every Cape Coral project starts with a free in-home estimate and a clear, written quote.</p>
+              <p>Each job in Cape Coral starts with a free in-home estimate. You get a clear, written quote.</p>
             </div>
           </div>
         </div>
@@ -145,20 +145,20 @@ faqs:
     <div class="container">
       <div class="section-head">
         <span class="eyebrow">FAQ</span>
-        <h2>Cape Coral Tile Installation Questions</h2>
+        <h2>Cape Coral Tile Questions</h2>
       </div>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Do you install tile on canal-front or dock homes in Cape Coral?</summary>
-          <p>Yes, canal-front and dock-adjacent homes are some of our most common Cape Coral projects, and we pay close attention to slip resistance and moisture-tolerant materials.</p>
+          <summary>Do you put in tile at canal homes or dock homes in Cape Coral?</summary>
+          <p>Yes. Canal homes and dock homes are some of our most common Cape Coral jobs. We take care to use non-slip tile. We use tile and grout that handle damp air.</p>
         </details>
         <details class="faq-item">
-          <summary>Can you tile a new-construction home in Cape Coral?</summary>
-          <p>Yes, whole-home tile installation in new-construction homes is a regular part of our Cape Coral work, given how much of the city continues to be built out.</p>
+          <summary>Can you tile a brand-new home in Cape Coral?</summary>
+          <p>Yes. Whole-home tile in new homes is a big part of our Cape Coral work. Lots of this city is still being built.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you offer free tile estimates in Cape Coral?</summary>
-          <p>Yes, every estimate in Cape Coral is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
+          <summary>Are your tile estimates in Cape Coral free?</summary>
+          <p>Yes. Each estimate in Cape Coral is free. It comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or ask for an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -210,18 +210,18 @@ faqs:
   <section class="section section--mid" id="more-info">
     <div class="container">
       <div class="content-block">
-        <h2>Tile Installation in Cape Coral, FL — Your Local Cape Coral Tile Contractor</h2>
-        <p>Rock Solid Tile is a licensed and insured tile installer serving Cape Coral, FL and the surrounding Lee County communities. If you've searched for a "tile installer in Cape Coral," a "Cape Coral tile contractor near me," a "bathroom remodel Cape Coral," or a "tile flooring company Cape Coral FL," our family-owned crew has more than 30 years of experience installing tile throughout Cape Coral — a boating community famous for its hundreds of miles of canals. With so many canal-front homes and new-construction properties across SW and SE Cape Coral, homeowners rely on us for whole-home tile flooring, custom showers, lanai and pool deck tile, and upgraded kitchen backsplashes.</p>
-        <p>Our Cape Coral tile services include bathroom tile installation, custom shower tile, kitchen tile and backsplash installation, floor tile installation (porcelain, ceramic, natural stone, and LVP), and lanai and pool deck tile. Whether you're building new or remodeling a canal-front Cape Coral home, Rock Solid Tile is the local Cape Coral tile installation company to call.</p>
+        <h2>Tile Installation in Cape Coral, FL: Your Local Cape Coral Tile Contractor</h2>
+        <p>We are a licensed and insured tile installer. We serve Cape Coral, FL and the towns around it in Lee County. Have you searched for a "tile installer in Cape Coral"? Or a "Cape Coral tile contractor near me"? Maybe a "bathroom remodel Cape Coral" or a "tile flooring company Cape Coral FL"? Our family-owned crew has put in tile all over Cape Coral for 30+ years. It is a boating town known for its hundreds of miles of canals. There are lots of canal homes and new homes in SW and SE Cape Coral. People count on us for whole-home tile floors and custom showers. They count on us for lanai and pool deck tile and new kitchen backsplashes.</p>
+        <p>In Cape Coral, we put in bathroom tile and custom shower tile. We do kitchen tile and backsplashes. We put in floor tile: porcelain, ceramic, stone, and LVP. We do lanai and pool deck tile too. Are you building new? Or remodeling a Cape Coral canal home? We are the local Cape Coral tile crew to call.</p>
         <h3>Tile Services in Cape Coral</h3>
         <ul>
-          <li>Bathroom tile installation and bathroom remodels in Cape Coral, FL</li>
+          <li>Bathroom tile and bathroom remodels in Cape Coral, FL</li>
           <li>Custom shower tile and walk-in showers</li>
           <li>Kitchen tile and backsplashes</li>
           <li>Floor tile: porcelain, ceramic, stone, and LVP</li>
-          <li>Lanai, patio, and pool deck tile for Cape Coral's canal-front homes</li>
+          <li>Lanai, patio, and pool deck tile for canal homes in Cape Coral</li>
         </ul>
-        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Cape Coral and all of Southwest Florida, we offer free estimates on every Cape Coral tile installation project. Call (941) 229-8282 to book your free Cape Coral tile estimate today.</p>
+        <p>We are a top-rated, 5-star tile contractor. We serve Cape Coral and all of Southwest Florida. We are licensed and insured. Each tile job in Cape Coral gets a free estimate. Call (941) 229-8282 to book your free Cape Coral tile estimate today.</p>
       </div>
     </div>
   </section>

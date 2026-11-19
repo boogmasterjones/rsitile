@@ -1,21 +1,21 @@
 ---
 title: "Bathroom & Shower Tile Installer in Port Charlotte, FL"
-description: "Tile installation in Port Charlotte, FL from our home-based, licensed & insured crew. 30+ years experience, free estimates. Call today!"
+description: "Tile installation in Port Charlotte, FL from our local crew. We are licensed and insured. We have 30+ years in the trade. Get a free quote."
 name: "Port Charlotte, FL"
 heading: "Tile Installer in Port Charlotte, FL"
-summary: "Rock Solid Tile is based right here in Port Charlotte, installing bathroom, kitchen, floor, shower, and lanai tile throughout the community we call home."
+summary: "We are based right here in Port Charlotte. We put in bathroom, kitchen, floor, shower, and lanai tile. We do it all over the town we call home."
 order: 4
 city: "Port Charlotte"
 region: "FL"
 faqs:
-  - question: "Is Rock Solid Tile actually based in Port Charlotte?"
-    answer: "Yes, Port Charlotte is our home base &mdash; we're not traveling in from out of the area, and we've built our reputation here over 30+ years."
-  - question: "Do you install tile in canal-front Port Charlotte homes?"
-    answer: "Yes, we regularly work on canal-front homes throughout Port Charlotte, paying close attention to moisture-tolerant materials and proper waterproofing."
-  - question: "Do you offer free tile estimates in Port Charlotte?"
-    answer: "Yes, every estimate in Port Charlotte is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
+  - question: "Is Rock Solid Tile really based in Port Charlotte?"
+    answer: "Yes. This is our home base. We don't drive in from out of the area. We have built our good name here over 30+ years."
+  - question: "Do you put in tile in Port Charlotte canal homes?"
+    answer: "Yes. We often work on canal homes all over Port Charlotte. We take care to use tile and grout that handle damp air. We seal out water the right way."
+  - question: "Are your tile estimates in Port Charlotte free?"
+    answer: "Yes. Each estimate in Port Charlotte is free. It comes with a written quote. Call (941) 229-8282 or ask for an estimate online to get started."
   - question: "How much does a bathroom remodel cost in Port Charlotte?"
-    answer: "A bathroom remodel typically runs $7,000–$15,000. These are typical ranges, not exact prices. Every Port Charlotte estimate is free and comes with a written quote that confirms the cost for your bathroom. Call (941) 229-8282 to get started."
+    answer: "A bathroom remodel typically runs $7,000–$15,000. These are typical ranges, not exact prices. Each Port Charlotte estimate is free. It comes with a written quote that sets the cost for your bathroom. Call (941) 229-8282 to get started."
 ---
 
 <section class="hero page-hero">
@@ -24,7 +24,7 @@ faqs:
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
         <h1>Tile Installer in Port Charlotte, FL</h1>
-        <p class="hero-lede">Rock Solid Tile is based right here in Port Charlotte, installing bathroom, kitchen, floor, shower, and lanai tile throughout the community we call home.</p>
+        <p class="hero-lede">We are based right here in Port Charlotte. We put in bathroom, kitchen, floor, shower, and lanai tile. We do it all over the town we call home.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
@@ -44,11 +44,11 @@ faqs:
     <div class="container">
       <div class="two-col">
         <div class="content-block">
-          <h2>Tile Installation From Your Local, Home-Based Crew</h2>
-          <p>Port Charlotte isn't just a service area for us — it's home base. Our crew lives and works here, which means we know the area's canal system, older established neighborhoods, and newer construction firsthand, and we're never far away when you need us.</p>
-          <p>As our home base, Port Charlotte is where we've done more tile work than anywhere else in Southwest Florida — from canal-front homes near the Peace River to inland neighborhoods like Deep Creek and Gulf Cove. Waterfront homes here often call for moisture-tolerant materials and careful attention to slab conditions near canals, while our whole-home flooring projects for established Port Charlotte neighborhoods focus on durable, easy-to-maintain porcelain and LVP. Because we're local, scheduling and follow-up visits are simple — we're never far from your job site.</p>
-          <p>Rock Solid Tile handles demolition, substrate prep, layout, setting, and grouting in-house on every Port Charlotte project, with a clear written scope of work before we start.</p>
-          <p>Planning a bathroom in Port Charlotte? Our <a href="/blog/bathroom-remodel-cost-port-charlotte">bathroom remodel cost guide</a> covers typical price ranges in the area, and our <a href="/blog/tub-to-shower-conversion-port-charlotte">tub-to-shower conversion guide</a> explains walk-in and curbless options.</p>
+          <h2>Tile Installation From Your Local Crew</h2>
+          <p>This town is not just a place we serve. It is our home base. Our crew lives and works here. So we know the canals, the older neighborhoods, and the new homes firsthand. And we're never far away when you need us.</p>
+          <p>Of all of Southwest Florida, we have done the most tile work here. We work in canal homes near the Peace River. We work inland in places like Deep Creek and Gulf Cove. Homes on the water here often need tile and grout that handle damp air. Slabs near the canals need a careful look too. In older Port Charlotte neighborhoods, we do lots of whole-home floors. For those, we use tough, easy-care porcelain and LVP. We're local, so setting times and coming back are simple. We're never far from your home.</p>
+          <p>Our own crew does all the work on each job in Port Charlotte. We tear out, prep, lay out, set, and grout. You get a clear, written list of the work before we start.</p>
+          <p>Planning a bathroom in Port Charlotte? Our <a href="/blog/bathroom-remodel-cost-port-charlotte">bathroom remodel cost guide</a> shows typical price ranges here. Our <a href="/blog/tub-to-shower-conversion-port-charlotte">tub-to-shower conversion guide</a> explains walk-in and curbless showers.</p>
         </div>
         <picture><source type="image/webp" srcset="/images/work/c04-hex-strip-shower-800w.webp 800w, /images/work/c04-hex-strip-shower.webp 974w" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c04-hex-strip-shower.jpg" alt="Hexagon mosaic tile shower with a vertical accent strip" width="974" height="1600" loading="lazy" decoding="async"></picture>
       </div>
@@ -57,7 +57,7 @@ faqs:
   <section class="cta-band">
     <div class="container">
       <h2>Questions About Your Port Charlotte Tile Project?</h2>
-      <p>Call, request an estimate online, or ask us anything about tile work in Port Charlotte — we're happy to help.</p>
+      <p>Call us or ask for an estimate online. Ask us anything about tile work in Port Charlotte. We're happy to help.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
@@ -68,9 +68,9 @@ faqs:
     <div class="container">
       <div class="why-grid">
         <div>
-          <span class="eyebrow">Why Port Charlotte Homeowners Choose Us</span>
-          <h2>Your Local, Home-Based Tile Contractor</h2>
-          <p>We're not just nearby — we're based here, with decades of local experience to show for it.</p>
+          <span class="eyebrow">Why People in Port Charlotte Choose Us</span>
+          <h2>Your Local Tile Contractor</h2>
+          <p>We're not just nearby. We're based here. We have decades of local work to show for it.</p>
         </div>
         <div class="why-list">
           <div class="why-item">
@@ -78,8 +78,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11 12 3l9 8"></path><path d="M5 10v10h14V10"></path></svg>
             </span>
             <div>
-              <h3>Home-Based, Local Crew</h3>
-              <p>Based right in Port Charlotte, with 30+ years installing tile throughout the community.</p>
+              <h3>A Local Crew Based Here</h3>
+              <p>We are based right in Port Charlotte. We have 30+ years of putting in tile all over town.</p>
             </div>
           </div>
           <div class="why-item">
@@ -87,8 +87,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
             </span>
             <div>
-              <h3>Canal-Front Home Experience</h3>
-              <p>Moisture-tolerant materials and proper waterproofing for Port Charlotte's many canal-front homes.</p>
+              <h3>We Know Canal Homes</h3>
+              <p>Tile and grout that handle damp air, sealed the right way. For the many canal homes in Port Charlotte.</p>
             </div>
           </div>
           <div class="why-item">
@@ -96,8 +96,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3z"></path></svg>
             </span>
             <div>
-              <h3>Established &amp; New Construction Alike</h3>
-              <p>Comfortable with both older Port Charlotte neighborhoods and newer builds.</p>
+              <h3>Older Homes &amp; New Builds Alike</h3>
+              <p>We are at home in older Port Charlotte neighborhoods and in newer builds.</p>
             </div>
           </div>
           <div class="why-item">
@@ -105,8 +105,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>
             </span>
             <div>
-              <h3>Free, No-Obligation Estimates</h3>
-              <p>Every Port Charlotte project starts with a free in-home estimate and a clear, written quote.</p>
+              <h3>Free Estimates, No Strings</h3>
+              <p>Each job in Port Charlotte starts with a free in-home estimate. You get a clear, written quote.</p>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ faqs:
       <div class="related-grid">
         <a class="related-card" href="/services/bathroom-tile-installation">
           <h3>Bathroom Tile Installation</h3>
-          <p>Bathroom floor tile and tub surrounds.</p>
+          <p>Bathroom floor tile and tub walls.</p>
         </a>
         <a class="related-card" href="/services/shower-tile-installation">
           <h3>Shower Tile Installation</h3>
@@ -151,20 +151,20 @@ faqs:
     <div class="container">
       <div class="section-head">
         <span class="eyebrow">FAQ</span>
-        <h2>Port Charlotte Tile Installation Questions</h2>
+        <h2>Port Charlotte Tile Questions</h2>
       </div>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Is Rock Solid Tile actually based in Port Charlotte?</summary>
-          <p>Yes, Port Charlotte is our home base — we're not traveling in from out of the area, and we've built our reputation here over 30+ years.</p>
+          <summary>Is Rock Solid Tile really based in Port Charlotte?</summary>
+          <p>Yes. This is our home base. We don't drive in from out of the area. We have built our good name here over 30+ years.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you install tile in canal-front Port Charlotte homes?</summary>
-          <p>Yes, we regularly work on canal-front homes throughout Port Charlotte, paying close attention to moisture-tolerant materials and proper waterproofing.</p>
+          <summary>Do you put in tile in Port Charlotte canal homes?</summary>
+          <p>Yes. We often work on canal homes all over Port Charlotte. We take care to use tile and grout that handle damp air. We seal out water the right way.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you offer free tile estimates in Port Charlotte?</summary>
-          <p>Yes, every estimate in Port Charlotte is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
+          <summary>Are your tile estimates in Port Charlotte free?</summary>
+          <p>Yes. Each estimate in Port Charlotte is free. It comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or ask for an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -216,40 +216,40 @@ faqs:
   <section class="section section--mid" id="more-info">
     <div class="container">
       <div class="content-block">
-        <h2>Tile Installation in Port Charlotte, FL — Your Local Port Charlotte Tile Contractor</h2>
-        <p>Rock Solid Tile is a licensed and insured tile installer based right here in Port Charlotte, FL — it's our home base, and Port Charlotte and Charlotte County are where we've built our reputation over more than 30 years. If you've searched for a "tile installer in Port Charlotte," a "Port Charlotte tile contractor near me," a "bathroom remodel Port Charlotte," or a "tile flooring company Port Charlotte FL," our family-owned crew installs tile throughout Port Charlotte, Deep Creek, Gulf Cove, and the surrounding canal-front neighborhoods. As a local Port Charlotte company, we know the area's slab homes, waterfront properties, and post-storm remodels better than anyone.</p>
-        <p>Our Port Charlotte tile services include bathroom tile installation, custom shower tile, kitchen tile and backsplash installation, floor tile installation (porcelain, ceramic, natural stone, and LVP), and lanai and pool deck tile. Whether you need a Port Charlotte bathroom remodel, whole-home tile flooring, a custom walk-in shower, or a new kitchen backsplash, Rock Solid Tile is the local Port Charlotte tile installation company to call.</p>
+        <h2>Tile Installation in Port Charlotte, FL: Your Local Port Charlotte Tile Contractor</h2>
+        <p>We are a licensed and insured tile installer. We are based right here in Port Charlotte, FL. It is our home base. For more than 30 years, we have built our good name here. That includes all of Charlotte County. Have you searched for a "tile installer in Port Charlotte"? Or a "Port Charlotte tile contractor near me"? Maybe a "bathroom remodel Port Charlotte" or a "tile flooring company Port Charlotte FL"? Our family-owned crew puts in tile all over Port Charlotte, Deep Creek, and Gulf Cove. We work in the canal neighborhoods nearby too. We are a local Port Charlotte company. We know the slab homes here better than anyone. We know the homes on the water and the after-storm remodels too.</p>
+        <p>In Port Charlotte, we put in bathroom tile and custom shower tile. We do kitchen tile and backsplashes. We put in floor tile: porcelain, ceramic, stone, and LVP. We do lanai and pool deck tile too. Do you need a Port Charlotte bathroom remodel or whole-home tile floors? Do you want a custom walk-in shower or a new kitchen backsplash? We are the local Port Charlotte tile crew to call.</p>
         <h3>Tile Services in Port Charlotte</h3>
         <ul>
-          <li>Bathroom tile installation and bathroom remodels in Port Charlotte, FL</li>
+          <li>Bathroom tile and bathroom remodels in Port Charlotte, FL</li>
           <li>Custom shower tile and walk-in showers</li>
           <li>Kitchen tile and backsplashes</li>
           <li>Floor tile: porcelain, ceramic, stone, and LVP</li>
-          <li>Lanai, patio, and pool deck tile for Port Charlotte's canal-front homes</li>
+          <li>Lanai, patio, and pool deck tile for Port Charlotte canal homes</li>
         </ul>
-        <p>As your local, top-rated, 5-star, licensed and insured Port Charlotte tile contractor, we offer free estimates on every Port Charlotte tile installation project. Call (941) 229-8282 to book your free Port Charlotte tile estimate today.</p>
+        <p>We are your local, top-rated, 5-star Port Charlotte tile contractor. We are licensed and insured. Each tile job in Port Charlotte gets a free estimate. Call (941) 229-8282 to book your free Port Charlotte tile estimate today.</p>
       </div>
     </div>
   </section>
 
 ## Bathroom & Shower Tile in Port Charlotte
 
-Planning a bathroom remodel in Port Charlotte? Rock Solid Tile handles the shower and the rest of the room.
+Planning a bathroom remodel in Port Charlotte? We do the shower and the rest of the room.
 
 - **Tub-to-shower conversions:** we replace an old tub with a tiled walk-in shower.
 - **Curbless showers:** a shower with no step at the entry.
-- **Custom showers:** niches and benches for storage and seating.
-- **Waterproofing:** done in-house, along with demolition, setting and grouting.
+- **Custom showers:** wall shelves for storage and seats to sit on.
+- **Sealing out water:** our own crew does it. We also do the tear-out, setting and grout.
 
-Learn more on our [shower tile installation](/services/shower-tile-installation) page, or see our [bathroom tile installation](/services/bathroom-tile-installation) page for floors and tub surrounds. Every Port Charlotte estimate is free and comes with a written quote. Call (941) 229-8282 to get started.
+Learn more on our [shower tile installation](/services/shower-tile-installation) page. Or see our [bathroom tile installation](/services/bathroom-tile-installation) page for floors and tub walls. Each Port Charlotte estimate is free. It comes with a written quote. Call (941) 229-8282 to get started.
 
 ## Bathroom Remodels and Custom Showers in Port Charlotte
 
-Rock Solid Tile installs bathroom tile, tub surrounds and custom showers with niches and benches for Port Charlotte homeowners. We also offer [tub-to-shower conversions and curbless showers](/services/shower-tile-installation), with waterproofing done in-house. You can see more about our [bathroom tile installation](/services/bathroom-tile-installation) work, or read our [shower tile installation guide](/blog/shower-tile-installation-guide) before you plan your project.
+We put in bathroom tile, tub walls, and custom showers for people in Port Charlotte. Our showers can have wall shelves and seats. We also offer [tub-to-shower conversions and curbless showers](/services/shower-tile-installation). Our own crew does the sealing. See more about our [bathroom tile installation](/services/bathroom-tile-installation) work. Or read our [shower tile installation guide](/blog/shower-tile-installation-guide) before you plan your project.
 
 Typical cost ranges:
 
 - Bathroom remodel: $7,000–$15,000
 - Custom shower: $4,000–$10,000
 
-These are typical ranges, not exact prices. Your cost is confirmed by a free written quote after we see your bathroom. Call (941) 229-8282 to request your free estimate.
+These are typical ranges, not exact prices. A free written quote sets your cost after we see your bathroom. Call (941) 229-8282 to ask for your free estimate.

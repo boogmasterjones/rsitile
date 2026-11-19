@@ -1,19 +1,19 @@
 ---
 title: "Tile Installer in Punta Gorda, FL | Licensed & Insured"
-description: "Tile installation in Punta Gorda, FL for waterfront, historic, and new-construction homes. Licensed & insured, 30+ years experience. Free estimates!"
+description: "Tile installation in Punta Gorda, FL for homes on the water, old homes and new builds. We are licensed and insured. 30+ years. Free estimates."
 name: "Punta Gorda, FL"
 heading: "Tile Installer in Punta Gorda, FL"
-summary: "Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Punta Gorda — from the historic downtown to the canals of Punta Gorda Isles."
+summary: "We put in bathroom, kitchen, floor, shower, and lanai tile all over Punta Gorda. We work from the historic downtown to the canals of Punta Gorda Isles."
 order: 5
 city: "Punta Gorda"
 region: "FL"
 faqs:
-  - question: "Do you install tile in Punta Gorda Isles waterfront homes?"
-    answer: "Yes, we regularly work in Punta Gorda Isles and other canal and harbor-front neighborhoods, where moisture-tolerant materials and correct waterproofing matter even more than usual."
-  - question: "Can you match tile in an older, historic Punta Gorda home?"
-    answer: "Yes. For renovations or additions in Punta Gorda's older homes, we'll do our best to match existing tile or grout, or recommend a clean transition point where an exact match isn't available."
-  - question: "Do you offer free tile estimates in Punta Gorda?"
-    answer: "Yes, every estimate in Punta Gorda is free and comes with a written quote. Call (941) 229-8282 or request an estimate online to get started."
+  - question: "Do you put in tile in Punta Gorda Isles homes on the water?"
+    answer: "Yes. We often work in Punta Gorda Isles and other canal and harbor areas. There, tile that handles damp air matters even more than usual. So does sealing out water the right way."
+  - question: "Can you match tile in an older historic Punta Gorda home?"
+    answer: "Yes. Say you are adding on to an older Punta Gorda home or redoing a room. We'll do our best to match the tile or grout you have. No exact match? Then we'll show you a clean spot to switch to new tile."
+  - question: "Are your tile estimates in Punta Gorda free?"
+    answer: "Yes. Each estimate in Punta Gorda is free. It comes with a written quote. Call (941) 229-8282 or ask for an estimate online to get started."
 ---
 
 <section class="hero page-hero">
@@ -22,7 +22,7 @@ faqs:
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Licensed &amp; Insured · Free Estimates</span>
         <h1>Tile Installer in Punta Gorda, FL</h1>
-        <p class="hero-lede">Rock Solid Tile installs bathroom, kitchen, floor, shower, and lanai tile for homeowners throughout Punta Gorda — from the historic downtown to the canals of Punta Gorda Isles.</p>
+        <p class="hero-lede">We put in bathroom, kitchen, floor, shower, and lanai tile all over Punta Gorda. We work from the historic downtown to the canals of Punta Gorda Isles.</p>
         <p class="last-updated">Last updated: August 12, 2026</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
@@ -42,10 +42,10 @@ faqs:
     <div class="container">
       <div class="two-col">
         <div class="content-block">
-          <h2>Tile Installation for Punta Gorda's Waterfront &amp; Historic Homes</h2>
-          <p>Punta Gorda is a mix of two very different housing stocks: the historic homes around the downtown core and Charlotte Harbor waterfront, and the canal-front homes of Punta Gorda Isles and newer construction built in the years since Hurricane Charley. Rock Solid Tile has installed tile for both — matching tile in an older home's existing footprint, and building out full bathrooms, kitchens, and lanais in newer waterfront construction.</p>
-          <p>Canal and harbor-front homes see more humidity and salt-air exposure than inland properties, so we pay close attention to moisture-tolerant materials and proper waterproofing on every Punta Gorda project, in addition to the same demolition, layout, setting, and grouting work we do on any tile job.</p>
-          <p>Punta Gorda Isles' extensive canal system means many of our projects here involve waterfront homes where correct waterproofing matters as much as the finished look, especially around showers, tub surrounds, and lanai tile that see regular exposure to humidity. In the historic downtown core, older homes often need careful tile matching for additions or renovations, while the newer construction filling out the rest of Punta Gorda calls for whole-home flooring installed from scratch. Whatever your Punta Gorda home's age or location, our licensed, insured crew handles the same demolition-to-grout process on every project.</p>
+          <h2>Tile for Punta Gorda Homes on the Water &amp; Historic Homes</h2>
+          <p>There are two very different kinds of homes in Punta Gorda. First, there are historic homes near downtown and the Charlotte Harbor water. Then there are the canal homes of Punta Gorda Isles. Many newer homes went up after Hurricane Charley too. We have put in tile in both kinds. In older homes, we match the tile that is there. In newer homes on the water, we build full bathrooms, kitchens, and lanais.</p>
+          <p>Homes on the canals and harbor get more damp and salt air than homes inland. So on each Punta Gorda job, we pick tile that handles damp air. We seal out water the right way. And we do the same tear-out, layout, setting, and grout as on any tile job.</p>
+          <p>There are miles of canals in Punta Gorda Isles. So many of our jobs here are homes on the water. In those homes, a good seal matters as much as the finished look. That goes double for showers, tub walls, and lanai tile. They are around damp air all the time. In the historic downtown, older homes often need careful tile matching. That comes up when people add on or redo a room. The newer homes in the rest of Punta Gorda need whole-home floors from scratch. Your home may be old or new, by the water or not. Either way, our licensed and insured crew does the same steps. We go from tear-out to grout on each job.</p>
         </div>
         <picture><source type="image/webp" srcset="/images/work/c02-wood-plank-shower.webp" sizes="(max-width: 760px) 100vw, 40vw"><img src="/images/work/c02-wood-plank-shower.jpg" alt="Wood-look plank tile shower with a terrazzo mosaic floor" width="772" height="1600" loading="lazy" decoding="async"></picture>
       </div>
@@ -54,7 +54,7 @@ faqs:
   <section class="cta-band">
     <div class="container">
       <h2>Questions About Your Punta Gorda Tile Project?</h2>
-      <p>Call, request an estimate online, or ask us anything about tile work in Punta Gorda — we're happy to help.</p>
+      <p>Call us or ask for an estimate online. Ask us anything about tile work in Punta Gorda. We're happy to help.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
@@ -65,9 +65,9 @@ faqs:
     <div class="container">
       <div class="why-grid">
         <div>
-          <span class="eyebrow">Why Punta Gorda Homeowners Choose Us</span>
-          <h2>Local Experience That Matches Your Home</h2>
-          <p>From Punta Gorda Isles canal homes to the historic district, we tailor every installation to the property in front of us.</p>
+          <span class="eyebrow">Why People in Punta Gorda Choose Us</span>
+          <h2>Local Know-How That Fits Your Home</h2>
+          <p>We work on Punta Gorda Isles canal homes and in the historic district. We shape each job to fit the home in front of us.</p>
         </div>
         <div class="why-list">
           <div class="why-item">
@@ -75,8 +75,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
             </span>
             <div>
-              <h3>Waterfront &amp; Canal-Front Expertise</h3>
-              <p>Experience installing moisture-tolerant tile in Punta Gorda Isles and other canal and harbor-front homes.</p>
+              <h3>We Know Homes on the Water</h3>
+              <p>We have put in damp-proof tile in Punta Gorda Isles. We do it in other canal and harbor homes too.</p>
             </div>
           </div>
           <div class="why-item">
@@ -84,8 +84,8 @@ faqs:
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3z"></path></svg>
             </span>
             <div>
-              <h3>Historic Homes &amp; New Construction</h3>
-              <p>Comfortable matching tile in an older downtown home or building out a full remodel in newer construction.</p>
+              <h3>Historic Homes &amp; New Builds</h3>
+              <p>We match tile in older downtown homes. We also do full remodels in newer homes.</p>
             </div>
           </div>
           <div class="why-item">
@@ -94,7 +94,7 @@ faqs:
             </span>
             <div>
               <h3>30+ Years Serving Charlotte County</h3>
-              <p>Three decades of tile installation experience across Punta Gorda and the rest of Charlotte County.</p>
+              <p>We have put in tile for three decades. We do it in Punta Gorda and the rest of Charlotte County.</p>
             </div>
           </div>
           <div class="why-item">
@@ -103,7 +103,7 @@ faqs:
             </span>
             <div>
               <h3>Free, Written Estimates</h3>
-              <p>Every Punta Gorda project starts with a free in-home estimate and a clear, written quote.</p>
+              <p>Each job in Punta Gorda starts with a free in-home estimate. You get a clear, written quote.</p>
             </div>
           </div>
         </div>
@@ -148,20 +148,20 @@ faqs:
     <div class="container">
       <div class="section-head">
         <span class="eyebrow">FAQ</span>
-        <h2>Punta Gorda Tile Installation Questions</h2>
+        <h2>Punta Gorda Tile Questions</h2>
       </div>
       <div class="faq-list">
         <details class="faq-item">
-          <summary>Do you install tile in Punta Gorda Isles waterfront homes?</summary>
-          <p>Yes, we regularly work in Punta Gorda Isles and other canal and harbor-front neighborhoods, where moisture-tolerant materials and correct waterproofing matter even more than usual.</p>
+          <summary>Do you put in tile in Punta Gorda Isles homes on the water?</summary>
+          <p>Yes. We often work in Punta Gorda Isles and other canal and harbor areas. There, tile that handles damp air matters even more than usual. So does sealing out water the right way.</p>
         </details>
         <details class="faq-item">
-          <summary>Can you match tile in an older, historic Punta Gorda home?</summary>
-          <p>Yes. For renovations or additions in Punta Gorda's older homes, we'll do our best to match existing tile or grout, or recommend a clean transition point where an exact match isn't available.</p>
+          <summary>Can you match tile in an older historic Punta Gorda home?</summary>
+          <p>Yes. Say you are adding on to an older Punta Gorda home or redoing a room. We'll do our best to match the tile or grout you have. No exact match? Then we'll show you a clean spot to switch to new tile.</p>
         </details>
         <details class="faq-item">
-          <summary>Do you offer free tile estimates in Punta Gorda?</summary>
-          <p>Yes, every estimate in Punta Gorda is free and comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or request an estimate online to get started.</p>
+          <summary>Are your tile estimates in Punta Gorda free?</summary>
+          <p>Yes. Each estimate in Punta Gorda is free. It comes with a written quote. Call <a href="tel:+19412298282">(941) 229-8282</a> or ask for an estimate online to get started.</p>
         </details>
       </div>
     </div>
@@ -213,18 +213,18 @@ faqs:
   <section class="section section--mid" id="more-info">
     <div class="container">
       <div class="content-block">
-        <h2>Tile Installation in Punta Gorda, FL — Your Local Punta Gorda Tile Contractor</h2>
-        <p>Rock Solid Tile is a licensed and insured tile installer serving Punta Gorda, FL and the surrounding communities. If you've searched for a "tile installer in Punta Gorda," a "Punta Gorda tile contractor near me," a "bathroom remodel Punta Gorda," or a "tile flooring company Punta Gorda FL," our family-owned crew has more than 30 years of experience installing tile throughout Punta Gorda — from the historic downtown district and Punta Gorda Isles (PGI) waterfront homes to Burnt Store and new-construction neighborhoods. Punta Gorda's mix of historic homes and canal-front new builds means we do everything from careful remodels to whole-home tile in brand-new houses.</p>
-        <p>Our Punta Gorda tile services include bathroom tile installation, custom shower tile, kitchen tile and backsplash installation, floor tile installation (porcelain, ceramic, natural stone, and LVP), and lanai and pool deck tile. Whether you own a historic downtown Punta Gorda home or a waterfront property in Punta Gorda Isles, Rock Solid Tile is the local Punta Gorda tile installation company to call.</p>
+        <h2>Tile Installation in Punta Gorda, FL: Your Local Punta Gorda Tile Contractor</h2>
+        <p>We are a licensed and insured tile installer. We serve Punta Gorda, FL and the towns around it. Have you searched for a "tile installer in Punta Gorda"? Or a "Punta Gorda tile contractor near me"? Maybe a "bathroom remodel Punta Gorda" or a "tile flooring company Punta Gorda FL"? Our family-owned crew has put in tile all over Punta Gorda for 30+ years. We work in the historic downtown and in Punta Gorda Isles (PGI) homes on the water. We work in Burnt Store and the areas with new builds. There are both historic homes and new canal homes here. So we do it all, from careful remodels to whole-home tile in brand-new houses.</p>
+        <p>In Punta Gorda, we put in bathroom tile and custom shower tile. We do kitchen tile and backsplashes. We put in floor tile: porcelain, ceramic, stone, and LVP. We do lanai and pool deck tile too. Do you own a historic downtown Punta Gorda home? Or a home on the water in Punta Gorda Isles? We are the local Punta Gorda tile crew to call.</p>
         <h3>Tile Services in Punta Gorda</h3>
         <ul>
-          <li>Bathroom tile installation and bathroom remodels in Punta Gorda, FL</li>
+          <li>Bathroom tile and bathroom remodels in Punta Gorda, FL</li>
           <li>Custom shower tile and walk-in showers</li>
           <li>Kitchen tile and backsplashes</li>
           <li>Floor tile: porcelain, ceramic, stone, and LVP</li>
-          <li>Lanai, patio, and pool deck tile for Punta Gorda's waterfront homes</li>
+          <li>Lanai, patio, and pool deck tile for Punta Gorda homes on the water</li>
         </ul>
-        <p>As a top-rated, 5-star, licensed and insured tile contractor serving Punta Gorda and all of Southwest Florida, we offer free estimates on every Punta Gorda tile installation project. Call (941) 229-8282 to book your free Punta Gorda tile estimate today.</p>
+        <p>We are a top-rated, 5-star tile contractor. We serve Punta Gorda and all of Southwest Florida. We are licensed and insured. Each tile job in Punta Gorda gets a free estimate. Call (941) 229-8282 to book your free Punta Gorda tile estimate today.</p>
       </div>
     </div>
   </section>
