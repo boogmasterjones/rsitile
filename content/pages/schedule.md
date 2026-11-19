@@ -1,8 +1,8 @@
 ---
 title: "Schedule a Call | Rock Solid Tile"
-description: "Schedule a quick call with Rock Solid Tile to go over your project and set up your free, no-obligation tile estimate."
+description: "Book a quick call with Rock Solid Tile. We will go over your project. Then we set up your free tile estimate. You never have to hire us."
 heading: "Schedule a Call About Your Free Estimate"
-subheading: "Pick a time for us to call you back and go over your project — we'll set up your in-person estimate from there at a time that works for both of us. Prefer to just call now instead?"
+subheading: "Pick a time for us to call you back. We will go over your project. Then we set up your in-person estimate. We pick a time that works for both of us. Want to just call now instead?"
 path: "/schedule"
 ---
 
@@ -12,7 +12,7 @@ path: "/schedule"
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Free · No-Obligation Estimates</span>
         <h1>Schedule a Call About Your Free Estimate</h1>
-        <p class="hero-lede">Pick a time for us to call you back and go over your project — we'll set up your in-person estimate from there at a time that works for both of us. Prefer to just call now instead?</p>
+        <p class="hero-lede">Pick a time for us to call you back. We will go over your project. Then we set up your in-person estimate. We pick a time that works for both of us. Want to just call now instead?</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
           <a class="btn btn-outline" href="#book">Schedule a Call</a>
@@ -26,13 +26,13 @@ path: "/schedule"
       <div class="section-head">
         <span class="eyebrow">Schedule a Call</span>
         <h2>Schedule a Call or Request a Quote</h2>
-        <p>However you'd like to get started, we're happy to help — pick a time for us to call you back, or send over your project details below and we'll follow up to set up your free estimate.</p>
+        <p>Get started any way you like. We're happy to help. Pick a time for us to call you back. Or send your project details below. We'll get back to you to set up your free estimate.</p>
       </div>
       <div class="contact-split">
       <div class="quote-form-wrap">
         <div class="quote-form-head">
           <h3>Request A Quote Today</h3>
-          <p>Fill out the form below and we'll follow up to set up your free estimate.</p>
+          <p>Fill out the form below. We'll get back to you to set up your free estimate.</p>
         </div>
         <form class="quote-form" name="quote-request" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="quote-request">
@@ -117,7 +117,7 @@ path: "/schedule"
       <div class="schedule-col">
         <div class="quote-form-head">
           <h3>Schedule A Call</h3>
-          <p>Pick a time in the call scheduler below and we'll call you back to go over your project.</p>
+          <p>Pick a time in the call tool below. We'll call you back to go over your project.</p>
         </div>
         <div class="contact-grid">
           <div class="contact-card">

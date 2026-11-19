@@ -116,11 +116,11 @@ faqs:
       <div class="related-grid">
         <a class="related-card" href="/services/bathroom-tile-installation">
           <h3>Bathroom Tile Installation</h3>
-          <p>Floors, tub surrounds, and full bathroom remodels.</p>
+          <p>Floors, tub walls, and full bathroom remodels.</p>
         </a>
         <a class="related-card" href="/services/shower-tile-installation">
           <h3>Shower Tile Installation</h3>
-          <p>Custom showers with niches, benches, and proper waterproofing.</p>
+          <p>Custom showers with wall shelves and seats. Built to keep water out.</p>
         </a>
         <a class="related-card" href="/services/kitchen-tile-installation">
           <h3>Kitchen Tile &amp; Backsplash</h3>
@@ -128,11 +128,11 @@ faqs:
         </a>
         <a class="related-card" href="/services/floor-tile-installation">
           <h3>Floor Tile Installation</h3>
-          <p>Ceramic, porcelain, natural stone, and LVP flooring.</p>
+          <p>Ceramic, porcelain, stone, and LVP floors.</p>
         </a>
         <a class="related-card" href="/services/patio-lanai-tile">
           <h3>Patio &amp; Lanai Tile</h3>
-          <p>Slip-resistant tile for lanais, patios, and pool decks.</p>
+          <p>Non-slip tile for lanais, patios, and pool decks.</p>
         </a>
       </div>
       <div class="section-cta">
@@ -172,27 +172,27 @@ faqs:
       <div class="related-grid">
         <a class="related-card" href="/locations/sarasota">
           <h3>Sarasota, FL</h3>
-          <p>Downtown condos, coastal homes &amp; upscale remodels.</p>
+          <p>Downtown condos, homes by the coast, and high-end jobs.</p>
         </a>
         <a class="related-card" href="/locations/venice">
           <h3>Venice, FL</h3>
-          <p>Historic downtown &amp; beachside tile installation.</p>
+          <p>Historic downtown homes and beach homes.</p>
         </a>
         <a class="related-card" href="/locations/north-port">
           <h3>North Port, FL</h3>
-          <p>Tile installation for one of Florida's fastest-growing communities.</p>
+          <p>Tile for one of the fastest growing towns in Florida.</p>
         </a>
         <a class="related-card" href="/locations/port-charlotte">
           <h3>Port Charlotte, FL</h3>
-          <p>Our home base — canal-front homes &amp; whole-home tile installation.</p>
+          <p>Our home base. Canal homes and tile for the whole house.</p>
         </a>
         <a class="related-card" href="/locations/punta-gorda">
           <h3>Punta Gorda, FL</h3>
-          <p>Historic waterfront homes &amp; new construction tile installation.</p>
+          <p>Historic homes on the water, plus new builds.</p>
         </a>
         <a class="related-card" href="/locations/bradenton">
           <h3>Bradenton, FL</h3>
-          <p>Riverfront homes &amp; historic downtown tile installation.</p>
+          <p>Homes on the river and in the historic downtown.</p>
         </a>
       </div>
     </div>
@@ -200,7 +200,7 @@ faqs:
   <section class="cta-band">
     <div class="container">
       <h2>Ready to Start Your Cape Coral Tile Project?</h2>
-      <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
+      <p>Get a free estimate from a licensed tile crew in Southwest Florida. You never have to hire us.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
@@ -216,9 +216,9 @@ faqs:
         <h3>Tile Services in Cape Coral</h3>
         <ul>
           <li>Bathroom tile installation and bathroom remodels in Cape Coral, FL</li>
-          <li>Custom shower tile installation and walk-in showers</li>
-          <li>Kitchen tile and backsplash installation</li>
-          <li>Floor tile installation — porcelain, ceramic, stone, and LVP</li>
+          <li>Custom shower tile and walk-in showers</li>
+          <li>Kitchen tile and backsplashes</li>
+          <li>Floor tile: porcelain, ceramic, stone, and LVP</li>
           <li>Lanai, patio, and pool deck tile for Cape Coral's canal-front homes</li>
         </ul>
         <p>As a top-rated, 5-star, licensed and insured tile contractor serving Cape Coral and all of Southwest Florida, we offer free estimates on every Cape Coral tile installation project. Call (941) 229-8282 to book your free Cape Coral tile estimate today.</p>

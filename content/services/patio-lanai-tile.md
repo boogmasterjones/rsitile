@@ -133,7 +133,7 @@ faqs:
       <div class="related-grid">
         <a class="related-card" href="/services/shower-tile-installation">
           <h3>Shower Tile Installation</h3>
-          <p>Custom tile showers with niches, benches, and proper waterproofing.</p>
+          <p>Custom tile showers with wall shelves and seats. Built to keep water out.</p>
         </a>
         <a class="related-card" href="/services/floor-tile-installation">
           <h3>Floor Tile Installation</h3>
@@ -188,7 +188,7 @@ faqs:
   <section class="cta-band">
     <div class="container">
       <h2>Ready to Update Your Outdoor Space?</h2>
-      <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
+      <p>Get a free estimate from a licensed tile crew in Southwest Florida. You never have to hire us.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href="tel:+19412298282">Call (941) 229-8282</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>

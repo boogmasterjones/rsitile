@@ -1,8 +1,8 @@
 ---
 title: "Tile Contractor in Port Charlotte, FL | Rock Solid Tile"
-description: "Family-owned, licensed & insured tile contractor, 5-star rated on Google, 30+ years in SW Florida. Shower, bathroom & floor tile, free quotes. Call (941) 229-8282."
+description: "Family-owned tile crew. Licensed and insured. 5-star rated on Google. 30+ years in SW Florida. Shower, bathroom and floor tile. Free quotes. Call (941) 229-8282."
 heading: "Trusted Tile Installer in Southwest Florida"
-subheading: "Rock Solid Tile is a family-owned tile installer that homeowners throughout Southwest Florida have trusted for expert installation for over 30 years — from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral, and Bradenton. Our crew handles bathrooms, kitchens, floors, showers, and…"
+subheading: "We are a family-owned tile installer. People across Southwest Florida have trusted us for over 30 years — from Sarasota and Venice to Port Charlotte, Punta Gorda, Cape Coral, and Bradenton. Our crew handles bathrooms, kitchens, floors, showers, and…"
 path: "/"
 ---
 
@@ -10,7 +10,7 @@ path: "/"
 
 ## Tile Installers Serving Southwest Florida
 
-Rock Solid Tile is a family-owned, licensed and insured tile contractor based in Port Charlotte. We install bathroom, shower, kitchen and backsplash, floor, and patio and lanai tile across Charlotte, Sarasota, Lee, and Manatee Counties.
+We are a family-owned tile contractor based in Port Charlotte. We are licensed and insured. We put in bathroom, shower, kitchen, backsplash, floor, patio, and lanai tile. We work across Charlotte, Sarasota, Lee, and Manatee Counties.
 
 Tile installers serving [Sarasota](/locations/sarasota), [Venice](/locations/venice), [North Port](/locations/north-port), [Port Charlotte](/locations/port-charlotte), [Punta Gorda](/locations/punta-gorda), [Cape Coral](/locations/cape-coral), and [Bradenton](/locations/bradenton).
 

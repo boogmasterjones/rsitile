@@ -11,7 +11,7 @@ import { phoneHref, site } from '../../lib/site';
 const posts = await getPosts();
 const jsonLd = [breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }])];
 const title = "Tile Installation Tips & Guides | Rock Solid Tile Blog";
-const description = "Expert tile installation tips, cost guides, and buying advice for Southwest Florida homeowners from the licensed crew at Rock Solid Tile.";
+const description = "Tile tips and cost guides for homes in Southwest Florida. Learn what to buy and who to hire. Our licensed crew wrote them.";
 const tel = phoneHref(site.business.phone);
 ---
 
@@ -21,14 +21,14 @@ const tel = phoneHref(site.business.phone);
     <div class="container">
       <div class="page-hero-inner">
         <span class="hero-eyebrow">Tips &amp; Guides</span>
-        <h1>Tile Installation Tips &amp; Guides for Southwest Florida Homeowners</h1>
-        <p class="hero-lede">Real, practical advice on tile installation, costs, materials, and hiring the right contractor — written by the licensed crew at Rock Solid Tile.</p>
+        <h1>Tile Tips &amp; Guides for Southwest Florida Homes</h1>
+        <p class="hero-lede">Real, plain advice on tile work and costs. Learn what to use and who to hire. Our licensed crew wrote it all.</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href={tel} data-cta="blog_hero"><Icon name="phone" />Call {site.business.phone}</a>
           <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
         </div>
       </div>
-      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>{posts.length}</b><span>guides for Southwest Florida homeowners</span></div><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
+      <div class="hero-facts" role="group" aria-label="At a glance"><div><b>{posts.length}</b><span>guides for Southwest Florida homes</span></div><div><b>30<small>+</small></b><span>Years in Business</span></div><div><b>1,000<small>+</small></b><span>Jobs Completed</span></div><div><b>Free</b><span>in-home estimates with a written quote</span></div></div>
     </div>
   </section>
   <section class="section section--tight">
@@ -56,7 +56,7 @@ const tel = phoneHref(site.business.phone);
   <section class="cta-band">
     <div class="container">
       <h2>Ready to Start Your Tile Project?</h2>
-      <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
+      <p>Get a free estimate from a licensed tile crew in Southwest Florida. You never have to hire us.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href={tel} data-cta="blog_end">Call {site.business.phone}</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>

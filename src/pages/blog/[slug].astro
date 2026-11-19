@@ -67,7 +67,7 @@ const second = cut > 0 ? html.slice(cut) : '';
           <Fragment set:html={second} />
           {data.faqs.length > 0 && (
             <>
-              <h2 id="faq">Frequently Asked Questions</h2>
+              <h2 id="faq">Common Questions</h2>
               <div class="faq-list">{data.faqs.map((f) => (<details class="faq-item"><summary>{f.question}</summary><p>{f.answer}</p></details>))}</div>
             </>
           )}
@@ -76,7 +76,7 @@ const second = cut > 0 ? html.slice(cut) : '';
           <div class="aside-card">
             <span class="label" style="color:var(--on-dark)">Free estimate</span>
             <p class="h2like" style="font:400 28px/1.1 var(--head);color:var(--ivory);margin:10px 0 10px">Talk to a local tile crew.</p>
-            <p>Family-owned, licensed &amp; insured, 30+ years across Southwest Florida. Every estimate comes with a written quote.</p>
+            <p>We are family-owned, licensed &amp; insured. We have 30+ years across Southwest Florida. Each estimate comes with a written quote.</p>
             <a class="btn btn-call" href={tel} data-cta="post_aside"><Icon name="phone" />Call {site.business.phone}</a>
             <a class="btn btn-ghost" href="/#contact">Get a Free Estimate</a>
           </div>
@@ -87,12 +87,12 @@ const second = cut > 0 ? html.slice(cut) : '';
   <section class="cta-band">
     <div class="container">
       <h2>Ready to Start Your Tile Project?</h2>
-      <p>Get a free, no-obligation estimate from a licensed Southwest Florida tile contractor.</p>
+      <p>Get a free estimate from a licensed tile crew in Southwest Florida. You never have to hire us.</p>
       <div class="cta-actions">
         <a class="btn btn-gold" href={tel} data-cta="post_end">Call {site.business.phone}</a>
         <a class="btn btn-outline" href="/schedule">Or Schedule A Later Call</a>
       </div>
     </div>
   </section>
-  <Reviews variant="compact" ids={['jill', 'janet', 'taylor']} heading="What Southwest Florida Homeowners Are Saying" />
+  <Reviews variant="compact" ids={['jill', 'janet', 'taylor']} heading="What People in Southwest Florida Say" />
 </Base>
