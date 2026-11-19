@@ -59,7 +59,7 @@ Stone and fancy mosaic work push toward the high end of these ranges. Porcelain 
 
 ## Tile Timing: Should Tile Go Before or After Cabinets & Counters?
 
-Is your kitchen remodel more than just tile? Then the order matters. Cabinets most often go in first. Floor tile goes up to the cabinet toe-kicks, not under them. Counters come next. Backsplash tile goes in last. It is set to meet the finished counter edge for a clean, exact fit. Put it in before the counters, and you'll likely redo part of the layout. Are you working with a few trades? Then bring us in early. We can plan our part of the job at the right point in your timeline.
+Is your kitchen remodel more than just tile? Then the order matters. Cabinets most often go in first. Floor tile can run under the cabinet toe-kicks or up to them. It depends on the job. Counters come next. Backsplash tile goes in last. It is set to meet the finished counter edge for a clean, exact fit. Put it in before the counters, and you'll likely redo part of the layout. Are you working with a few trades? Then bring us in early. We can plan our part of the job at the right point in your timeline.
 
 ## Choosing a Kitchen Tile Contractor
 

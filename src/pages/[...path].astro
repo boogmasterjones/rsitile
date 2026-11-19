@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import Reviews from '../components/Reviews.astro';
 import { getPages } from '../lib/content';
 import { breadcrumbSchema, faqSchema } from '../lib/schema';
+import reviews from '../../data/reviews.json';
 
 export async function getStaticPaths() {
   const pages = await getPages();
@@ -12,10 +13,16 @@ export async function getStaticPaths() {
 
 const { page } = Astro.props;
 const { Content } = await render(page);
+// Content pages may say {{rating.value}} and {{rating.count}}: filled from data/reviews.json (the file the daily review check
+// updates) each time the page is built, so a line like "5.0 on Google from 19 reviews" never goes stale. The tokens are
+// swapped in the page's rendered HTML here, not in the cached Markdown, so a new rating shows on the very next build.
+const tokenHtml = page.rendered?.html?.includes('{{rating.') && !page.rendered.metadata?.imagePaths?.length
+  ? page.rendered.html.replaceAll('{{rating.value}}', reviews.rating.value).replaceAll('{{rating.count}}', String(reviews.rating.count))
+  : null;
 const jsonLd = [breadcrumbSchema([{ name: 'Home', path: '/' }, { name: page.data.heading.replace(/\*/g, ''), path: page.data.path }]), ...(page.data.faqs.length > 0 ? [faqSchema(page.data.faqs)] : [])];
 ---
 
 <Base title={page.data.title} description={page.data.description} image={page.data.image} noindex={page.data.noindex} jsonLd={jsonLd} bodyClass={page.data.bodyClass}>
-  <Content />
+  {tokenHtml ? <Fragment set:html={tokenHtml} /> : <Content />}
   {!page.data.noindex && <Reviews variant="compact" ids={['jill', 'mary', 'janet', 'taylor']} />}
 </Base>
